@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import numpy as np
 
+from .constants import BONE_HU_THRESHOLD
 from .data import denormalize_hu, normalize_hu
 
 # Above this the model is claiming bone; below, soft tissue. Matches the
@@ -95,3 +96,18 @@ def bone_composite_batch(ct_norm: np.ndarray, bone_prob: np.ndarray, **kw) -> np
     """`bone_composite` over a leading batch axis: (N,D,H,W) -> (N,D,H,W)."""
     return np.stack([bone_composite(ct_norm[i], bone_prob[i], **kw)
                      for i in range(ct_norm.shape[0])])
+
+
+def bone_sharpness(ct_norm: np.ndarray) -> float:
+    """Mean |grad HU| across the surface of the volume's own >300 HU bone.
+
+    The headline number for "is the skeleton crisp": it needs no reference
+    volume, so it works on generated anatomy where no ground truth exists.
+    Real cases sit around 346; the L1 VAE around 217.
+    """
+    hu = denormalize_hu(ct_norm)
+    m = hu > BONE_HU_THRESHOLD
+    if m.sum() < 1000:
+        return float("nan")
+    g = np.sqrt(sum(x ** 2 for x in np.gradient(hu)))
+    return float(g[m].mean())

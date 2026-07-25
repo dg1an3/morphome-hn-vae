@@ -219,9 +219,87 @@ was built to fix**, at source rather than post-hoc. It is still the right thing 
 apply at generation time, but it is a polish step, not the main event.
 
 The honest ceiling: 238 against 346 for real anatomy. Bone-specific supervision
-closes roughly a sixth of the gap. The rest is the L1 conditional median, and it
-needs an adversarial or diffusion decoder — [`notes/TODO.md`](notes/TODO.md)
-item 4.
+closes roughly a sixth of the gap. The rest is the L1 conditional median — and
+that is what the diffusion refiner below is for.
+
+### The diffusion refiner — `morphome/diffusion.py`
+
+```
+z ~ PCA-Gaussian  ->  VAE decoder  ->  blurry CT + 10 crisp masks
+                                              |
+                                       diffusion refiner
+                                              v
+                                          sharp CT
+```
+
+A conditional diffusion model, `p(sharp CT | blurry CT, masks)`, v-parameterised
+on a cosine schedule. An 11 M-param 3D UNet, **trained on 64^3 patches and run on
+128^3 volumes** — it is fully convolutional, so the resolution change is free.
+`runs/refiner`: 20 000 steps, 155 min, DDIM-50 sampling at 13.7 s per volume.
+
+It refines rather than replaces the decoder because of the data. 40 volumes
+cannot support learning 3D anatomy from noise, but they hold thousands of 64^3
+patches, and with the anatomy supplied as conditioning the model only has to
+learn *local texture*. The latent manifold, the interpolation and the
+PCA-Gaussian prior are all untouched; refinement is a post-step.
+
+Two design points carry most of the risk:
+
+- **Train on the VAE's own reconstructions, never on synthetic blur.** A
+  Gaussian-sigma-1.6 stand-in predicted the composite renderer would be worth
+  136 -> 233; against the real decoder it delivered 230 -> 238. The decoder's
+  failure mode is not a Gaussian blur.
+- **Jitter `z` during training.** At generation time the conditioning is a prior
+  sample, which is smoother than a reconstruction. Training on decodes of
+  `mu + U[0, 0.3]·sigma·eps` widens the conditioning distribution toward what the
+  sampler actually produces while keeping the real CT a valid target.
+
+Mean |grad HU| across the bone surface of **generated** samples (n=6):
+
+| | sharpness | gap to real closed |
+|---|---|---|
+| raw VAE | 230.0 | — |
+| composite render | 238.2 | 7 % |
+| **diffusion refined** | **349.9** | **~100 %** |
+| real cases | 345.6 | — |
+
+**Sharpness alone proves nothing** — it is maximised by plausible noise, and an
+untrained net scores 991. The test that matters is held-out *reconstruction*
+(`scripts/eval_refiner.py`, n=8): refine the VAE output for a validation case and
+measure L1 against that case's real CT.
+
+| | L1 to real | bone sharpness |
+|---|---|---|
+| VAE output | 0.0884 | 230 |
+| refined | **0.0848** | **345** |
+| real | — | 368 |
+
+L1 *falls* in 7 of 8 cases. The refiner is not overwriting the anatomy it was
+handed; it is closer to the real CT than the blurry input it started from.
+
+**It is not memorising.** With 40 training volumes, patch-level copying is the
+obvious failure. Nearest-neighbour L2 from 16^3 bone-region patches into the
+training corpus, with held-out real cases setting the floor for how similar
+independent anatomy naturally looks:
+
+| query patches | mean NN-L2 | p05 | min |
+|---|---|---|---|
+| generated + refined | 14.73 | 8.23 | 4.13 |
+| held-out real | 15.55 | 8.39 | 5.56 |
+| refined held-out recon | 14.06 | 7.67 | 4.97 |
+
+Generated texture sits 5 % nearer the corpus than genuinely independent anatomy
+does — a mild pull toward canonical texture, not copying, which would show as a
+ratio far below 1. Note that refining *real* held-out anatomy lands even closer
+(14.06), confirming the effect is a property of the refiner's texture in general
+rather than of specific memorised cases.
+
+**What this does not license.** Fine structure — sinus air cells, trabecular
+pattern — is invented, not inferred: none of it is in the 32-d latent. That is
+fine for synthetic anatomy, which is the entire output here, but a refined volume
+can never support a claim about a real patient's imaging.
+
+This retires the composite renderer (238 vs 350) and most of TODO item 4.
 
 ### The aggregate posterior never matches N(0, I) — use `scripts/fit_prior.py`
 
@@ -331,6 +409,10 @@ slightly better-behaved native prior.
 .venv\Scripts\python.exe scripts\sample_bone.py --ckpt runs\v2_bone\last.pt
 .venv\Scripts\python.exe scripts\eval_bone_surface.py `
     --ckpt runs\v1_ld32\last.pt --ckpt runs\v2_bone\last.pt
+
+.venv\Scripts\python.exe scripts\train_refiner.py --out runs\refiner --steps 20000
+.venv\Scripts\python.exe scripts\sample_refined.py    # z -> anatomy -> sharp CT
+.venv\Scripts\python.exe scripts\eval_refiner.py      # fidelity + memorisation
 ```
 
 `explore_latent.py` produces prior samples, latent interpolation between real
@@ -349,12 +431,14 @@ morphome/
   ema.py          weight EMA for sampling
   viz.py          overlay figures
   render.py       composite bone rendering
+  diffusion.py    conditional diffusion refiner (schedule, 3D UNet, DDIM)
   train.py        training loop
 scripts/
   probe_dataset.py  analyze_frame.py   qc_cache.py
   smoke_test.py     explore_latent.py  read_tb.py
   fit_prior.py      render_from_ckpt.py
   sample_bone.py    eval_bone_surface.py
+  train_refiner.py  sample_refined.py   eval_refiner.py
 ```
 
 ## Known limitations

@@ -173,8 +173,34 @@ Head-Neck-Radiomics-HN1 (RTSTRUCT, needs a converter).
 
 ---
 
-## 4. Sharp CT appearance (v2 architecture)
+## 4. Sharp CT appearance (v2 architecture)  *(DONE -- diffusion refiner)*
 
-Beyond the bone channel: an adversarial or diffusion decoder over the learned
-latent. This is the principled fix for texture in general, of which bone is the
-most conspicuous symptom. Larger scope than items 1-3.
+**Status:** built as `morphome/diffusion.py` + `runs/refiner` (20 000 steps,
+155 min). A conditional diffusion refiner over the *frozen* VAE rather than a
+replacement decoder: `p(sharp CT | blurry CT, masks)`, 11 M-param 3D UNet,
+trained on 64^3 patches and run on 128^3 volumes.
+
+Generated-sample bone sharpness 230 -> **350** against 346 for real anatomy: the
+gap the bone channel closed a sixth of is now closed. Held-out reconstruction L1
+*improves* (0.0884 -> 0.0848, better in 7/8 cases), so it respects its
+conditioning rather than overwriting it, and the nearest-neighbour patch probe
+shows no memorisation (0.95x the distance of genuinely independent anatomy, where
+copying would be far below 1).
+
+Refining rather than replacing was the right call for 48 cases: patches multiply
+40 volumes into thousands of training examples, and the latent manifold, the
+interpolation and the PCA-Gaussian prior all keep working untouched.
+
+Still open under this heading:
+
+- **Joint training (Variant B).** The refiner is a separate model over a frozen
+  VAE. Cascading it into the decoder would let the CT head see the crisp mask
+  directly. Given the refiner already reaches parity with real sharpness, the
+  remaining upside is mostly architectural tidiness.
+- **The refiner invents fine structure.** Sinus air cells and trabecular pattern
+  are not in the 32-d latent. Acceptable for synthetic anatomy; it means refined
+  volumes must never be presented as reconstructions of a real patient.
+- **A downstream utility test.** Sharpness and NN-distance say the texture is
+  plausible and not copied; neither says the synthetic cases are *useful*. The
+  real evidence would be training a segmentation model on generated data and
+  measuring transfer to real cases.

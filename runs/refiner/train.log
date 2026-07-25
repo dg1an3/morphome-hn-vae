@@ -1,0 +1,115 @@
+loaded runs/v2_bone/last.pt (ema weights) epoch=2999 step=30000
+train=40 val=8
+posterior means (40, 32)  per-dim std [0.40, 1.27]
+refiner UNet: 11.07M params, in_channels=12, patch 64^3
+step    200/20000 | v-mse 0.5242 gn 2.37 | 1.7m
+step    400/20000 | v-mse 0.1935 gn 2.09 | 3.2m
+step    600/20000 | v-mse 0.0636 gn 1.03 | 4.7m
+step    800/20000 | v-mse 0.0441 gn 0.43 | 6.2m
+step   1000/20000 | v-mse 0.0437 gn 0.50 | 7.7m
+step   1200/20000 | v-mse 0.0419 gn 0.30 | 9.2m
+step   1400/20000 | v-mse 0.0355 gn 0.69 | 10.7m
+step   1600/20000 | v-mse 0.0358 gn 0.71 | 12.2m
+step   1800/20000 | v-mse 0.0346 gn 0.76 | 13.7m
+step   2000/20000 | v-mse 0.0332 gn 0.57 | 15.2m
+  [eval] |grad HU| on bone: VAE 220 -> refined 351   (real 328)   L1 to real 0.1178
+step   2200/20000 | v-mse 0.0341 gn 0.20 | 17.1m
+step   2400/20000 | v-mse 0.0310 gn 0.29 | 18.6m
+step   2600/20000 | v-mse 0.0305 gn 0.23 | 20.1m
+step   2800/20000 | v-mse 0.0326 gn 0.14 | 21.6m
+step   3000/20000 | v-mse 0.0301 gn 0.34 | 23.1m
+step   3200/20000 | v-mse 0.0304 gn 0.34 | 24.6m
+step   3400/20000 | v-mse 0.0296 gn 0.26 | 26.1m
+step   3600/20000 | v-mse 0.0286 gn 0.65 | 27.6m
+step   3800/20000 | v-mse 0.0290 gn 0.21 | 29.1m
+step   4000/20000 | v-mse 0.0284 gn 0.28 | 30.6m
+  [eval] |grad HU| on bone: VAE 220 -> refined 347   (real 328)   L1 to real 0.1069
+step   4200/20000 | v-mse 0.0275 gn 0.21 | 32.5m
+step   4400/20000 | v-mse 0.0281 gn 0.11 | 34.5m
+step   4600/20000 | v-mse 0.0260 gn 0.56 | 36.1m
+step   4800/20000 | v-mse 0.0255 gn 0.19 | 37.5m
+step   5000/20000 | v-mse 0.0265 gn 0.17 | 39.0m
+step   5200/20000 | v-mse 0.0268 gn 0.25 | 40.5m
+step   5400/20000 | v-mse 0.0272 gn 0.23 | 42.0m
+step   5600/20000 | v-mse 0.0248 gn 0.37 | 43.5m
+step   5800/20000 | v-mse 0.0260 gn 0.27 | 45.0m
+step   6000/20000 | v-mse 0.0257 gn 0.34 | 46.5m
+  [eval] |grad HU| on bone: VAE 220 -> refined 340   (real 328)   L1 to real 0.1007
+step   6200/20000 | v-mse 0.0247 gn 0.12 | 48.3m
+step   6400/20000 | v-mse 0.0263 gn 0.29 | 49.7m
+step   6600/20000 | v-mse 0.0251 gn 0.15 | 51.2m
+step   6800/20000 | v-mse 0.0230 gn 0.19 | 52.7m
+step   7000/20000 | v-mse 0.0256 gn 0.13 | 54.3m
+step   7200/20000 | v-mse 0.0248 gn 0.22 | 55.8m
+step   7400/20000 | v-mse 0.0246 gn 0.13 | 57.3m
+step   7600/20000 | v-mse 0.0248 gn 0.26 | 58.8m
+step   7800/20000 | v-mse 0.0264 gn 0.24 | 60.3m
+step   8000/20000 | v-mse 0.0225 gn 0.17 | 61.8m
+  [eval] |grad HU| on bone: VAE 220 -> refined 342   (real 328)   L1 to real 0.0982
+step   8200/20000 | v-mse 0.0238 gn 0.25 | 63.6m
+step   8400/20000 | v-mse 0.0259 gn 0.07 | 65.1m
+step   8600/20000 | v-mse 0.0241 gn 0.10 | 66.6m
+step   8800/20000 | v-mse 0.0215 gn 0.17 | 68.1m
+step   9000/20000 | v-mse 0.0242 gn 0.32 | 69.7m
+step   9200/20000 | v-mse 0.0218 gn 0.39 | 71.2m
+step   9400/20000 | v-mse 0.0234 gn 0.28 | 72.7m
+step   9600/20000 | v-mse 0.0254 gn 0.15 | 74.2m
+step   9800/20000 | v-mse 0.0230 gn 0.17 | 75.8m
+step  10000/20000 | v-mse 0.0241 gn 0.24 | 77.3m
+  [eval] |grad HU| on bone: VAE 220 -> refined 342   (real 328)   L1 to real 0.0964
+step  10200/20000 | v-mse 0.0214 gn 0.12 | 79.1m
+step  10400/20000 | v-mse 0.0216 gn 0.27 | 80.6m
+step  10600/20000 | v-mse 0.0233 gn 0.21 | 82.2m
+step  10800/20000 | v-mse 0.0230 gn 0.18 | 83.7m
+step  11000/20000 | v-mse 0.0235 gn 0.17 | 85.3m
+step  11200/20000 | v-mse 0.0237 gn 0.09 | 86.8m
+step  11400/20000 | v-mse 0.0240 gn 0.30 | 88.3m
+step  11600/20000 | v-mse 0.0220 gn 0.23 | 89.9m
+step  11800/20000 | v-mse 0.0221 gn 0.22 | 91.4m
+step  12000/20000 | v-mse 0.0211 gn 0.40 | 92.9m
+  [eval] |grad HU| on bone: VAE 220 -> refined 342   (real 328)   L1 to real 0.0963
+step  12200/20000 | v-mse 0.0221 gn 0.15 | 94.7m
+step  12400/20000 | v-mse 0.0216 gn 0.09 | 96.2m
+step  12600/20000 | v-mse 0.0233 gn 0.18 | 97.7m
+step  12800/20000 | v-mse 0.0231 gn 0.22 | 99.2m
+step  13000/20000 | v-mse 0.0222 gn 0.15 | 100.7m
+step  13200/20000 | v-mse 0.0218 gn 0.26 | 102.2m
+step  13400/20000 | v-mse 0.0205 gn 0.10 | 103.8m
+step  13600/20000 | v-mse 0.0224 gn 0.27 | 105.3m
+step  13800/20000 | v-mse 0.0222 gn 0.12 | 106.8m
+step  14000/20000 | v-mse 0.0219 gn 0.11 | 108.3m
+  [eval] |grad HU| on bone: VAE 220 -> refined 347   (real 328)   L1 to real 0.0950
+step  14200/20000 | v-mse 0.0215 gn 0.14 | 110.0m
+step  14400/20000 | v-mse 0.0222 gn 0.09 | 111.6m
+step  14600/20000 | v-mse 0.0200 gn 0.54 | 113.1m
+step  14800/20000 | v-mse 0.0204 gn 0.15 | 114.6m
+step  15000/20000 | v-mse 0.0219 gn 0.26 | 116.2m
+step  15200/20000 | v-mse 0.0209 gn 0.14 | 117.7m
+step  15400/20000 | v-mse 0.0215 gn 0.12 | 119.2m
+step  15600/20000 | v-mse 0.0203 gn 0.25 | 120.8m
+step  15800/20000 | v-mse 0.0200 gn 0.44 | 122.3m
+step  16000/20000 | v-mse 0.0189 gn 0.14 | 123.8m
+  [eval] |grad HU| on bone: VAE 220 -> refined 343   (real 328)   L1 to real 0.0945
+step  16200/20000 | v-mse 0.0212 gn 0.15 | 125.6m
+step  16400/20000 | v-mse 0.0207 gn 0.06 | 127.1m
+step  16600/20000 | v-mse 0.0192 gn 0.10 | 128.6m
+step  16800/20000 | v-mse 0.0209 gn 0.09 | 130.2m
+step  17000/20000 | v-mse 0.0211 gn 0.11 | 131.7m
+step  17200/20000 | v-mse 0.0205 gn 0.45 | 133.2m
+step  17400/20000 | v-mse 0.0221 gn 0.12 | 134.7m
+step  17600/20000 | v-mse 0.0215 gn 0.24 | 136.3m
+step  17800/20000 | v-mse 0.0208 gn 0.20 | 137.8m
+step  18000/20000 | v-mse 0.0208 gn 0.29 | 139.3m
+  [eval] |grad HU| on bone: VAE 220 -> refined 346   (real 328)   L1 to real 0.0937
+step  18200/20000 | v-mse 0.0214 gn 0.08 | 141.1m
+step  18400/20000 | v-mse 0.0212 gn 0.10 | 142.6m
+step  18600/20000 | v-mse 0.0206 gn 0.08 | 144.1m
+step  18800/20000 | v-mse 0.0190 gn 0.25 | 145.6m
+step  19000/20000 | v-mse 0.0198 gn 0.19 | 147.1m
+step  19200/20000 | v-mse 0.0201 gn 0.16 | 148.6m
+step  19400/20000 | v-mse 0.0203 gn 0.32 | 150.1m
+step  19600/20000 | v-mse 0.0199 gn 0.28 | 151.5m
+step  19800/20000 | v-mse 0.0198 gn 0.10 | 153.0m
+step  20000/20000 | v-mse 0.0197 gn 0.17 | 154.5m
+  [eval] |grad HU| on bone: VAE 220 -> refined 351   (real 328)   L1 to real 0.0941
+done in 154.8 min
