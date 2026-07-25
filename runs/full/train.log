@@ -1,0 +1,48 @@
+train=40 val=8
+val cases: ['0522c0013', '0522c0330', '0522c0441', '0522c0455', '0522c0479', '0522c0576', '0522c0661', '0522c0708']
+params: encoder=16.97M decoder=13.19M total=30.16M
+bottleneck: 256ch @ 4^3 -> latent 256
+ep     0 step      10 | train loss 1.4951 ct 0.4357 dice_l 0.9983 kl 128.3 beta 0.00e+00 act 256 | VAL ct 0.3704 dice 0.002 ema_dice 0.002 | 0.4m
+        per-organ val dice: BrainS=0.003  Chiasm=0.000  Mandib=0.004  OpticN_L=0.000  OpticN_R=0.000  Paroti_L=0.003  Paroti_R=0.003  Subman_L=0.001  Subman_R=0.001
+ep    50 step     510 | train loss 0.8056 ct 0.1494 dice_l 0.6426 kl 1940.1 beta 0.00e+00 act 256 | VAL ct 0.1461 dice 0.384 ema_dice 0.399 | 4.2m
+        per-organ val dice: BrainS=0.711  Chiasm=0.006  Mandib=0.425  OpticN_L=0.001  OpticN_R=0.003  Paroti_L=0.680  Paroti_R=0.652  Subman_L=0.525  Subman_R=0.450
+ep   100 step    1010 | train loss 0.6922 ct 0.1322 dice_l 0.5486 kl 2160.6 beta 0.00e+00 act 256 | VAL ct 0.1353 dice 0.476 ema_dice 0.487 | 7.8m
+        per-organ val dice: BrainS=0.804  Chiasm=0.275  Mandib=0.609  OpticN_L=0.007  OpticN_R=0.006  Paroti_L=0.729  Paroti_R=0.772  Subman_L=0.589  Subman_R=0.495
+ep   150 step    1510 | train loss 0.6445 ct 0.1214 dice_l 0.5121 kl 2123.7 beta 0.00e+00 act 256 | VAL ct 0.1295 dice 0.518 ema_dice 0.550 | 11.3m
+        per-organ val dice: BrainS=0.817  Chiasm=0.343  Mandib=0.636  OpticN_L=0.008  OpticN_R=0.125  Paroti_L=0.759  Paroti_R=0.797  Subman_L=0.615  Subman_R=0.564
+ep   200 step    2010 | train loss 0.5769 ct 0.1169 dice_l 0.4496 kl 2070.7 beta 0.00e+00 act 256 | VAL ct 0.1320 dice 0.502 ema_dice 0.591 | 14.9m
+        per-organ val dice: BrainS=0.805  Chiasm=0.206  Mandib=0.662  OpticN_L=0.121  OpticN_R=0.219  Paroti_L=0.768  Paroti_R=0.782  Subman_L=0.394  Subman_R=0.559
+ep   250 step    2510 | train loss 0.5351 ct 0.1140 dice_l 0.4117 kl 1869.4 beta 0.00e+00 act 256 | VAL ct 0.1245 dice 0.565 ema_dice 0.600 | 18.4m
+        per-organ val dice: BrainS=0.836  Chiasm=0.329  Mandib=0.640  OpticN_L=0.227  OpticN_R=0.318  Paroti_L=0.781  Paroti_R=0.769  Subman_L=0.638  Subman_R=0.547
+ep   300 step    3010 | train loss 0.5165 ct 0.1132 dice_l 0.3938 kl 1940.4 beta 3.75e-07 act 256 | VAL ct 0.1196 dice 0.577 ema_dice 0.606 | 22.0m
+        per-organ val dice: BrainS=0.842  Chiasm=0.388  Mandib=0.661  OpticN_L=0.148  OpticN_R=0.312  Paroti_L=0.781  Paroti_R=0.788  Subman_L=0.667  Subman_R=0.602
+ep   350 step    3510 | train loss 0.5049 ct 0.1045 dice_l 0.3691 kl 526.4 beta 4.20e-05 act 256 | VAL ct 0.1219 dice 0.589 ema_dice 0.611 | 25.5m
+        per-organ val dice: BrainS=0.848  Chiasm=0.347  Mandib=0.662  OpticN_L=0.237  OpticN_R=0.385  Paroti_L=0.773  Paroti_R=0.795  Subman_L=0.664  Subman_R=0.594
+ep   400 step    4010 | train loss 0.5196 ct 0.1049 dice_l 0.3763 kl 349.3 beta 8.37e-05 act 256 | VAL ct 0.1221 dice 0.553 ema_dice 0.616 | 29.1m
+        per-organ val dice: BrainS=0.850  Chiasm=0.263  Mandib=0.646  OpticN_L=0.256  OpticN_R=0.167  Paroti_L=0.771  Paroti_R=0.800  Subman_L=0.673  Subman_R=0.555
+ep   450 step    4510 | train loss 0.5412 ct 0.1117 dice_l 0.3834 kl 291.2 beta 1.25e-04 act 256 | VAL ct 0.1261 dice 0.574 ema_dice 0.609 | 32.7m
+        per-organ val dice: BrainS=0.833  Chiasm=0.280  Mandib=0.672  OpticN_L=0.310  OpticN_R=0.319  Paroti_L=0.758  Paroti_R=0.782  Subman_L=0.606  Subman_R=0.610
+ep   500 step    5010 | train loss 0.5111 ct 0.1027 dice_l 0.3576 kl 253.2 beta 1.67e-04 act 256 | VAL ct 0.1175 dice 0.586 ema_dice 0.610 | 36.2m
+        per-organ val dice: BrainS=0.840  Chiasm=0.381  Mandib=0.653  OpticN_L=0.225  OpticN_R=0.332  Paroti_L=0.788  Paroti_R=0.792  Subman_L=0.637  Subman_R=0.624
+ep   550 step    5510 | train loss 0.5225 ct 0.1024 dice_l 0.3604 kl 243.5 beta 2.09e-04 act 256 | VAL ct 0.1148 dice 0.581 ema_dice 0.608 | 39.8m
+        per-organ val dice: BrainS=0.845  Chiasm=0.421  Mandib=0.635  OpticN_L=0.234  OpticN_R=0.296  Paroti_L=0.757  Paroti_R=0.783  Subman_L=0.672  Subman_R=0.582
+ep   600 step    6010 | train loss 0.5243 ct 0.0971 dice_l 0.3617 kl 225.6 beta 2.50e-04 act 256 | VAL ct 0.1166 dice 0.591 ema_dice 0.625 | 43.3m
+        per-organ val dice: BrainS=0.843  Chiasm=0.406  Mandib=0.627  OpticN_L=0.323  OpticN_R=0.315  Paroti_L=0.771  Paroti_R=0.776  Subman_L=0.643  Subman_R=0.618
+ep   650 step    6510 | train loss 0.5036 ct 0.0938 dice_l 0.3365 kl 222.2 beta 2.92e-04 act 256 | VAL ct 0.1194 dice 0.582 ema_dice 0.603 | 46.9m
+        per-organ val dice: BrainS=0.849  Chiasm=0.367  Mandib=0.655  OpticN_L=0.260  OpticN_R=0.293  Paroti_L=0.784  Paroti_R=0.785  Subman_L=0.629  Subman_R=0.619
+ep   700 step    7010 | train loss 0.5242 ct 0.0951 dice_l 0.3507 kl 207.8 beta 3.34e-04 act 256 | VAL ct 0.1188 dice 0.586 ema_dice 0.605 | 50.4m
+        per-organ val dice: BrainS=0.838  Chiasm=0.433  Mandib=0.600  OpticN_L=0.322  OpticN_R=0.381  Paroti_L=0.782  Paroti_R=0.788  Subman_L=0.594  Subman_R=0.538
+ep   750 step    7510 | train loss 0.5224 ct 0.0964 dice_l 0.3379 kl 212.1 beta 3.75e-04 act 256 | VAL ct 0.1151 dice 0.576 ema_dice 0.599 | 53.9m
+        per-organ val dice: BrainS=0.845  Chiasm=0.283  Mandib=0.647  OpticN_L=0.277  OpticN_R=0.336  Paroti_L=0.785  Paroti_R=0.777  Subman_L=0.680  Subman_R=0.550
+ep   800 step    8010 | train loss 0.5313 ct 0.0966 dice_l 0.3430 kl 196.1 beta 4.17e-04 act 256 | VAL ct 0.1171 dice 0.589 ema_dice 0.596 | 57.5m
+        per-organ val dice: BrainS=0.835  Chiasm=0.396  Mandib=0.601  OpticN_L=0.336  OpticN_R=0.323  Paroti_L=0.767  Paroti_R=0.770  Subman_L=0.675  Subman_R=0.596
+ep   850 step    8510 | train loss 0.5392 ct 0.0977 dice_l 0.3451 kl 189.5 beta 4.59e-04 act 256 | VAL ct 0.1189 dice 0.576 ema_dice 0.609 | 61.1m
+        per-organ val dice: BrainS=0.852  Chiasm=0.377  Mandib=0.595  OpticN_L=0.300  OpticN_R=0.370  Paroti_L=0.777  Paroti_R=0.782  Subman_L=0.597  Subman_R=0.538
+ep   900 step    9010 | train loss 0.5323 ct 0.0956 dice_l 0.3333 kl 190.3 beta 5.00e-04 act 256 | VAL ct 0.1172 dice 0.579 ema_dice 0.590 | 64.6m
+        per-organ val dice: BrainS=0.840  Chiasm=0.346  Mandib=0.652  OpticN_L=0.291  OpticN_R=0.301  Paroti_L=0.767  Paroti_R=0.769  Subman_L=0.690  Subman_R=0.560
+ep   950 step    9510 | train loss 0.5278 ct 0.0946 dice_l 0.3235 kl 187.3 beta 5.42e-04 act 256 | VAL ct 0.1142 dice 0.594 ema_dice 0.593 | 68.2m
+        per-organ val dice: BrainS=0.844  Chiasm=0.416  Mandib=0.657  OpticN_L=0.279  OpticN_R=0.367  Paroti_L=0.767  Paroti_R=0.769  Subman_L=0.671  Subman_R=0.573
+ep  1000 step   10010 | train loss 0.5368 ct 0.0929 dice_l 0.3268 kl 184.0 beta 5.84e-04 act 256 | VAL ct 0.1194 dice 0.575 ema_dice 0.593 | 71.8m
+        per-organ val dice: BrainS=0.837  Chiasm=0.360  Mandib=0.638  OpticN_L=0.219  OpticN_R=0.363  Paroti_L=0.763  Paroti_R=0.776  Subman_L=0.631  Subman_R=0.592
+ep  1050 step   10510 | train loss 0.5411 ct 0.0934 dice_l 0.3273 kl 178.5 beta 6.25e-04 act 256 | VAL ct 0.1176 dice 0.587 ema_dice 0.580 | 75.4m
+        per-organ val dice: BrainS=0.827  Chiasm=0.405  Mandib=0.654  OpticN_L=0.213  OpticN_R=0.371  Paroti_L=0.740  Paroti_R=0.795  Subman_L=0.668  Subman_R=0.609

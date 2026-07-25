@@ -1,0 +1,218 @@
+[
+  {
+    "size": [
+      512,
+      512,
+      94
+    ],
+    "spacing": [
+      0.977,
+      0.977,
+      3.0
+    ],
+    "z_extent_mm": 282.0,
+    "apex_index": 93,
+    "mm_above_apex": 0.0,
+    "dataset": "nsclc",
+    "dir": "E:\\datasets\\medical\\nsclc-radiomics\\NSCLC-Radiomics\\LUNG1-243\\1.3.6.1.4.1.32722.99.99.19992982289074520856646880653605872904\\1.3.6.1.4.1.32722.99.99.12068125918406762579379741710449297022",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      106
+    ],
+    "spacing": [
+      0.977,
+      0.977,
+      3.286
+    ],
+    "z_extent_mm": 348.3,
+    "apex_index": 88,
+    "mm_above_apex": 55.9,
+    "dataset": "nsclc",
+    "dir": "E:\\datasets\\medical\\nsclc-radiomics\\NSCLC-Radiomics\\LUNG1-085\\1.3.6.1.4.1.32722.99.99.20513433714193890964781227188470278863\\1.3.6.1.4.1.32722.99.99.216074516785725581735978738059114724696",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      134
+    ],
+    "spacing": [
+      0.977,
+      0.977,
+      3.0
+    ],
+    "z_extent_mm": 402.0,
+    "apex_index": 124,
+    "mm_above_apex": 27.0,
+    "dataset": "nsclc",
+    "dir": "E:\\datasets\\medical\\nsclc-radiomics\\NSCLC-Radiomics\\LUNG1-300\\1.3.6.1.4.1.32722.99.99.304619711707814530253807567101707386802\\1.3.6.1.4.1.32722.99.99.238044452626292754571485773247543223856",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      100
+    ],
+    "spacing": [
+      0.977,
+      0.977,
+      3.0
+    ],
+    "z_extent_mm": 300.0,
+    "apex_index": 99,
+    "mm_above_apex": 0.0,
+    "dataset": "nsclc",
+    "dir": "E:\\datasets\\medical\\nsclc-radiomics\\NSCLC-Radiomics\\LUNG1-128\\1.3.6.1.4.1.32722.99.99.237671773436513136817048445069238103538\\1.3.6.1.4.1.32722.99.99.54517396233590182423916576566089006742",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      134
+    ],
+    "spacing": [
+      0.977,
+      0.977,
+      3.0
+    ],
+    "z_extent_mm": 402.0,
+    "apex_index": 133,
+    "mm_above_apex": 0.0,
+    "dataset": "nsclc",
+    "dir": "E:\\datasets\\medical\\nsclc-radiomics\\NSCLC-Radiomics\\LUNG1-307\\1.3.6.1.4.1.32722.99.99.209500834971322118422178412239239807013\\1.3.6.1.4.1.32722.99.99.138056090284136444699311571662464175481",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      134
+    ],
+    "spacing": [
+      0.977,
+      0.977,
+      3.0
+    ],
+    "z_extent_mm": 402.0,
+    "apex_index": 133,
+    "mm_above_apex": 0.0,
+    "dataset": "nsclc",
+    "dir": "E:\\datasets\\medical\\nsclc-radiomics\\NSCLC-Radiomics\\LUNG1-225\\1.3.6.1.4.1.32722.99.99.195519507009704335124247885595434532432\\1.3.6.1.4.1.32722.99.99.37123357778826288263983198774067906812",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      117
+    ],
+    "spacing": [
+      0.566,
+      0.566,
+      2.5
+    ],
+    "z_extent_mm": 292.5,
+    "apex_index": 116,
+    "mm_above_apex": 0.0,
+    "dataset": "nlst",
+    "dir": "E:\\datasets\\medical\\manifest-NLST_allCT\\NLST\\105117\\1.2.840.113654.2.55.147111071975106450497135028575472299693\\1.2.840.113654.2.55.12201375496415882687507429838232638320",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      146
+    ],
+    "spacing": [
+      0.652,
+      0.652,
+      2.0
+    ],
+    "z_extent_mm": 292.0,
+    "apex_index": 145,
+    "mm_above_apex": 0.0,
+    "dataset": "nlst",
+    "dir": "E:\\datasets\\medical\\manifest-NLST_allCT\\NLST\\100041\\1.2.840.113654.2.55.73070854403553861622280881529301985756\\1.2.840.113654.2.55.129931524337413091771465035428019232784",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      136
+    ],
+    "spacing": [
+      0.703,
+      0.703,
+      2.5
+    ],
+    "z_extent_mm": 340.0,
+    "apex_index": 135,
+    "mm_above_apex": 0.0,
+    "dataset": "nlst",
+    "dir": "E:\\datasets\\medical\\manifest-NLST_allCT\\NLST\\101841\\1.2.840.113654.2.55.153156273338299788771015417958762844366\\1.2.840.113654.2.55.57176966894912513022091751609558393430",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      179
+    ],
+    "spacing": [
+      0.667,
+      0.667,
+      2.0
+    ],
+    "z_extent_mm": 358.0,
+    "apex_index": 178,
+    "mm_above_apex": 0.0,
+    "dataset": "nlst",
+    "dir": "E:\\datasets\\medical\\manifest-NLST_allCT\\NLST\\102080\\1.2.840.113654.2.55.287794890804482436188469561145914901203\\1.2.840.113654.2.55.163294985804688568605551891109571101760",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      170
+    ],
+    "spacing": [
+      0.781,
+      0.781,
+      2.0
+    ],
+    "z_extent_mm": 340.0,
+    "apex_index": 169,
+    "mm_above_apex": 0.0,
+    "dataset": "nlst",
+    "dir": "E:\\datasets\\medical\\manifest-NLST_allCT\\NLST\\100176\\01-02-2001-NA-NLST-LSS-03460\\4.000000-2OPATOAQUL4FC514002-47115",
+    "hn_usable": false
+  },
+  {
+    "size": [
+      512,
+      512,
+      161
+    ],
+    "spacing": [
+      0.586,
+      0.586,
+      2.0
+    ],
+    "z_extent_mm": 322.0,
+    "apex_index": 160,
+    "mm_above_apex": 0.0,
+    "dataset": "nlst",
+    "dir": "E:\\datasets\\medical\\manifest-NLST_allCT\\NLST\\100417\\1.2.840.113654.2.55.160577278601557799674769541522480883314\\1.2.840.113654.2.55.69053518922479111918678240472763264163",
+    "hn_usable": false
+  }
+]

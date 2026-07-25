@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Training checkpoints: 306 MB each, regenerable from the recorded config +
+# fixed seed + fixed split. The TensorBoard events below are kept instead --
+# they are small and are the only durable record of the training curves.
+runs/**/*.pt
+
+# Generated volumes for 3D Slicer; re-exportable from a checkpoint.
+notes/**/nrrd/
+
+# Data cache lives outside the tree (E:\datasets\medical\morphome_cache),
+# but ignore it here too in case anyone points --out inside the repo.
+*.npz
+*.nrrd
