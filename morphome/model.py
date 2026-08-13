@@ -64,10 +64,29 @@ class VAEConfig:
     blocks_per_stage: int = 1
     dropout: float = 0.0
     input_size: int = 128
+    # (x, y, z) in voxels. None keeps the old cubic behaviour, so checkpoints
+    # saved before the frame became anisotropic still load.
+    input_dims: tuple[int, int, int] | None = None
+
+    @property
+    def dims_xyz(self) -> tuple[int, int, int]:
+        return tuple(self.input_dims) if self.input_dims else (self.input_size,) * 3
 
     @property
     def bottleneck_size(self) -> int:
         return self.input_size // 2 ** (len(self.channel_mult) - 1)
+
+    @property
+    def bottleneck_shape(self) -> tuple[int, int, int]:
+        """Bottleneck feature-map shape as torch orders it: (D, H, W) = (z, y, x)."""
+        f = 2 ** (len(self.channel_mult) - 1)
+        d = self.dims_xyz
+        return (d[2] // f, d[1] // f, d[0] // f)
+
+    @property
+    def bottleneck_numel(self) -> int:
+        s = self.bottleneck_shape
+        return s[0] * s[1] * s[2]
 
     @property
     def bottleneck_channels(self) -> int:
@@ -92,7 +111,7 @@ class Encoder(nn.Module):
         self.stages = nn.ModuleList(stages)
 
         self.out_norm = _norm(chans[-1])
-        flat = chans[-1] * cfg.bottleneck_size ** 3
+        flat = chans[-1] * cfg.bottleneck_numel
         self.to_mu = nn.Linear(flat, cfg.latent_dim)
         self.to_logvar = nn.Linear(flat, cfg.latent_dim)
 
@@ -114,8 +133,7 @@ class Decoder(nn.Module):
         self.cfg = cfg
         chans = [cfg.base_channels * m for m in cfg.channel_mult]
         self.chans = chans
-        b = cfg.bottleneck_size
-        self.from_latent = nn.Linear(cfg.latent_dim, chans[-1] * b ** 3)
+        self.from_latent = nn.Linear(cfg.latent_dim, chans[-1] * cfg.bottleneck_numel)
 
         stages = []
         for i in range(len(chans) - 1, 0, -1):
@@ -142,8 +160,7 @@ class Decoder(nn.Module):
                 self.to_labels.bias[N_STRUCT:] = cfg.derived_bias_init
 
     def forward(self, z):
-        b = self.cfg.bottleneck_size
-        h = self.from_latent(z).view(-1, self.chans[-1], b, b, b)
+        h = self.from_latent(z).view(-1, self.chans[-1], *self.cfg.bottleneck_shape)
         for s in self.stages:
             h = s(h)
         h = F.silu(self.out_norm(h))

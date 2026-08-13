@@ -14,8 +14,8 @@ import torch
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 
-from .constants import MODEL_STRUCTURES, N_MODEL_STRUCT, N_STRUCT
-from .data import HNCache, augment, default_split
+from .constants import GRID_DIMS, MODEL_STRUCTURES, N_MODEL_STRUCT, N_STRUCT
+from .data import HNCache, augment, cache_cases, default_split
 from .ema import ModelEMA
 from .losses import beta_schedule, vae_loss
 from .model import HNVAE, VAEConfig, build_input, count_parameters
@@ -58,11 +58,14 @@ def get_args(argv=None):
     p.add_argument("--body-weight", type=float, default=4.0)
     p.add_argument("--pos-weight", type=float, default=50.0)
     p.add_argument("--with-bone", action="store_true",
-                   help="add a derived, Dice-supervised bone channel (CT > "
-                        "BONE_HU_THRESHOLD) as a tenth structure")
+                   help="add the derived Dice-supervised channels (Bone, Body) "
+                        "from constants.DERIVED_STRUCTURES")
     p.add_argument("--bone-pos-weight", type=float, default=2.0,
                    help="BCE positive weight for the bone channel; it is ~100x "
                         "denser than an OAR, so --pos-weight does not apply")
+    p.add_argument("--body-pos-weight", type=float, default=1.0,
+                   help="BCE positive weight for the external contour channel, "
+                        "which is denser still")
 
     p.add_argument("--no-augment", action="store_true")
     p.add_argument("--rot-deg", type=float, default=8.0)
@@ -99,11 +102,16 @@ def label_channels(args) -> int:
 
 
 def pos_weight_vector(args, device):
-    """Per-channel BCE positive weight, or a scalar when there is nothing dense."""
+    """Per-channel BCE positive weight, or a scalar when there is nothing dense.
+
+    Density spans four orders of magnitude -- the chiasm is ~6e-5 of the volume,
+    the external contour ~1e-1 -- so one scalar cannot serve both.
+    """
     if not args.with_bone:
         return args.pos_weight
-    return torch.tensor([args.pos_weight] * N_STRUCT + [args.bone_pos_weight],
-                        device=device)
+    derived = {"Bone": args.bone_pos_weight, "Body": args.body_pos_weight}
+    tail = [derived.get(n, 1.0) for n in MODEL_STRUCTURES[N_STRUCT:label_channels(args)]]
+    return torch.tensor([args.pos_weight] * N_STRUCT + tail, device=device)
 
 
 @torch.no_grad()
@@ -150,13 +158,14 @@ def main(argv=None) -> None:
     outdir.mkdir(parents=True, exist_ok=True)
     (outdir / "figures").mkdir(exist_ok=True)
 
-    all_cases = sorted(p.stem for p in Path(args.cache).glob("0522c*.npz"))
+    all_cases = cache_cases(args.cache)
     train_cases, val_cases = default_split(all_cases, args.n_val, args.split_seed)
     print(f"train={len(train_cases)} val={len(val_cases)}")
     print(f"val cases: {val_cases}")
 
-    train_ds = HNCache(args.cache, train_cases, with_bone=args.with_bone)
-    val_ds = HNCache(args.cache, val_cases, with_bone=args.with_bone)
+    n_derived = label_channels(args) - N_STRUCT
+    train_ds = HNCache(args.cache, train_cases, derived=n_derived)
+    val_ds = HNCache(args.cache, val_cases, derived=n_derived)
     train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True,
                               num_workers=0, drop_last=True, pin_memory=True)
     val_loader = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False,
@@ -165,15 +174,22 @@ def main(argv=None) -> None:
     n_lab = label_channels(args)
     names = MODEL_STRUCTURES[:n_lab]
     pos_weight = pos_weight_vector(args, device)
+    # Take the grid from the cache rather than from constants: a run must match
+    # the data it was pointed at, not whatever the defaults happen to be.
+    grid_dims = tuple(train_ds.meta.get("grid", {}).get("dims", GRID_DIMS))
     cfg = VAEConfig(latent_dim=args.latent_dim, base_channels=args.base_channels,
                     dropout=args.dropout, in_channels=1 + n_lab,
-                    out_label_channels=n_lab)
+                    out_label_channels=n_lab, input_dims=grid_dims)
     model = HNVAE(cfg).to(device)
     model = model.to(memory_format=torch.channels_last_3d)
     counts = count_parameters(model)
     print(f"params: encoder={counts['encoder']/1e6:.2f}M "
           f"decoder={counts['decoder']/1e6:.2f}M total={counts['total']/1e6:.2f}M")
-    print(f"bottleneck: {cfg.bottleneck_channels}ch @ {cfg.bottleneck_size}^3 "
+    bs = cfg.bottleneck_shape
+    print(f"grid {grid_dims} @ {train_ds.meta.get('grid', {}).get('spacing')} mm, "
+          f"{n_lab} label channels ({', '.join(names)})")
+    print(f"bottleneck: {cfg.bottleneck_channels}ch @ {bs[0]}x{bs[1]}x{bs[2]} (z,y,x) "
+          f"= {cfg.bottleneck_numel * cfg.bottleneck_channels} feats "
           f"-> latent {cfg.latent_dim}")
 
     if args.compile:

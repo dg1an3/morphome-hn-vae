@@ -1,0 +1,4947 @@
+{
+  "dims": [
+    192,
+    128,
+    96
+  ],
+  "spacing": 3.0,
+  "offset_mm": [
+    0.0,
+    -20.0,
+    -80.0
+  ],
+  "result": {
+    "total_slices": 32365,
+    "clipped_by_box": 165,
+    "clipped_by_scan": 0,
+    "per_case": [
+      {
+        "case": "LUNG1-001",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-002",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-003",
+        "slices": 60,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-004",
+        "slices": 75,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-005",
+        "slices": 59,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-006",
+        "slices": 78,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-007",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-008",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-009",
+        "slices": 71,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-010",
+        "slices": 61,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-011",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-012",
+        "slices": 76,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-013",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-014",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-015",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-016",
+        "slices": 63,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-017",
+        "slices": 83,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-018",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-019",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-020",
+        "slices": 75,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-021",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-022",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-023",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-024",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-025",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-026",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-027",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-028",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-029",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-030",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-031",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-032",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-033",
+        "slices": 76,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-034",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-035",
+        "slices": 56,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-036",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-037",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-038",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-039",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-040",
+        "slices": 70,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-041",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-042",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-043",
+        "slices": 75,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-044",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-045",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-046",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-047",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-048",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-049",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-051",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-052",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-053",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-054",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-055",
+        "slices": 83,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-056",
+        "slices": 93,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-057",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-058",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-059",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-060",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-061",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-062",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-063",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-064",
+        "slices": 63,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-065",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-066",
+        "slices": 58,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-068",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-069",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-070",
+        "slices": 68,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-071",
+        "slices": 76,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-072",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-073",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-074",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-075",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-076",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-077",
+        "slices": 70,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-078",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-079",
+        "slices": 76,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-080",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-081",
+        "slices": 78,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-082",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-083",
+        "slices": 71,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-084",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-085",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-086",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-087",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-088",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-089",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-090",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-091",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-092",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-093",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-094",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-095",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-096",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-097",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-098",
+        "slices": 76,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-099",
+        "slices": 82,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-100",
+        "slices": 71,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-101",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-102",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-103",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-104",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-105",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-106",
+        "slices": 63,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-107",
+        "slices": 76,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-108",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-109",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-110",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-111",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-112",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-113",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-114",
+        "slices": 82,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-116",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-117",
+        "slices": 56,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-118",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-120",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-122",
+        "slices": 83,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-123",
+        "slices": 70,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-124",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-125",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-126",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-127",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-129",
+        "slices": 78,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-130",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-131",
+        "slices": 68,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-132",
+        "slices": 71,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-133",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-134",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-135",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-136",
+        "slices": 78,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-137",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-138",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-139",
+        "slices": 68,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-140",
+        "slices": 71,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-141",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-142",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-143",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-144",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-145",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-146",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-147",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-148",
+        "slices": 63,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-150",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-151",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-152",
+        "slices": 78,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-153",
+        "slices": 71,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-154",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-155",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-156",
+        "slices": 68,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-157",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-159",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-160",
+        "slices": 93,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-161",
+        "slices": 75,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-162",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-163",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-164",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-165",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-166",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-167",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-168",
+        "slices": 89,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-169",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-170",
+        "slices": 75,
+        "clipped_by_box": 36,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-171",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-172",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-173",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-174",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-175",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-176",
+        "slices": 71,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-177",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-178",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-179",
+        "slices": 78,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-180",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-181",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-182",
+        "slices": 61,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-183",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-184",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-185",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-186",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-187",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-188",
+        "slices": 68,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-189",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-190",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-191",
+        "slices": 75,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-192",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-193",
+        "slices": 75,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-194",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-195",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-196",
+        "slices": 63,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-197",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-198",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-199",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-200",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-201",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-202",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-203",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-204",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-205",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-206",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-207",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-208",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-209",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-211",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-212",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-213",
+        "slices": 68,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-214",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-215",
+        "slices": 51,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-216",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-217",
+        "slices": 63,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-218",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-220",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-221",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-222",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-223",
+        "slices": 85,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-224",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-225",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-226",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-227",
+        "slices": 60,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-228",
+        "slices": 61,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-229",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-230",
+        "slices": 70,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-231",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-232",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-233",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-234",
+        "slices": 71,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-235",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-236",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-237",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-238",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-239",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-240",
+        "slices": 85,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-241",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-242",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-243",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-244",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-245",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-247",
+        "slices": 92,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-248",
+        "slices": 85,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-249",
+        "slices": 63,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-250",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-251",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-252",
+        "slices": 68,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-253",
+        "slices": 51,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-254",
+        "slices": 75,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-255",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-256",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-257",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-258",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-259",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-260",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-261",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-262",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-263",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-264",
+        "slices": 83,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-265",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-266",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-267",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-268",
+        "slices": 85,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-269",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-270",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-271",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-272",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-274",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-275",
+        "slices": 82,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-276",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-277",
+        "slices": 78,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-278",
+        "slices": 76,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-279",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-280",
+        "slices": 92,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-281",
+        "slices": 56,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-282",
+        "slices": 63,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-283",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-284",
+        "slices": 70,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-285",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-286",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-287",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-288",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-289",
+        "slices": 83,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-290",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-291",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-292",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-293",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-294",
+        "slices": 56,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-295",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-296",
+        "slices": 83,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-297",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-298",
+        "slices": 70,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-299",
+        "slices": 68,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-300",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-301",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-302",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-303",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-304",
+        "slices": 47,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-305",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-306",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-307",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-308",
+        "slices": 75,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-309",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-310",
+        "slices": 70,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-311",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-312",
+        "slices": 79,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-313",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-314",
+        "slices": 78,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-315",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-316",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-317",
+        "slices": 82,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-318",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-319",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-320",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-321",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-322",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-323",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-324",
+        "slices": 93,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-325",
+        "slices": 92,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-326",
+        "slices": 77,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-327",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-328",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-329",
+        "slices": 94,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-330",
+        "slices": 93,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-331",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-332",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-333",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-334",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-335",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-336",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-337",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-338",
+        "slices": 94,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-339",
+        "slices": 82,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-340",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-341",
+        "slices": 93,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-342",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-343",
+        "slices": 64,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-344",
+        "slices": 93,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-345",
+        "slices": 67,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-346",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-347",
+        "slices": 62,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-348",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-349",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-350",
+        "slices": 78,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-351",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-352",
+        "slices": 92,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-353",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-354",
+        "slices": 80,
+        "clipped_by_box": 57,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-355",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-356",
+        "slices": 94,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-357",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-358",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-359",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-360",
+        "slices": 92,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-361",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-362",
+        "slices": 93,
+        "clipped_by_box": 16,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-363",
+        "slices": 70,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-364",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-365",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-366",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-367",
+        "slices": 92,
+        "clipped_by_box": 56,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-368",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-369",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-370",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-371",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-372",
+        "slices": 94,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-373",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-374",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-375",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-376",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-377",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-378",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-379",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-380",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-381",
+        "slices": 92,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-382",
+        "slices": 89,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-383",
+        "slices": 91,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-384",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-385",
+        "slices": 69,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-386",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-387",
+        "slices": 65,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-388",
+        "slices": 92,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-389",
+        "slices": 68,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-390",
+        "slices": 85,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-391",
+        "slices": 72,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-392",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-393",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-394",
+        "slices": 66,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-395",
+        "slices": 89,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-396",
+        "slices": 73,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-397",
+        "slices": 81,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-398",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-399",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-400",
+        "slices": 93,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-401",
+        "slices": 84,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-402",
+        "slices": 94,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-403",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-404",
+        "slices": 85,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-405",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-406",
+        "slices": 75,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-407",
+        "slices": 86,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-408",
+        "slices": 74,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-409",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-410",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-411",
+        "slices": 82,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-412",
+        "slices": 90,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-413",
+        "slices": 82,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-414",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-415",
+        "slices": 82,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-416",
+        "slices": 80,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-417",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-418",
+        "slices": 96,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-419",
+        "slices": 88,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-420",
+        "slices": 95,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-421",
+        "slices": 87,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-422",
+        "slices": 83,
+        "clipped_by_box": 0,
+        "clipped_by_scan": 0
+      }
+    ]
+  },
+  "current_frame": {
+    "total_slices": 27933,
+    "clipped_by_box": 27933,
+    "clipped_by_scan": 0,
+    "per_case": [
+      {
+        "case": "LUNG1-001",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-002",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-003",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-004",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-005",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-006",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-007",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-008",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-009",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-010",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-011",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-012",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-013",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-014",
+        "slices": 58,
+        "clipped_by_box": 58,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-015",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-016",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-017",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-018",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-019",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-020",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-021",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-022",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-023",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-024",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-025",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-026",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-027",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-028",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-029",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-030",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-031",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-032",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-033",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-034",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-035",
+        "slices": 66,
+        "clipped_by_box": 66,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-036",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-037",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-038",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-039",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-040",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-041",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-042",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-043",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-044",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-045",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-046",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-047",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-048",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-049",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-051",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-052",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-053",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-054",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-055",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-056",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-057",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-058",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-059",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-060",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-061",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-062",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-063",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-064",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-065",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-066",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-068",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-069",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-070",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-071",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-072",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-073",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-074",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-075",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-076",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-077",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-078",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-079",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-080",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-081",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-082",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-083",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-084",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-085",
+        "slices": 62,
+        "clipped_by_box": 62,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-086",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-087",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-088",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-089",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-090",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-091",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-092",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-093",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-094",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-095",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-096",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-097",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-098",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-099",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-100",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-101",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-102",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-103",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-104",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-105",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-106",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-107",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-108",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-109",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-110",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-111",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-112",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-113",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-114",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-116",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-117",
+        "slices": 66,
+        "clipped_by_box": 66,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-118",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-120",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-122",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-123",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-124",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-125",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-126",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-127",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-129",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-130",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-131",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-132",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-133",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-134",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-135",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-136",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-137",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-138",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-139",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-140",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-141",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-142",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-143",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-144",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-145",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-146",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-147",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-148",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-150",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-151",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-152",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-153",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-154",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-155",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-156",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-157",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-159",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-160",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-161",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-162",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-163",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-164",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-165",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-166",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-167",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-168",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-169",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-170",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-171",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-172",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-173",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-174",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-175",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-176",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-177",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-178",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-179",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-180",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-181",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-182",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-183",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-184",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-185",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-186",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-187",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-188",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-189",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-190",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-191",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-192",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-193",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-194",
+        "slices": 67,
+        "clipped_by_box": 67,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-195",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-196",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-197",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-198",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-199",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-200",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-201",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-202",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-203",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-204",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-205",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-206",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-207",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-208",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-209",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-211",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-212",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-213",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-214",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-215",
+        "slices": 61,
+        "clipped_by_box": 61,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-216",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-217",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-218",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-220",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-221",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-222",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-223",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-224",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-225",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-226",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-227",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-228",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-229",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-230",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-231",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-232",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-233",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-234",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-235",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-236",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-237",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-238",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-239",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-240",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-241",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-242",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-243",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-244",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-245",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-247",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-248",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-249",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-250",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-251",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-252",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-253",
+        "slices": 61,
+        "clipped_by_box": 61,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-254",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-255",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-256",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-257",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-258",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-259",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-260",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-261",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-262",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-263",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-264",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-265",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-266",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-267",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-268",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-269",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-270",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-271",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-272",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-274",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-275",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-276",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-277",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-278",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-279",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-280",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-281",
+        "slices": 66,
+        "clipped_by_box": 66,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-282",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-283",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-284",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-285",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-286",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-287",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-288",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-289",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-290",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-291",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-292",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-293",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-294",
+        "slices": 66,
+        "clipped_by_box": 66,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-295",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-296",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-297",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-298",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-299",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-300",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-301",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-302",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-303",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-304",
+        "slices": 57,
+        "clipped_by_box": 57,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-305",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-306",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-307",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-308",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-309",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-310",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-311",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-312",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-313",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-314",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-315",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-316",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-317",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-318",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-319",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-320",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-321",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-322",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-323",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-324",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-325",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-326",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-327",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-328",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-329",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-330",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-331",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-332",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-333",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-334",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-335",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-336",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-337",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-338",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-339",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-340",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-341",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-342",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-343",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-344",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-345",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-346",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-347",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-348",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-349",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-350",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-351",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-352",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-353",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-354",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-355",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-356",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-357",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-358",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-359",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-360",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-361",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-362",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-363",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-364",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-365",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-366",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-367",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-368",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-369",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-370",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-371",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-372",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-373",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-374",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-375",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-376",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-377",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-378",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-379",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-380",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-381",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-382",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-383",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-384",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-385",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-386",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-387",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-388",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-389",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-390",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-391",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-392",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-393",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-394",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-395",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-396",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-397",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-398",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-399",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-400",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-401",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-402",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-403",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-404",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-405",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-406",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-407",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-408",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-409",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-410",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-411",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-412",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-413",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-414",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-415",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-416",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-417",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-418",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-419",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-420",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-421",
+        "slices": 68,
+        "clipped_by_box": 68,
+        "clipped_by_scan": 0
+      },
+      {
+        "case": "LUNG1-422",
+        "slices": 69,
+        "clipped_by_box": 69,
+        "clipped_by_scan": 0
+      }
+    ]
+  }
+}

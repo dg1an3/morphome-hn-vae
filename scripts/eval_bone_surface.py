@@ -29,7 +29,7 @@ from scipy.ndimage import binary_erosion, distance_transform_edt
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from morphome.constants import BONE_HU_THRESHOLD, N_STRUCT
-from morphome.data import HNCache, default_split, denormalize_hu
+from morphome.data import HNCache, cache_cases, default_split, denormalize_hu
 from morphome.model import build_input
 from morphome.render import bone_composite
 from explore_latent import load_model, wants_bone
@@ -78,7 +78,7 @@ def main() -> None:
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
 
-    all_cases = sorted(p.stem for p in Path(args.cache).glob("0522c*.npz"))
+    all_cases = cache_cases(args.cache)
     _, val_cases = default_split(all_cases, 8, 0)
     print(f"val cases: {val_cases}\n")
 
@@ -86,7 +86,8 @@ def main() -> None:
     for ckpt in args.ckpt:
         model, cfg, ck = load_model(ckpt, device, prefer_ema=not args.raw_weights)
         has_bone = wants_bone(cfg)
-        ds = HNCache(args.cache, val_cases, in_memory=False, with_bone=has_bone)
+        ds = HNCache(args.cache, val_cases, in_memory=False,
+                     derived=max(0, cfg.out_label_channels - N_STRUCT))
         spacing = float(ds.meta.get("grid", {}).get("spacing", 1.6))
         tag = f"{Path(ckpt).parent.name}/{Path(ckpt).stem}@ep{ck['epoch']}"
 

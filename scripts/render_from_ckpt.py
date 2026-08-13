@@ -17,7 +17,7 @@ import torch
 from torch.utils.data import DataLoader
 
 from morphome.constants import MODEL_STRUCTURES, N_STRUCT
-from morphome.data import HNCache, default_split
+from morphome.data import HNCache, cache_cases, default_split
 from morphome.model import HNVAE, VAEConfig, build_input
 from morphome.viz import save_recon_figure, save_sample_figure
 
@@ -52,12 +52,12 @@ def main() -> None:
 
     val_cases = ck["args"]["_val_cases"] if "_val_cases" in ck.get("args", {}) else None
     if val_cases is None:
-        all_cases = sorted(p.stem for p in Path(args.cache).glob("0522c*.npz"))
+        all_cases = cache_cases(args.cache)
         _, val_cases = default_split(all_cases, ck["args"].get("n_val", 8),
                                      ck["args"].get("split_seed", 0))
     n_lab = cfg.out_label_channels
     names = MODEL_STRUCTURES[:n_lab]
-    ds = HNCache(args.cache, val_cases, with_bone=n_lab > N_STRUCT)
+    ds = HNCache(args.cache, val_cases, derived=max(0, n_lab - N_STRUCT))
     loader = DataLoader(ds, batch_size=args.n_recon, shuffle=False)
     print(f"val cases: {val_cases}")
 

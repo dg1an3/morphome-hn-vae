@@ -7,6 +7,7 @@ import torch
 
 from morphome.constants import (
     BONE_HU_THRESHOLD,
+    GRID_DIMS,
     MODEL_STRUCTURES,
     N_MODEL_STRUCT,
     N_STRUCT,
@@ -16,7 +17,7 @@ from morphome.data import FLIP_PERM, MODEL_FLIP_PERM, HNCache, augment, default_
 from morphome.losses import vae_loss
 from morphome.model import HNVAE, VAEConfig, build_input, count_parameters
 
-CACHE = r"E:\datasets\medical\morphome_cache\hn_128_1.6mm"
+CACHE = r"E:\datasets\medical\morphome_cache\hn_dose_2.5mm"
 
 
 def check_flip_perm():
@@ -42,10 +43,10 @@ def check_flip_perm():
 
 
 def check_bone_channel(device):
-    """The derived bone channel: shape, density, flip behaviour, logit bias."""
-    print("--- derived bone channel ---")
+    """The derived channels: shape, density, flip behaviour, logit bias."""
+    print(f"--- derived channels {MODEL_STRUCTURES[N_STRUCT:]} ---")
     cases = sorted(p.stem for p in __import__("pathlib").Path(CACHE).glob("0522c*.npz"))
-    ds = HNCache(CACHE, cases[:2], with_bone=True)
+    ds = HNCache(CACHE, cases[:2], derived=len(MODEL_STRUCTURES) - N_STRUCT)
     s = ds[0]
     assert tuple(s["labels"].shape)[0] == N_MODEL_STRUCT, s["labels"].shape
     assert s["presence"].shape[0] == N_MODEL_STRUCT
@@ -71,7 +72,7 @@ def check_bone_channel(device):
     assert float(err) < 1e-3
 
     cfg = VAEConfig(latent_dim=32, in_channels=1 + N_MODEL_STRUCT,
-                    out_label_channels=N_MODEL_STRUCT)
+                    out_label_channels=N_MODEL_STRUCT, input_dims=GRID_DIMS)
     model = HNVAE(cfg).to(device)
     x = build_input(a_ct, a_lab, torch.stack([ds[i]["presence"] for i in range(2)]).to(device))
     assert x.shape[1] == 1 + N_MODEL_STRUCT, x.shape
@@ -98,7 +99,7 @@ def main():
     print(f"  presence {s['presence'].numpy().astype(int)}")
     print(f"  body frac {s['body'].mean():.3f}\n")
 
-    cfg = VAEConfig()
+    cfg = VAEConfig(input_dims=GRID_DIMS)
     model = HNVAE(cfg).to(device).to(memory_format=torch.channels_last_3d)
     c = count_parameters(model)
     print(f"--- model ---\nencoder {c['encoder']/1e6:.2f}M  decoder {c['decoder']/1e6:.2f}M  "

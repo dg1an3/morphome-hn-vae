@@ -25,22 +25,19 @@ from torch.utils.data import Dataset
 
 from .constants import (
     BONE_HU_THRESHOLD,
+    CASE_GLOB,
     HU_MAX,
     HU_MIN,
     MODEL_STRUCTURES,
     N_STRUCT,
     STRUCTURES,
 )
+from .profiles import flip_partners
 
-# Index permutation applied to label channels under an L-R flip.
-_FLIP_PARTNER = {
-    "OpticNerve_L": "OpticNerve_R",
-    "OpticNerve_R": "OpticNerve_L",
-    "Parotid_L": "Parotid_R",
-    "Parotid_R": "Parotid_L",
-    "Submandibular_L": "Submandibular_R",
-    "Submandibular_R": "Submandibular_L",
-}
+# Index permutation applied to label channels under an L-R flip. Derived from the
+# _L/_R suffix rather than enumerated, so it follows the active profile: it
+# reproduces the head-and-neck pairs exactly and picks up Lung_L/Lung_R unedited.
+_FLIP_PARTNER = flip_partners(MODEL_STRUCTURES)
 FLIP_PERM = tuple(
     STRUCTURES.index(_FLIP_PARTNER.get(name, name)) for name in STRUCTURES
 )
@@ -50,6 +47,20 @@ FLIP_PERM = tuple(
 MODEL_FLIP_PERM = tuple(
     MODEL_STRUCTURES.index(_FLIP_PARTNER.get(name, name)) for name in MODEL_STRUCTURES
 )
+
+
+def cache_cases(cache_dir: str | Path) -> list[str]:
+    """Case names in a cache, using the glob that cache recorded.
+
+    Callers used to hardcode PDDCA's `0522c*`, which returns an empty list for
+    any other corpus rather than an error -- the symptom is a dataset of length
+    zero far from the cause. The pattern comes from the cache's own meta.json so
+    it stays right even when the active profile does not match.
+    """
+    d = Path(cache_dir)
+    meta_path = d / "meta.json"
+    meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
+    return sorted(p.stem for p in d.glob(meta.get("case_glob", CASE_GLOB)))
 
 
 def normalize_hu(ct_hu: np.ndarray | torch.Tensor):
@@ -85,12 +96,31 @@ class HNCache(Dataset):
     on the GPU in the training loop where it is essentially free."""
 
     def __init__(self, cache_dir: str | Path, cases: list[str] | None = None,
-                 in_memory: bool = True, with_bone: bool = False):
-        self.with_bone = with_bone
+                 in_memory: bool = True, with_bone: bool = False,
+                 pattern: str | None = None, derived: int | None = None):
+        # `derived` counts appended channels from DERIVED_STRUCTURES: 0 = none,
+        # 1 = Bone, 2 = Bone + Body. Given explicitly it wins; otherwise the
+        # older with_bone flag maps to 1, so checkpoints trained before the Body
+        # channel existed keep loading the channel count they expect.
+        self.n_derived = derived if derived is not None else (1 if with_bone else 0)
+        self.with_bone = self.n_derived > 0
         self.dir = Path(cache_dir)
         meta_path = self.dir / "meta.json"
         self.meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
-        all_cases = sorted(p.stem for p in self.dir.glob("0522c*.npz"))
+        # A cache built under one profile read under another would misinterpret
+        # the label bitplanes silently -- same array shapes, different meanings.
+        # The cache has always recorded its structure list; check it.
+        cached = tuple(self.meta.get("structures", ()))
+        if cached and cached != tuple(STRUCTURES):
+            raise SystemExit(
+                f"{self.dir} was built with structures {cached}, but the active "
+                f"profile expects {tuple(STRUCTURES)}. Set MORPHOME_PROFILE to "
+                f"match the cache.")
+        # The cache names its own case files, so a synthetic corpus can sit in the
+        # same format without having to impersonate PDDCA identifiers. Sidecars
+        # like latents.npz are excluded by the glob rather than by a blacklist.
+        glob = pattern or self.meta.get("case_glob", "0522c*.npz")
+        all_cases = sorted(p.stem for p in self.dir.glob(glob))
         self.cases = cases if cases is not None else all_cases
         missing = set(self.cases) - set(all_cases)
         if missing:
@@ -107,14 +137,23 @@ class HNCache(Dataset):
         ct = normalize_hu(ct_hu)[None]                                   # (1,D,H,W)
         lab = unpack_labels_torch(d["labels_packed"])                    # (9,D,H,W)
         presence = d["presence"].astype(np.float32)                      # (9,)
-        if self.with_bone:
+        shape = d["ct_hu"].shape
+        extra = []
+        if self.n_derived >= 1:
             # Derived from the cached (pre-jitter) HU. Thresholding *after*
             # intensity augmentation would make the target wobble by a few HU
             # per step in a way that corresponds to no real anatomy.
-            bone = (ct_hu > BONE_HU_THRESHOLD).astype(np.float32)[None]
-            lab = np.concatenate([lab, bone], axis=0)                    # (10,D,H,W)
-            presence = np.concatenate([presence, np.ones(1, np.float32)])
-        shape = d["ct_hu"].shape
+            extra.append((ct_hu > BONE_HU_THRESHOLD).astype(np.float32))
+        if self.n_derived >= 2:
+            # The external contour is already cached, so it is taken verbatim
+            # rather than re-thresholded -- it must match the mask the CT was
+            # masked with, or the supervised contour and the image disagree.
+            b = np.unpackbits(d["body"])[: int(np.prod(shape))]
+            extra.append(b.reshape(shape).astype(np.float32))
+        if extra:
+            lab = np.concatenate([lab, np.stack(extra)], axis=0)
+            presence = np.concatenate(
+                [presence, np.ones(len(extra), np.float32)])
         body = np.unpackbits(d["body"])[: int(np.prod(shape))]
         body = body.reshape(shape).astype(np.float32)[None]              # (1,D,H,W)
         return (torch.from_numpy(ct), torch.from_numpy(lab),

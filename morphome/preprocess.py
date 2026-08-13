@@ -29,6 +29,9 @@ from scipy import ndimage
 from .constants import (
     ANCHOR_OFFSET_MM,
     ANCHOR_STRUCTURES,
+    CASE_GLOB,
+    GRID_DIMS,
+    GRID_SPACING,
     BODY_HU_THRESHOLD,
     HU_MAX,
     HU_MIN,
@@ -41,17 +44,23 @@ from .constants import (
 class GridSpec:
     """Canonical output grid, expressed physically.
 
-    128 voxels at 1.6 mm gives a 204.8 mm cube, which clears the widest observed
-    OAR extent (177.8 mm in L-R) by >11 mm on every axis once the anchor offset
-    is applied. See scripts/analyze_frame.py.
+    Anisotropic, because the patient is not cubic: 560 x 400 x 240 mm at 2.5 mm
+    contains the full external contour in every transverse slice of all 48 cases
+    while a cube covering the same lateral extent would waste ~2.3x the voxels
+    on air. See scripts/fit_dose_frame.py.
     """
 
-    size: int = 128        # voxels per side (cubic)
-    spacing: float = 1.6   # mm, isotropic
+    dims: tuple[int, int, int] = GRID_DIMS   # voxels, (x, y, z) = (L-R, A-P, S-I)
+    spacing: float = GRID_SPACING            # mm, isotropic
 
     @property
-    def extent_mm(self) -> float:
-        return self.size * self.spacing
+    def extent_mm(self) -> np.ndarray:
+        return np.asarray(self.dims, dtype=float) * self.spacing
+
+    @property
+    def shape_zyx(self) -> tuple[int, int, int]:
+        """numpy array shape, which is the reverse of the SimpleITK size."""
+        return (self.dims[2], self.dims[1], self.dims[0])
 
 
 def _read(path: Path) -> sitk.Image:
@@ -75,14 +84,14 @@ def _resample(
     interpolator: int,
     default_value: float,
 ) -> np.ndarray:
-    """Resample onto an axis-aligned cube of `grid` centred on `center_mm`."""
+    """Resample onto an axis-aligned box of `grid` centred on `center_mm`."""
     half = grid.extent_mm / 2.0
     # Origin is the centre of the first voxel, hence the +spacing/2 offset.
     origin = center_mm - half + grid.spacing / 2.0
 
     rs = sitk.ResampleImageFilter()
     rs.SetOutputSpacing([grid.spacing] * 3)
-    rs.SetSize([grid.size] * 3)
+    rs.SetSize([int(v) for v in grid.dims])
     rs.SetOutputOrigin(origin.tolist())
     rs.SetOutputDirection([1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0])
     rs.SetInterpolator(interpolator)
@@ -147,8 +156,8 @@ def preprocess_case(
     fov_hi = fov_lo + size_xyz * spacing_xyz
     half = grid.extent_mm / 2.0
     for a in range(3):
-        if fov_hi[a] - fov_lo[a] >= grid.extent_mm:
-            center[a] = float(np.clip(center[a], fov_lo[a] + half, fov_hi[a] - half))
+        if fov_hi[a] - fov_lo[a] >= grid.extent_mm[a]:
+            center[a] = float(np.clip(center[a], fov_lo[a] + half[a], fov_hi[a] - half[a]))
 
     # --- CT ----------------------------------------------------------------
     ct = _resample(img, grid, center, sitk.sitkLinear, default_value=HU_MIN)
@@ -159,7 +168,7 @@ def preprocess_case(
         ct = np.where(body, ct, HU_MIN)
 
     # --- structures --------------------------------------------------------
-    labels = np.zeros((N_STRUCT, grid.size, grid.size, grid.size), dtype=bool)
+    labels = np.zeros((N_STRUCT, *grid.shape_zyx), dtype=bool)
     presence = np.zeros(N_STRUCT, dtype=bool)
     for i, name in enumerate(STRUCTURES):
         p = case_dir / "structures" / f"{name}.nrrd"
@@ -171,7 +180,7 @@ def preprocess_case(
         presence[i] = True
 
     # Pack the 9 boolean channels into one uint16 bitfield: 4 MB instead of 34 MB.
-    packed = np.zeros((grid.size,) * 3, dtype=np.uint16)
+    packed = np.zeros(grid.shape_zyx, dtype=np.uint16)
     for i in range(N_STRUCT):
         packed |= (labels[i].astype(np.uint16) << i)
 
@@ -181,7 +190,7 @@ def preprocess_case(
         "body": np.packbits(body),
         "presence": presence,
         "center_mm": center.astype(np.float32),
-        "grid_size": np.int32(grid.size),
+        "grid_dims": np.asarray(grid.dims, dtype=np.int32),
         "grid_spacing": np.float32(grid.spacing),
         "case": case_dir.name,
         "_stats": {
@@ -207,41 +216,56 @@ def unpack_labels(packed: np.ndarray) -> np.ndarray:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Build the canonical-grid cache.")
     ap.add_argument("--root", default=r"E:\datasets\medical\miccai_hn_sharpe")
-    ap.add_argument("--out", default=r"E:\datasets\medical\morphome_cache\hn_128_1.5mm")
-    ap.add_argument("--size", type=int, default=128)
-    ap.add_argument("--spacing", type=float, default=1.5)
+    ap.add_argument("--out", default=r"E:\datasets\medical\morphome_cache\hn_dose_2.5mm")
+    ap.add_argument("--dims", type=int, nargs=3, default=list(GRID_DIMS),
+                    help="voxels, (x y z) = (L-R A-P S-I)")
+    ap.add_argument("--spacing", type=float, default=GRID_SPACING)
     ap.add_argument("--no-body-mask", action="store_true")
     ap.add_argument("--overwrite", action="store_true")
     args = ap.parse_args()
 
-    grid = GridSpec(size=args.size, spacing=args.spacing)
+    grid = GridSpec(dims=tuple(args.dims), spacing=args.spacing)
     root, out = Path(args.root), Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
 
     cases = sorted(d for d in root.iterdir() if d.is_dir() and (d / "img.nrrd").exists())
-    print(f"{len(cases)} cases -> {grid.size}^3 @ {grid.spacing} mm "
-          f"({grid.extent_mm:.0f} mm cube), body_mask={not args.no_body_mask}")
+    e = grid.extent_mm
+    print(f"{len(cases)} cases -> {grid.dims[0]}x{grid.dims[1]}x{grid.dims[2]} @ "
+          f"{grid.spacing} mm ({e[0]:.0f} x {e[1]:.0f} x {e[2]:.0f} mm), "
+          f"body_mask={not args.no_body_mask}")
 
-    stats = []
+    stats, skipped = [], []
     for i, c in enumerate(cases, 1):
         dst = out / f"{c.name}.npz"
         if dst.exists() and not args.overwrite:
             print(f"[{i:2d}/{len(cases)}] {c.name} skip (exists)", flush=True)
             continue
-        rec = preprocess_case(c, grid, apply_body_mask=not args.no_body_mask)
+        # A case with none of the anchor structures cannot be positioned, which
+        # preprocess_case reports by raising. Skipping is right -- 10 of the 421
+        # thorax cases have no lung contour at all -- but it must not take the
+        # rest of the corpus down with it.
+        try:
+            rec = preprocess_case(c, grid, apply_body_mask=not args.no_body_mask)
+        except RuntimeError as e:
+            skipped.append({"case": c.name, "error": str(e)})
+            print(f"[{i:2d}/{len(cases)}] {c.name}  SKIPPED: {e}", flush=True)
+            continue
         st = rec.pop("_stats")
         np.savez_compressed(dst, **rec)
         stats.append(st)
-        print(f"[{i:2d}/{len(cases)}] {c.name}  present={st['n_present']}/9  "
+        print(f"[{i:2d}/{len(cases)}] {c.name}  present={st['n_present']}/{N_STRUCT}  "
               f"body={st['body_frac']:.2f}  missing={','.join(st['missing']) or '-'}", flush=True)
 
     if stats:
         (out / "preprocess_stats.json").write_text(json.dumps(stats, indent=2))
     meta = {"grid": asdict(grid), "structures": list(STRUCTURES),
             "hu_range": [HU_MIN, HU_MAX], "body_masked": not args.no_body_mask,
-            "source_root": str(root)}
+            "case_glob": CASE_GLOB,
+            "source_root": str(root), "skipped": skipped}
     (out / "meta.json").write_text(json.dumps(meta, indent=2))
-    print(f"\ncache written to {out}")
+    print(f"\ncache written to {out}  ({len(stats)} written, {len(skipped)} skipped)")
+    for s in skipped:
+        print(f"  skipped {s['case']}: {s['error']}")
 
 
 if __name__ == "__main__":

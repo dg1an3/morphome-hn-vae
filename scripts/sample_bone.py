@@ -29,7 +29,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from morphome.constants import N_STRUCT
 from morphome.data import HNCache
 from morphome.render import bone_composite
-from explore_latent import decode_grid, encode_all, export_nrrd, load_model, wants_bone
+from explore_latent import (decode_grid, encode_all, export_nrrd, load_model,
+                            n_derived, wants_bone)
 from fit_prior import PCAGaussianPrior
 
 
@@ -65,7 +66,7 @@ def main() -> None:
 
     # Streamed rather than in-memory: this is a one-pass encode and the training
     # process may still be holding the corpus.
-    ds = HNCache(args.cache, with_bone=True, in_memory=False)
+    ds = HNCache(args.cache, derived=n_derived(cfg), in_memory=False)
     spacing = float(ds.meta.get("grid", {}).get("spacing", 1.6))
     mu, _ = encode_all(model, ds, device)
     prior = PCAGaussianPrior(mu, var_target=args.var_target)

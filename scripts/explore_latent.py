@@ -31,13 +31,21 @@ from morphome.model import HNVAE, VAEConfig, build_input
 from morphome.viz import _three_views
 
 
-def wants_bone(cfg: VAEConfig) -> bool:
-    """True if this checkpoint was trained with the derived bone channel.
+def n_derived(cfg: VAEConfig) -> int:
+    """How many derived channels (Bone, Body) this checkpoint was trained with.
 
     Derived channels are appended after the OARs, so the channel count alone
-    identifies them and old checkpoints keep working unchanged.
+    identifies them. Always pass this to `HNCache(derived=...)` rather than a
+    boolean: a 10-channel model wants Bone only, an 11-channel model wants Bone
+    and Body, and feeding the wrong count is a silent shape mismatch at the
+    encoder.
     """
-    return cfg.out_label_channels > N_STRUCT
+    return max(0, cfg.out_label_channels - N_STRUCT)
+
+
+def wants_bone(cfg: VAEConfig) -> bool:
+    """True if this checkpoint has any derived channel."""
+    return n_derived(cfg) > 0
 
 
 def load_model(ckpt_path: str, device, prefer_ema: bool = True):
@@ -146,7 +154,7 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
 
     model, cfg, ck = load_model(args.ckpt, device, prefer_ema=not args.raw_weights)
-    ds = HNCache(args.cache, with_bone=wants_bone(cfg))
+    ds = HNCache(args.cache, derived=n_derived(cfg))
     spacing = float(ds.meta.get("grid", {}).get("spacing", 1.6))
     print(f"{len(ds)} cases, grid spacing {spacing} mm")
 

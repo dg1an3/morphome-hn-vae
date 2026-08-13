@@ -35,7 +35,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from morphome.constants import N_STRUCT
 from morphome.data import HNCache
-from explore_latent import decode_grid, encode_all, load_model, strip_figure, wants_bone
+from explore_latent import decode_grid, encode_all, load_model, n_derived, strip_figure
 
 
 class PCAGaussianPrior:
@@ -102,7 +102,7 @@ def main() -> None:
     rng = np.random.RandomState(args.seed)
 
     model, cfg, ck = load_model(args.ckpt, device, prefer_ema=not args.raw_weights)
-    ds = HNCache(args.cache, with_bone=wants_bone(cfg))
+    ds = HNCache(args.cache, derived=n_derived(cfg))
     mu, cases = encode_all(model, ds, device)
 
     data_r = float(np.linalg.norm(mu, axis=1).mean())
