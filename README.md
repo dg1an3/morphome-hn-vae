@@ -308,6 +308,56 @@ can never support a claim about a real patient's imaging.
 
 This retires the composite renderer (238 vs 348) and most of TODO item 4.
 
+### Synthetic corpora — `scripts/generate_dataset.py`
+
+Writes generated cases in exactly the format `morphome.preprocess` produces, so
+`HNCache` loads them unchanged and downstream training only has to be pointed at
+a different `--cache`. `hn_synth_v1`: **200 cases, 40 min, 257 MB.**
+
+Bone is deliberately not stored — `HNCache(with_bone=True)` derives it from
+`ct_hu > 300`, so writing the refined CT keeps the derived channel consistent
+rather than letting a stored mask drift from the intensities. Organs the sampler
+fails to produce (<50 voxels) are marked **absent**, not empty, matching the
+contract the real cache uses for uncontoured organs; an empty-but-present channel
+would teach a downstream model to delete organs.
+
+Fidelity against the real corpus:
+
+| | real | synthetic |
+|---|---|---|
+| all nine organs present | 40/48 fully contoured | **200/200** |
+| bone sharpness | 345.6 | 343.7 ± 16.2 |
+| body fraction | 0.452 | 0.448 |
+
+Median organ volumes track the real distribution within ~13 % for the large
+structures (BrainStem 1.00x, Parotids 0.99/1.02x, Mandible 1.13x) but run large
+on the small ones (Chiasm 1.08x, OpticNerve_L/R 1.12/1.29x). That bias is
+expected and worth remembering before training on this: the small structures are
+exactly the ones the VAE segments worst (Dice 0.21-0.40), and an uncertain
+Dice-trained head produces slightly over-large blobs.
+
+**More cases is not more information.** The prior is a Gaussian fitted to 48
+posterior means with k=14, so sampling it 200 times resamples the same estimated
+distribution more densely:
+
+```
+latent NN spacing:  real-real 3.43   gen-gen 3.03   gen -> nearest real 3.35
+```
+
+Generated samples sit 12 % closer together than real cases do. For a
+d-dimensional manifold, sampling N times denser shrinks nearest-neighbour spacing
+as `N^(-1/d)`; with 200 draws against 48 cases that predicts `3.43 x
+(200/48)^(-1/14) = 3.09`, against 3.03 observed. So the corpus behaves exactly
+like denser sampling of a ~14-dimensional manifold — the samples are not
+degenerate near-duplicates, but they carry no anatomical information beyond what
+the 48 cases determine. Generating 2000 would change the spacing by another 12 %
+and add nothing.
+
+Because the latents are seeded, `--no-refine` at the same seed emits the *same
+anatomy* with the raw blurry CT: a matched ablation pair for testing whether
+refinement helps downstream, which is the open question under
+[`notes/TODO.md`](notes/TODO.md) item 4.
+
 ### The aggregate posterior never matches N(0, I) — use `scripts/fit_prior.py`
 
 Sampling `z ~ N(0, I)` from the **256-d** latent produces **incoherent anatomy**.
@@ -420,6 +470,9 @@ slightly better-behaved native prior.
 .venv\Scripts\python.exe scripts\train_refiner.py --out runs\refiner --steps 20000
 .venv\Scripts\python.exe scripts\sample_refined.py    # z -> anatomy -> sharp CT
 .venv\Scripts\python.exe scripts\eval_refiner.py      # fidelity + memorisation
+
+.venv\Scripts\python.exe scripts\generate_dataset.py --n 200 `
+    --out E:\datasets\medical\morphome_cache\hn_synth_v1   # loadable by HNCache
 ```
 
 `explore_latent.py` produces prior samples, latent interpolation between real
@@ -446,6 +499,7 @@ scripts/
   fit_prior.py      render_from_ckpt.py
   sample_bone.py    eval_bone_surface.py
   train_refiner.py  sample_refined.py   eval_refiner.py
+  generate_dataset.py
 ```
 
 ## Known limitations
