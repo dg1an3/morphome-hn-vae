@@ -29,7 +29,8 @@ from morphome.constants import N_STRUCT
 from morphome.data import HNCache
 from morphome.diffusion import Schedule, UNet3d, UNetConfig, ddim_sample
 from morphome.render import bone_composite, bone_sharpness
-from explore_latent import decode_grid, encode_all, export_nrrd, load_model, wants_bone
+from explore_latent import (decode_grid, encode_all, export_nrrd, load_model,
+                            n_derived, wants_bone)
 from fit_prior import PCAGaussianPrior
 
 
@@ -52,19 +53,27 @@ def main() -> None:
     ap.add_argument("--steps", type=int, default=50)
     ap.add_argument("--seed", type=int, default=1)
     ap.add_argument("--export-nrrd", type=int, default=0)
+    ap.add_argument("--save-volumes", action="store_true",
+                    help="also write the raw/composite/refined arrays (~50 MB each)")
     args = ap.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     rng = np.random.RandomState(args.seed)
+    # The diffusion step draws x_T from torch's RNG. Without this the latents are
+    # reproducible but the volumes decoded from them are not, which makes the
+    # saved z useless for regenerating a specific sample.
+    torch.manual_seed(args.seed)
+    gen = torch.Generator(device=device)
+    gen.manual_seed(args.seed)
 
     vae, vcfg, _ = load_model(args.vae_ckpt, device, prefer_ema=True)
     if not wants_bone(vcfg):
         raise SystemExit("needs a bone-channel VAE")
     net, sched, _ = load_refiner(args.refiner, device)
 
-    ds = HNCache(args.cache, with_bone=True, in_memory=False)
+    ds = HNCache(args.cache, derived=n_derived(vcfg), in_memory=False)
     spacing = float(ds.meta.get("grid", {}).get("spacing", 1.6))
     mu, _ = encode_all(vae, ds, device)
     prior = PCAGaussianPrior(mu, var_target=0.90)
@@ -79,7 +88,8 @@ def main() -> None:
     refined = np.empty_like(raw)
     for i in range(args.n):
         cond = torch.cat([cts[i:i + 1], probs[i:i + 1]], dim=1).to(device)
-        refined[i] = ddim_sample(net, sched, cond, steps=args.steps)[0, 0].float().cpu().numpy()
+        refined[i] = ddim_sample(net, sched, cond, steps=args.steps,
+                                 generator=gen)[0, 0].float().cpu().numpy()
         print(f"  refined sample {i}")
 
     real = np.stack([ds[i]["ct"][0].numpy() for i in range(args.n)])
@@ -106,6 +116,33 @@ def main() -> None:
     (out / "sharpness.json").write_text(json.dumps(
         {k: {"per_sample": v, "mean": float(np.nanmean(v))} for k, v in stats.items()},
         indent=2))
+
+    # Provenance. A sample is worthless without the z that produced it and the
+    # exact weights that decoded it: the refiner is only valid over the VAE it
+    # was trained against, and both RNG streams have to be pinned to reproduce a
+    # specific volume.
+    np.savez_compressed(
+        out / "latents.npz", z=z.numpy(),
+        prior_mean=prior.mean, prior_components=prior.components,
+        prior_coord_mean=prior.coord_mean, prior_chol=prior.chol,
+        prior_resid_std=np.float32(prior.resid_std))
+    (out / "provenance.json").write_text(json.dumps({
+        "vae_ckpt": args.vae_ckpt, "refiner": args.refiner,
+        "seed": args.seed, "ddim_steps": args.steps, "n": args.n,
+        "prior": {"kind": "PCAGaussian", "k": int(prior.k),
+                  "explained": float(prior.explained),
+                  "var_target": 0.90, "fit_on_cases": len(ds)},
+        "latent_dim": int(z.shape[1]),
+        "note": "z rows correspond to sample index; regenerate with the same "
+                "--seed and checkpoints. The 'real (ref)' row in the figure is "
+                "the first n corpus cases and is NOT paired with the samples.",
+    }, indent=2))
+    print(f"wrote {out/'latents.npz'} and provenance.json")
+
+    if args.save_volumes:
+        np.savez_compressed(out / "volumes.npz", raw=raw, composite=comp,
+                            refined=refined, masks=(prob_np > 0.5))
+        print(f"wrote {out/'volumes.npz'}")
 
     if args.export_nrrd > 0:
         for i in range(min(args.export_nrrd, args.n)):

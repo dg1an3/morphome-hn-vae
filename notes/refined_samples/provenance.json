@@ -1,0 +1,16 @@
+{
+  "vae_ckpt": "runs/v3_dose/last.pt",
+  "refiner": "runs/refiner_v3/last.pt",
+  "seed": 1,
+  "ddim_steps": 50,
+  "n": 6,
+  "prior": {
+    "kind": "PCAGaussian",
+    "k": 11,
+    "explained": 0.9056420922279358,
+    "var_target": 0.9,
+    "fit_on_cases": 48
+  },
+  "latent_dim": 32,
+  "note": "z rows correspond to sample index; regenerate with the same --seed and checkpoints. The 'real (ref)' row in the figure is the first n corpus cases and is NOT paired with the samples."
+}

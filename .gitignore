@@ -19,6 +19,10 @@ notes/**/nrrd/
 *.npz
 *.nrrd
 
+# ...except the latents that produced a published sample set. They are a few KB
+# and without them the figures cannot be regenerated.
+!notes/**/latents.npz
+
 # Per-slice contour measurements dumped by analyze_body_extent.py: 8 MB for the
 # thorax corpus, and only fit_dose_frame.py reads them. Regenerable from the
 # source DICOM; the body_extent.json summary next to them is what is kept.

@@ -260,8 +260,15 @@ Mean |grad HU| across the bone surface of **generated** samples (n=6):
 |---|---|---|
 | raw VAE | 230.0 | — |
 | composite render | 238.2 | 7 % |
-| **diffusion refined** | **349.9** | **~100 %** |
+| **diffusion refined** | **348.3** | **~100 %** |
 | real cases | 345.6 | — |
+
+Every published sample set carries `latents.npz` (the `z` that produced it, plus
+the fitted prior) and `provenance.json` (checkpoints, seed, DDIM steps). Both RNG
+streams are pinned — numpy for the prior draw, torch for the diffusion `x_T` —
+so `sample_refined.py` regenerates a given figure bit-for-bit. Note that the
+`real (ref)` row in those figures is the first n corpus cases shown for
+calibration; it is **not** paired with the samples above it.
 
 **Sharpness alone proves nothing** — it is maximised by plausible noise, and an
 untrained net scores 991. The test that matters is held-out *reconstruction*
@@ -299,7 +306,7 @@ pattern — is invented, not inferred: none of it is in the 32-d latent. That is
 fine for synthetic anatomy, which is the entire output here, but a refined volume
 can never support a claim about a real patient's imaging.
 
-This retires the composite renderer (238 vs 350) and most of TODO item 4.
+This retires the composite renderer (238 vs 348) and most of TODO item 4.
 
 ### The aggregate posterior never matches N(0, I) — use `scripts/fit_prior.py`
 
