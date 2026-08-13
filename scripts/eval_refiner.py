@@ -28,11 +28,11 @@ import torch
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from morphome.constants import BONE_HU_THRESHOLD, N_STRUCT
-from morphome.data import HNCache, default_split, denormalize_hu
+from morphome.data import HNCache, cache_cases, default_split, denormalize_hu
 from morphome.diffusion import ddim_sample
 from morphome.model import build_input
 from morphome.render import bone_sharpness
-from explore_latent import decode_grid, encode_all, load_model, wants_bone
+from explore_latent import decode_grid, encode_all, load_model, n_derived, wants_bone
 from fit_prior import PCAGaussianPrior
 from sample_refined import load_refiner
 
@@ -40,12 +40,18 @@ from sample_refined import load_refiner
 def bone_patches(vol: np.ndarray, bone: np.ndarray, size: int, stride: int,
                  min_frac: float = 0.10, cap: int | None = None,
                  rng: np.random.RandomState | None = None) -> np.ndarray:
-    """Grid of patches whose bone content exceeds `min_frac`."""
+    """Grid of patches whose bone content exceeds `min_frac`.
+
+    Axes are swept independently: the frames are not cubes (thorax is
+    96 x 160 x 224, head and neck 192 x 128 x 96), and sweeping all three over
+    shape[0] would confine every patch to a corner of the volume rather than
+    raising an error.
+    """
     out = []
-    n = vol.shape[0]
-    for z in range(0, n - size + 1, stride):
-        for y in range(0, n - size + 1, stride):
-            for x in range(0, n - size + 1, stride):
+    D, H, W = vol.shape
+    for z in range(0, D - size + 1, stride):
+        for y in range(0, H - size + 1, stride):
+            for x in range(0, W - size + 1, stride):
                 sl = (slice(z, z + size), slice(y, y + size), slice(x, x + size))
                 if bone[sl].mean() >= min_frac:
                     out.append(vol[sl].ravel())
@@ -87,17 +93,19 @@ def main() -> None:
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     rng = np.random.RandomState(args.seed)
+    torch.manual_seed(args.seed)   # ddim_sample draws x_T from torch's RNG
 
     vae, vcfg, _ = load_model(args.vae_ckpt, device, prefer_ema=True)
     if not wants_bone(vcfg):
         raise SystemExit("needs a bone-channel VAE")
     net, sched, _ = load_refiner(args.refiner, device)
 
-    all_cases = sorted(p.stem for p in Path(args.cache).glob("0522c*.npz"))
+    all_cases = cache_cases(args.cache)
     train_cases, val_cases = default_split(all_cases, 8, 0)
 
     # ---------------- 1. held-out reconstruction fidelity ----------------
-    val_ds = HNCache(args.cache, val_cases, in_memory=False, with_bone=True)
+    nd = n_derived(vcfg)
+    val_ds = HNCache(args.cache, val_cases, in_memory=False, derived=nd)
     rows = []
     refined_vols = []
     with torch.no_grad():
@@ -134,7 +142,7 @@ def main() -> None:
 
     # ---------------- 2. memorisation probe ----------------
     print("\nbuilding training patch corpus...")
-    train_ds = HNCache(args.cache, train_cases, in_memory=False, with_bone=True)
+    train_ds = HNCache(args.cache, train_cases, in_memory=False, derived=nd)
     corpus = []
     for i in range(len(train_ds)):
         s = train_ds[i]
@@ -145,7 +153,7 @@ def main() -> None:
     print(f"  corpus {tuple(corpus.shape)} ({args.patch}^3 patches, stride {args.stride})")
 
     # queries A: generated + refined
-    ds_all = HNCache(args.cache, with_bone=True, in_memory=False)
+    ds_all = HNCache(args.cache, derived=nd, in_memory=False)
     mu_all, _ = encode_all(vae, ds_all, device)
     prior = PCAGaussianPrior(mu_all, var_target=0.90)
     z = torch.from_numpy(prior.sample(args.n_gen, np.random.RandomState(args.seed)))

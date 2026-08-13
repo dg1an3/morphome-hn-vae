@@ -29,12 +29,12 @@ from torch.utils.tensorboard import SummaryWriter
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from morphome.constants import BONE_HU_THRESHOLD, N_STRUCT
-from morphome.data import MODEL_FLIP_PERM, HNCache, default_split, denormalize_hu
+from morphome.constants import BONE_HU_THRESHOLD, MODEL_STRUCTURES, N_STRUCT
+from morphome.data import HNCache, MODEL_FLIP_PERM, cache_cases, default_split, denormalize_hu
 from morphome.diffusion import Schedule, UNet3d, UNetConfig, count_parameters, ddim_sample
 from morphome.ema import ModelEMA
 from morphome.model import build_input
-from explore_latent import load_model, wants_bone
+from explore_latent import load_model, n_derived, wants_bone
 
 
 def get_args(argv=None):
@@ -54,6 +54,11 @@ def get_args(argv=None):
     p.add_argument("--timesteps", type=int, default=1000)
     p.add_argument("--z-jitter", type=float, default=0.3,
                    help="max z noise as a fraction of the per-dim posterior std")
+    p.add_argument("--patch-pools", default="",
+                   help="weighted regions to centre training patches on, e.g. "
+                        "'Lungs:0.45,Bone:0.35,body:0.2'. Names come from "
+                        "MODEL_STRUCTURES, plus 'body'. Empty = use "
+                        "--p-bone-patch (bone vs body), the head-and-neck split")
     p.add_argument("--p-bone-patch", type=float, default=0.6,
                    help="fraction of patches centred on bone rather than body")
     p.add_argument("--ema-decay", type=float, default=0.999)
@@ -75,24 +80,60 @@ def decode_conditioning(vae, z, device):
     return ct, torch.sigmoid(logits)
 
 
+def parse_pools(spec: str, p_bone: float) -> list[tuple[int | None, float]]:
+    """`"Name:weight,..."` -> [(conditioning channel, weight)], None = body mask.
+
+    An empty spec reproduces the original bone-vs-body split exactly, so head and
+    neck runs stay bit-reproducible against `--p-bone-patch`.
+    """
+    if not spec.strip():
+        return [(1 + MODEL_STRUCTURES.index("Bone"), p_bone), (None, 1.0 - p_bone)]
+    pools = []
+    for part in spec.split(","):
+        name, _, wtxt = part.partition(":")
+        name, w = name.strip(), float(wtxt) if wtxt.strip() else 1.0
+        if name.lower() == "body":
+            pools.append((None, w))
+        elif name in MODEL_STRUCTURES:
+            pools.append((1 + MODEL_STRUCTURES.index(name), w))
+        else:
+            raise SystemExit(f"--patch-pools: unknown region {name!r}; choose "
+                             f"from {list(MODEL_STRUCTURES)} or 'body'")
+    if not pools or sum(w for _, w in pools) <= 0:
+        raise SystemExit("--patch-pools: needs at least one positive weight")
+    return pools
+
+
 def sample_patches(cond: torch.Tensor, target: torch.Tensor, body: torch.Tensor,
-                   n: int, size: int, p_bone: float, rng: np.random.RandomState):
-    """Crop `n` patches per volume, biased toward bone.
+                   n: int, size: int, pools: list[tuple[int | None, float]],
+                   rng: np.random.RandomState):
+    """Crop `n` patches per volume, biased toward texture-rich regions.
 
     Uniform sampling would spend most of the capacity on flat soft tissue and
-    air; the whole point of the refiner is the bone edge, which occupies ~5 % of
-    the volume.
+    air. Head and neck only ever needed bone, which is ~5 % of the volume and is
+    where that decode blurs most visibly. Thorax also wants lung: vessels and
+    airways carry most of the fine texture in a chest CT, they occupy far more of
+    the frame than the ribs do, and the ribs themselves are thin enough at 3.0 mm
+    that the frozen VAE resolves them poorly to begin with.
+
+    A region absent from a given volume falls back to the body mask rather than
+    being skipped, so a case with no contour for it still contributes patches.
     """
     b, _, D, H, W = cond.shape
     half = size // 2
-    bone = cond[:, 1 + N_STRUCT] > 0.5
+    w = np.array([x[1] for x in pools], dtype=float)
+    w /= w.sum()
     out_c, out_t = [], []
     for i in range(b):
-        # One device->host transfer per volume, not one per patch.
-        pool_bone = torch.nonzero(bone[i], as_tuple=False).cpu().numpy()
+        # One device->host transfer per pool per volume, not one per patch.
         pool_body = torch.nonzero(body[i, 0] > 0.5, as_tuple=False).cpu().numpy()
+        idx = [pool_body if ch is None else
+               torch.nonzero(cond[i, ch] > 0.5, as_tuple=False).cpu().numpy()
+               for ch, _ in pools]
         for _ in range(n):
-            pool = pool_bone if (rng.rand() < p_bone and len(pool_bone) > 0) else pool_body
+            pool = idx[rng.choice(len(pools), p=w)]
+            if len(pool) == 0:
+                pool = pool_body
             if len(pool) == 0:
                 c = np.array([D // 2, H // 2, W // 2])
             else:
@@ -108,6 +149,24 @@ def bone_sharpness(ct_norm: np.ndarray) -> float:
     """Mean |grad HU| across the surface of the volume's own >300 HU bone."""
     hu = denormalize_hu(ct_norm)
     m = hu > BONE_HU_THRESHOLD
+    if m.sum() < 1000:
+        return float("nan")
+    g = np.sqrt(sum(x ** 2 for x in np.gradient(hu)))
+    return float(g[m].mean())
+
+
+def parenchyma_sharpness(ct_norm: np.ndarray, lo: float = -900.0,
+                         hi: float = -400.0) -> float:
+    """Mean |grad HU| inside aerated lung.
+
+    Bone sharpness alone cannot score a thorax refiner: if patch sampling is
+    steered toward lung, the metric has to follow or the change is invisible.
+    The window is HU-derived rather than mask-derived so it measures the volume's
+    own parenchyma, matching how bone_sharpness thresholds at 300 -- vessels and
+    airway walls against aerated lung are the gradients being counted.
+    """
+    hu = denormalize_hu(ct_norm)
+    m = (hu > lo) & (hu < hi)
     if m.sum() < 1000:
         return float("nan")
     g = np.sqrt(sum(x ** 2 for x in np.gradient(hu)))
@@ -132,10 +191,11 @@ def main(argv=None) -> None:
         raise SystemExit("refiner expects a bone-channel VAE; use --with-bone weights")
     n_lab = vcfg.out_label_channels
 
-    all_cases = sorted(p.stem for p in Path(args.cache).glob("0522c*.npz"))
+    all_cases = cache_cases(args.cache)
     train_cases, val_cases = default_split(all_cases, 8, 0)
-    train_ds = HNCache(args.cache, train_cases, with_bone=True)
-    val_ds = HNCache(args.cache, val_cases, with_bone=True)
+    nd = n_derived(vcfg)
+    train_ds = HNCache(args.cache, train_cases, derived=nd)
+    val_ds = HNCache(args.cache, val_cases, derived=nd)
     print(f"train={len(train_ds)} val={len(val_ds)}")
 
     # Posterior means, computed once: the refiner conditions on decodes of these.
@@ -157,6 +217,12 @@ def main(argv=None) -> None:
     model = UNet3d(ucfg).to(device)
     print(f"refiner UNet: {count_parameters(model)/1e6:.2f}M params, "
           f"in_channels={ucfg.in_channels}, patch {args.patch}^3")
+
+    pools = parse_pools(args.patch_pools, args.p_bone_patch)
+    _tot = sum(w for _, w in pools)
+    print("patch pools: " + ", ".join(
+        f"{'body' if ch is None else MODEL_STRUCTURES[ch - 1]} {w / _tot:.2f}"
+        for ch, w in pools))
 
     sched = Schedule(args.timesteps, device=device)
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr,
@@ -197,7 +263,7 @@ def main(argv=None) -> None:
             body = body.flip(-1)
 
         c_p, t_p = sample_patches(cond, target, body, n_per_vol, args.patch,
-                                  args.p_bone_patch, rng)
+                                  pools, rng)
 
         t = torch.randint(0, args.timesteps, (t_p.shape[0],), device=device)
         noise = torch.randn_like(t_p)
@@ -235,15 +301,24 @@ def main(argv=None) -> None:
                 c_ct, c_pr = decode_conditioning(vae, mu, device)
                 c_full = torch.cat([c_ct, c_pr], dim=1)
                 ref = ddim_sample(ema.module, sched, c_full, steps=args.sample_steps)
-            sh_raw = bone_sharpness(c_ct[0, 0].float().cpu().numpy())
-            sh_ref = bone_sharpness(ref[0, 0].float().cpu().numpy())
-            sh_real = bone_sharpness(s["ct"][0].numpy())
+            raw_np = c_ct[0, 0].float().cpu().numpy()
+            ref_np = ref[0, 0].float().cpu().numpy()
+            real_np = s["ct"][0].numpy()
+            sh_raw = bone_sharpness(raw_np)
+            sh_ref = bone_sharpness(ref_np)
+            sh_real = bone_sharpness(real_np)
+            pa_raw = parenchyma_sharpness(raw_np)
+            pa_ref = parenchyma_sharpness(ref_np)
+            pa_real = parenchyma_sharpness(real_np)
             l1 = float((ref[0, 0].cpu() - s["ct"][0]).abs().mean())
             writer.add_scalar("val/sharpness_raw", sh_raw, step)
             writer.add_scalar("val/sharpness_refined", sh_ref, step)
+            writer.add_scalar("val/parenchyma_raw", pa_raw, step)
+            writer.add_scalar("val/parenchyma_refined", pa_ref, step)
             writer.add_scalar("val/l1_to_real", l1, step)
-            print(f"  [eval] |grad HU| on bone: VAE {sh_raw:.0f} -> refined "
-                  f"{sh_ref:.0f}   (real {sh_real:.0f})   L1 to real {l1:.4f}",
+            print(f"  [eval] |grad HU| bone: VAE {sh_raw:.0f} -> ref {sh_ref:.0f} "
+                  f"(real {sh_real:.0f}) | lung: VAE {pa_raw:.0f} -> "
+                  f"ref {pa_ref:.0f} (real {pa_real:.0f}) | L1 {l1:.4f}",
                   flush=True)
             model.train()
 

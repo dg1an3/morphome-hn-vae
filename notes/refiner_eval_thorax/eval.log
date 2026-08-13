@@ -1,0 +1,25 @@
+loaded runs/thorax_v1/last.pt (ema weights) epoch=299 step=30000
+loaded refiner runs/refiner_thorax_v1/last.pt (ema) step=20000 over runs/thorax_v1/last.pt
+  LUNG1-011  L1 0.0457 -> 0.0585   sharp 64 -> 242  (real 249)
+  LUNG1-079  L1 0.0392 -> 0.0480   sharp 80 -> 238  (real 267)
+  LUNG1-093  L1 0.0300 -> 0.0401   sharp 77 -> 252  (real 253)
+  LUNG1-153  L1 0.0318 -> 0.0397   sharp nan -> 240  (real 281)
+  LUNG1-308  L1 0.0444 -> 0.0527   sharp nan -> 238  (real 336)
+  LUNG1-312  L1 0.0435 -> 0.0486   sharp nan -> 255  (real 266)
+  LUNG1-346  L1 0.0294 -> 0.0373   sharp 69 -> 249  (real 309)
+  LUNG1-366  L1 0.0348 -> 0.0432   sharp 77 -> 237  (real 250)
+
+held-out reconstruction (n=8):
+  L1 to real     VAE 0.0373  ->  refined 0.0460
+  bone sharpness VAE nan    ->  refined 244   (real 276)
+
+building training patch corpus...
+  corpus (22850, 4096) (16^3 patches, stride 8)
+  generated+refined        n=  135  NN-L2 mean 9.317  p05 7.538  min 7.006
+  held-out real            n=  238  NN-L2 mean 10.653  p05 7.556  min 6.124
+  refined held-out recon   n=  211  NN-L2 mean 9.533  p05 7.407  min 6.535
+
+  generated / held-out-real mean NN distance = 0.875
+  (<< 1 would indicate the refiner is copying training texture)
+
+wrote notes\refiner_eval_thorax\refiner_eval.json

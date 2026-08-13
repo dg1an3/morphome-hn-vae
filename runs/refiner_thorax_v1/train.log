@@ -1,0 +1,116 @@
+loaded runs/thorax_v1/last.pt (ema weights) epoch=299 step=30000
+train=403 val=8
+posterior means (403, 32)  per-dim std [0.53, 1.13]
+refiner UNet: 11.07M params, in_channels=11, patch 64^3
+patch pools: Lungs 0.45, Bone 0.35, body 0.20
+step    200/20000 | v-mse 0.5713 gn 2.47 | 2.0m
+step    400/20000 | v-mse 0.2618 gn 3.09 | 3.7m
+step    600/20000 | v-mse 0.0918 gn 1.42 | 5.3m
+step    800/20000 | v-mse 0.0598 gn 0.66 | 7.0m
+step   1000/20000 | v-mse 0.0544 gn 0.74 | 8.6m
+step   1200/20000 | v-mse 0.0528 gn 0.37 | 10.3m
+step   1400/20000 | v-mse 0.0455 gn 0.71 | 11.9m
+step   1600/20000 | v-mse 0.0440 gn 0.67 | 13.6m
+step   1800/20000 | v-mse 0.0423 gn 1.19 | 15.2m
+step   2000/20000 | v-mse 0.0422 gn 1.01 | 16.9m
+  [eval] |grad HU| bone: VAE 64 -> ref 250 (real 249) | lung: VAE 144 -> ref 197 (real 167) | L1 0.0790
+step   2200/20000 | v-mse 0.0416 gn 0.44 | 19.2m
+step   2400/20000 | v-mse 0.0397 gn 0.51 | 20.8m
+step   2600/20000 | v-mse 0.0414 gn 0.21 | 22.4m
+step   2800/20000 | v-mse 0.0399 gn 0.67 | 24.1m
+step   3000/20000 | v-mse 0.0396 gn 0.39 | 25.7m
+step   3200/20000 | v-mse 0.0396 gn 0.45 | 27.4m
+step   3400/20000 | v-mse 0.0382 gn 0.37 | 29.0m
+step   3600/20000 | v-mse 0.0390 gn 0.50 | 30.7m
+step   3800/20000 | v-mse 0.0371 gn 0.25 | 32.3m
+step   4000/20000 | v-mse 0.0373 gn 0.38 | 34.0m
+  [eval] |grad HU| bone: VAE 64 -> ref 266 (real 249) | lung: VAE 144 -> ref 184 (real 167) | L1 0.0715
+step   4200/20000 | v-mse 0.0376 gn 0.76 | 36.0m
+step   4400/20000 | v-mse 0.0364 gn 0.52 | 37.6m
+step   4600/20000 | v-mse 0.0343 gn 0.17 | 39.3m
+step   4800/20000 | v-mse 0.0361 gn 0.25 | 40.9m
+step   5000/20000 | v-mse 0.0348 gn 0.59 | 42.6m
+step   5200/20000 | v-mse 0.0355 gn 0.23 | 44.2m
+step   5400/20000 | v-mse 0.0354 gn 0.08 | 45.9m
+step   5600/20000 | v-mse 0.0353 gn 0.36 | 47.5m
+step   5800/20000 | v-mse 0.0346 gn 0.28 | 49.2m
+step   6000/20000 | v-mse 0.0352 gn 0.17 | 50.8m
+  [eval] |grad HU| bone: VAE 64 -> ref 262 (real 249) | lung: VAE 144 -> ref 172 (real 167) | L1 0.0660
+step   6200/20000 | v-mse 0.0368 gn 0.21 | 52.8m
+step   6400/20000 | v-mse 0.0341 gn 0.51 | 54.5m
+step   6600/20000 | v-mse 0.0339 gn 0.25 | 56.1m
+step   6800/20000 | v-mse 0.0355 gn 0.10 | 57.8m
+step   7000/20000 | v-mse 0.0320 gn 0.62 | 59.4m
+step   7200/20000 | v-mse 0.0337 gn 0.22 | 61.1m
+step   7400/20000 | v-mse 0.0347 gn 0.19 | 62.7m
+step   7600/20000 | v-mse 0.0313 gn 0.24 | 64.4m
+step   7800/20000 | v-mse 0.0346 gn 0.32 | 66.0m
+step   8000/20000 | v-mse 0.0347 gn 0.13 | 67.7m
+  [eval] |grad HU| bone: VAE 64 -> ref 252 (real 249) | lung: VAE 144 -> ref 170 (real 167) | L1 0.0632
+step   8200/20000 | v-mse 0.0324 gn 0.11 | 69.7m
+step   8400/20000 | v-mse 0.0343 gn 0.78 | 71.3m
+step   8600/20000 | v-mse 0.0334 gn 0.29 | 73.0m
+step   8800/20000 | v-mse 0.0346 gn 0.39 | 74.6m
+step   9000/20000 | v-mse 0.0325 gn 0.20 | 76.3m
+step   9200/20000 | v-mse 0.0350 gn 0.63 | 77.9m
+step   9400/20000 | v-mse 0.0341 gn 0.28 | 79.6m
+step   9600/20000 | v-mse 0.0283 gn 0.29 | 81.2m
+step   9800/20000 | v-mse 0.0353 gn 0.30 | 82.9m
+step  10000/20000 | v-mse 0.0331 gn 0.12 | 84.5m
+  [eval] |grad HU| bone: VAE 64 -> ref 257 (real 249) | lung: VAE 144 -> ref 168 (real 167) | L1 0.0626
+step  10200/20000 | v-mse 0.0347 gn 0.17 | 86.6m
+step  10400/20000 | v-mse 0.0318 gn 0.72 | 88.2m
+step  10600/20000 | v-mse 0.0328 gn 0.20 | 89.9m
+step  10800/20000 | v-mse 0.0323 gn 0.21 | 91.5m
+step  11000/20000 | v-mse 0.0311 gn 0.28 | 93.2m
+step  11200/20000 | v-mse 0.0329 gn 0.81 | 94.8m
+step  11400/20000 | v-mse 0.0307 gn 0.17 | 96.5m
+step  11600/20000 | v-mse 0.0352 gn 0.20 | 98.1m
+step  11800/20000 | v-mse 0.0308 gn 0.13 | 99.8m
+step  12000/20000 | v-mse 0.0325 gn 0.10 | 101.4m
+  [eval] |grad HU| bone: VAE 64 -> ref 248 (real 249) | lung: VAE 144 -> ref 166 (real 167) | L1 0.0618
+step  12200/20000 | v-mse 0.0344 gn 0.45 | 103.5m
+step  12400/20000 | v-mse 0.0296 gn 0.35 | 105.1m
+step  12600/20000 | v-mse 0.0359 gn 0.15 | 106.8m
+step  12800/20000 | v-mse 0.0306 gn 0.17 | 108.5m
+step  13000/20000 | v-mse 0.0316 gn 0.31 | 110.2m
+step  13200/20000 | v-mse 0.0336 gn 0.11 | 111.9m
+step  13400/20000 | v-mse 0.0317 gn 0.08 | 113.5m
+step  13600/20000 | v-mse 0.0300 gn 0.34 | 115.2m
+step  13800/20000 | v-mse 0.0318 gn 0.13 | 116.8m
+step  14000/20000 | v-mse 0.0340 gn 0.28 | 118.5m
+  [eval] |grad HU| bone: VAE 64 -> ref 242 (real 249) | lung: VAE 144 -> ref 158 (real 167) | L1 0.0584
+step  14200/20000 | v-mse 0.0314 gn 0.29 | 120.6m
+step  14400/20000 | v-mse 0.0318 gn 0.37 | 122.2m
+step  14600/20000 | v-mse 0.0299 gn 0.40 | 123.9m
+step  14800/20000 | v-mse 0.0287 gn 0.52 | 125.5m
+step  15000/20000 | v-mse 0.0320 gn 0.10 | 127.2m
+step  15200/20000 | v-mse 0.0317 gn 0.08 | 128.9m
+step  15400/20000 | v-mse 0.0322 gn 0.08 | 130.5m
+step  15600/20000 | v-mse 0.0294 gn 0.07 | 132.2m
+step  15800/20000 | v-mse 0.0303 gn 0.11 | 133.9m
+step  16000/20000 | v-mse 0.0278 gn 0.26 | 135.5m
+  [eval] |grad HU| bone: VAE 64 -> ref 239 (real 249) | lung: VAE 144 -> ref 160 (real 167) | L1 0.0573
+step  16200/20000 | v-mse 0.0301 gn 0.09 | 137.6m
+step  16400/20000 | v-mse 0.0314 gn 0.12 | 139.3m
+step  16600/20000 | v-mse 0.0297 gn 0.14 | 140.9m
+step  16800/20000 | v-mse 0.0295 gn 0.21 | 142.6m
+step  17000/20000 | v-mse 0.0314 gn 0.62 | 144.3m
+step  17200/20000 | v-mse 0.0278 gn 0.28 | 146.0m
+step  17400/20000 | v-mse 0.0300 gn 0.14 | 147.6m
+step  17600/20000 | v-mse 0.0289 gn 0.09 | 149.3m
+step  17800/20000 | v-mse 0.0307 gn 0.06 | 151.0m
+step  18000/20000 | v-mse 0.0302 gn 0.58 | 152.7m
+  [eval] |grad HU| bone: VAE 64 -> ref 244 (real 249) | lung: VAE 144 -> ref 159 (real 167) | L1 0.0546
+step  18200/20000 | v-mse 0.0327 gn 0.16 | 154.7m
+step  18400/20000 | v-mse 0.0285 gn 0.05 | 156.4m
+step  18600/20000 | v-mse 0.0346 gn 0.27 | 158.1m
+step  18800/20000 | v-mse 0.0309 gn 0.19 | 159.8m
+step  19000/20000 | v-mse 0.0307 gn 0.05 | 161.4m
+step  19200/20000 | v-mse 0.0310 gn 0.28 | 163.0m
+step  19400/20000 | v-mse 0.0312 gn 0.18 | 164.7m
+step  19600/20000 | v-mse 0.0304 gn 0.39 | 166.3m
+step  19800/20000 | v-mse 0.0332 gn 0.46 | 168.0m
+step  20000/20000 | v-mse 0.0315 gn 0.13 | 169.7m
+  [eval] |grad HU| bone: VAE 64 -> ref 235 (real 249) | lung: VAE 144 -> ref 162 (real 167) | L1 0.0585
+done in 170.1 min
