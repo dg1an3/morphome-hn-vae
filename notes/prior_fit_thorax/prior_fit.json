@@ -1,0 +1,10 @@
+{
+  "latent_dim": 32,
+  "n_cases": 411,
+  "data_shell_radius": 4.652645111083984,
+  "isotropic_shell_radius": 5.656854249492381,
+  "radius_matched_temperature": 0.8224792271254807,
+  "pca_k": 19,
+  "pca_explained": 0.9088404774665833,
+  "epoch": 299
+}

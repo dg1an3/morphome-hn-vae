@@ -1,0 +1,11529 @@
+{
+ "n_cases": 421,
+ "n_flagged": 5,
+ "flagged": [
+  "LUNG1-079",
+  "LUNG1-116",
+  "LUNG1-138",
+  "LUNG1-319",
+  "LUNG1-400"
+ ],
+ "cases": {
+  "LUNG1-001": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -64.1,
+     "mL": 156.3
+    },
+    "Lung_L": {
+     "mean_hu": -762.5,
+     "mL": 2277.4
+    },
+    "Lung_R": {
+     "mean_hu": -808.7,
+     "mL": 2967.8
+    },
+    "Lungs": {
+     "mean_hu": -788.7,
+     "mL": 5245.2
+    },
+    "SpinalCord": {
+     "mean_hu": 24.3,
+     "mL": 44.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-002": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 38.2,
+     "mL": 55.3
+    },
+    "GTV": {
+     "mean_hu": -49.6,
+     "mL": 359.5
+    },
+    "Heart": {
+     "mean_hu": 121.6,
+     "mL": 1070.7
+    },
+    "Lung_L": {
+     "mean_hu": -738.5,
+     "mL": 1971.4
+    },
+    "Lung_R": {
+     "mean_hu": -694.7,
+     "mL": 1890.9
+    },
+    "Lungs": {
+     "mean_hu": -717.1,
+     "mL": 3862.3
+    },
+    "SpinalCord": {
+     "mean_hu": 21.7,
+     "mL": 63.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-003": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 33.0,
+     "mL": 50.2
+    },
+    "GTV": {
+     "mean_hu": -101.9,
+     "mL": 34.8
+    },
+    "Heart": {
+     "mean_hu": 68.1,
+     "mL": 987.8
+    },
+    "Lung_L": {
+     "mean_hu": -642.9,
+     "mL": 1734.7
+    },
+    "Lung_R": {
+     "mean_hu": -649.9,
+     "mL": 2185.5
+    },
+    "Lungs": {
+     "mean_hu": -646.8,
+     "mL": 3920.2
+    },
+    "SpinalCord": {
+     "mean_hu": 35.1,
+     "mL": 48.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-004": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -31.3,
+     "mL": 35.9
+    },
+    "GTV": {
+     "mean_hu": -48.1,
+     "mL": 84.5
+    },
+    "Lung_L": {
+     "mean_hu": -809.9,
+     "mL": 2227.1
+    },
+    "Lung_R": {
+     "mean_hu": -803.7,
+     "mL": 2805.6
+    },
+    "Lungs": {
+     "mean_hu": -806.5,
+     "mL": 5032.7
+    },
+    "SpinalCord": {
+     "mean_hu": 22.1,
+     "mL": 53.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-005": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -96.2,
+     "mL": 55.2
+    },
+    "GTV": {
+     "mean_hu": 1.6,
+     "mL": 83.5
+    },
+    "Heart": {
+     "mean_hu": 93.8,
+     "mL": 767.4
+    },
+    "Lung_L": {
+     "mean_hu": -827.6,
+     "mL": 1582.2
+    },
+    "Lung_R": {
+     "mean_hu": -817.2,
+     "mL": 1403.3
+    },
+    "Lungs": {
+     "mean_hu": -822.7,
+     "mL": 2985.5
+    },
+    "SpinalCord": {
+     "mean_hu": 31.4,
+     "mL": 67.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-006": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -6.7,
+     "mL": 51.2
+    },
+    "GTV": {
+     "mean_hu": -178.6,
+     "mL": 78.3
+    },
+    "Heart": {
+     "mean_hu": 92.2,
+     "mL": 872.1
+    },
+    "Lung_L": {
+     "mean_hu": -805.7,
+     "mL": 2772.4
+    },
+    "Lung_R": {
+     "mean_hu": -804.4,
+     "mL": 3770.9
+    },
+    "Lungs": {
+     "mean_hu": -805.0,
+     "mL": 6543.1
+    },
+    "SpinalCord": {
+     "mean_hu": 52.9,
+     "mL": 85.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-007": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -17.3,
+     "mL": 57.3
+    },
+    "GTV": {
+     "mean_hu": -110.4,
+     "mL": 12.5
+    },
+    "Heart": {
+     "mean_hu": 16.3,
+     "mL": 680.7
+    },
+    "Lung_L": {
+     "mean_hu": -702.3,
+     "mL": 1618.0
+    },
+    "Lung_R": {
+     "mean_hu": -713.8,
+     "mL": 2155.1
+    },
+    "Lungs": {
+     "mean_hu": -708.9,
+     "mL": 3773.1
+    },
+    "SpinalCord": {
+     "mean_hu": 31.6,
+     "mL": 71.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-008": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 32.8,
+     "mL": 50.9
+    },
+    "GTV": {
+     "mean_hu": -68.3,
+     "mL": 40.9
+    },
+    "Heart": {
+     "mean_hu": 82.0,
+     "mL": 620.6
+    },
+    "Lung_L": {
+     "mean_hu": -664.1,
+     "mL": 1332.9
+    },
+    "Lung_R": {
+     "mean_hu": -662.7,
+     "mL": 1283.4
+    },
+    "Lungs": {
+     "mean_hu": -663.4,
+     "mL": 2616.3
+    },
+    "SpinalCord": {
+     "mean_hu": 70.6,
+     "mL": 78.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-009": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 16.8,
+     "mL": 46.6
+    },
+    "GTV": {
+     "mean_hu": -1.0,
+     "mL": 98.6
+    },
+    "Lung_L": {
+     "mean_hu": -686.2,
+     "mL": 2232.9
+    },
+    "Lung_R": {
+     "mean_hu": -672.3,
+     "mL": 1554.1
+    },
+    "Lungs": {
+     "mean_hu": -680.5,
+     "mL": 3787.0
+    },
+    "SpinalCord": {
+     "mean_hu": 39.2,
+     "mL": 67.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-010": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 16.7,
+     "mL": 44.2
+    },
+    "GTV": {
+     "mean_hu": -62.3,
+     "mL": 16.1
+    },
+    "Heart": {
+     "mean_hu": 91.9,
+     "mL": 528.2
+    },
+    "Lung_L": {
+     "mean_hu": -733.0,
+     "mL": 1767.3
+    },
+    "Lung_R": {
+     "mean_hu": -692.3,
+     "mL": 1815.6
+    },
+    "Lungs": {
+     "mean_hu": -712.4,
+     "mL": 3582.9
+    },
+    "SpinalCord": {
+     "mean_hu": 65.5,
+     "mL": 61.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-011": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 19.1,
+     "mL": 51.4
+    },
+    "GTV": {
+     "mean_hu": -203.5,
+     "mL": 79.8
+    },
+    "Heart": {
+     "mean_hu": 75.8,
+     "mL": 1086.1
+    },
+    "Lung_L": {
+     "mean_hu": -645.3,
+     "mL": 1812.5
+    },
+    "Lung_R": {
+     "mean_hu": -646.6,
+     "mL": 2073.7
+    },
+    "Lungs": {
+     "mean_hu": -646.0,
+     "mL": 3886.3
+    },
+    "SpinalCord": {
+     "mean_hu": 24.8,
+     "mL": 43.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-012": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -52.6,
+     "mL": 48.3
+    },
+    "GTV": {
+     "mean_hu": -94.6,
+     "mL": 259.4
+    },
+    "Heart": {
+     "mean_hu": 92.5,
+     "mL": 1266.1
+    },
+    "Lung_L": {
+     "mean_hu": -688.3,
+     "mL": 2523.4
+    },
+    "Lung_R": {
+     "mean_hu": -714.3,
+     "mL": 2799.5
+    },
+    "Lungs": {
+     "mean_hu": -701.9,
+     "mL": 5322.9
+    },
+    "SpinalCord": {
+     "mean_hu": 27.5,
+     "mL": 83.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-013": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -24.6,
+     "mL": 14.6
+    },
+    "Lung_L": {
+     "mean_hu": -776.3,
+     "mL": 2288.5
+    },
+    "Lung_R": {
+     "mean_hu": -742.1,
+     "mL": 3059.5
+    },
+    "Lungs": {
+     "mean_hu": -756.8,
+     "mL": 5347.9
+    },
+    "SpinalCord": {
+     "mean_hu": 15.8,
+     "mL": 122.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-014": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 3.0,
+     "mL": 47.0
+    },
+    "GTV": {
+     "mean_hu": -338.8,
+     "mL": 9.9
+    },
+    "Heart": {
+     "mean_hu": 84.6,
+     "mL": 651.1
+    },
+    "Lung_L": {
+     "mean_hu": -799.7,
+     "mL": 2307.1
+    },
+    "Lung_R": {
+     "mean_hu": -775.9,
+     "mL": 2516.3
+    },
+    "Lungs": {
+     "mean_hu": -787.3,
+     "mL": 4823.3
+    },
+    "SpinalCord": {
+     "mean_hu": 39.6,
+     "mL": 49.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-015": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -174.1,
+     "mL": 4.0
+    },
+    "Lung_L": {
+     "mean_hu": -817.1,
+     "mL": 2362.2
+    },
+    "Lung_R": {
+     "mean_hu": -836.9,
+     "mL": 2826.7
+    },
+    "Lungs": {
+     "mean_hu": -827.9,
+     "mL": 5188.4
+    },
+    "SpinalCord": {
+     "mean_hu": 43.5,
+     "mL": 62.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-016": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 18.2,
+     "mL": 49.3
+    },
+    "GTV": {
+     "mean_hu": -8.9,
+     "mL": 113.8
+    },
+    "Heart": {
+     "mean_hu": 123.1,
+     "mL": 1121.4
+    },
+    "Lung_L": {
+     "mean_hu": -702.0,
+     "mL": 1762.1
+    },
+    "Lung_R": {
+     "mean_hu": -559.6,
+     "mL": 1804.5
+    },
+    "Lungs": {
+     "mean_hu": -629.9,
+     "mL": 3566.5
+    },
+    "SpinalCord": {
+     "mean_hu": 32.6,
+     "mL": 47.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-017": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 15.9,
+     "mL": 45.0
+    },
+    "GTV": {
+     "mean_hu": -33.4,
+     "mL": 225.0
+    },
+    "Lung_L": {
+     "mean_hu": -683.8,
+     "mL": 1969.8
+    },
+    "Lung_R": {
+     "mean_hu": -701.6,
+     "mL": 1949.3
+    },
+    "Lungs": {
+     "mean_hu": -692.7,
+     "mL": 3919.1
+    },
+    "SpinalCord": {
+     "mean_hu": 43.6,
+     "mL": 86.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-018": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 4.3,
+     "mL": 35.7
+    },
+    "GTV": {
+     "mean_hu": -36.7,
+     "mL": 146.3
+    },
+    "Lung_L": {
+     "mean_hu": -743.4,
+     "mL": 1819.6
+    },
+    "Lung_R": {
+     "mean_hu": -780.7,
+     "mL": 2277.6
+    },
+    "Lungs": {
+     "mean_hu": -764.2,
+     "mL": 4097.1
+    },
+    "SpinalCord": {
+     "mean_hu": 42.5,
+     "mL": 80.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-019": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 14.0,
+     "mL": 45.3
+    },
+    "GTV": {
+     "mean_hu": -12.9,
+     "mL": 112.3
+    },
+    "Lung_L": {
+     "mean_hu": -730.5,
+     "mL": 2267.6
+    },
+    "Lung_R": {
+     "mean_hu": -791.4,
+     "mL": 3007.6
+    },
+    "Lungs": {
+     "mean_hu": -765.2,
+     "mL": 5275.2
+    },
+    "SpinalCord": {
+     "mean_hu": 42.8,
+     "mL": 67.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-020": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -48.1,
+     "mL": 63.5
+    },
+    "GTV": {
+     "mean_hu": -197.8,
+     "mL": 88.3
+    },
+    "Heart": {
+     "mean_hu": 143.0,
+     "mL": 1159.3
+    },
+    "Lung_L": {
+     "mean_hu": -781.9,
+     "mL": 2557.6
+    },
+    "Lung_R": {
+     "mean_hu": -799.0,
+     "mL": 3404.9
+    },
+    "Lungs": {
+     "mean_hu": -791.7,
+     "mL": 5962.4
+    },
+    "SpinalCord": {
+     "mean_hu": 32.1,
+     "mL": 67.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-021": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -0.8,
+     "mL": 49.1
+    },
+    "GTV": {
+     "mean_hu": -54.4,
+     "mL": 217.0
+    },
+    "Heart": {
+     "mean_hu": 118.0,
+     "mL": 661.9
+    },
+    "Lung_L": {
+     "mean_hu": -711.9,
+     "mL": 2413.0
+    },
+    "Lung_R": {
+     "mean_hu": -714.3,
+     "mL": 2882.6
+    },
+    "Lungs": {
+     "mean_hu": -713.2,
+     "mL": 5294.2
+    },
+    "SpinalCord": {
+     "mean_hu": 55.5,
+     "mL": 130.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-022": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -8.6,
+     "mL": 57.5
+    },
+    "GTV": {
+     "mean_hu": -185.3,
+     "mL": 110.4
+    },
+    "Heart": {
+     "mean_hu": 132.1,
+     "mL": 1214.3
+    },
+    "Lung_L": {
+     "mean_hu": -719.0,
+     "mL": 2033.4
+    },
+    "Lung_R": {
+     "mean_hu": -745.6,
+     "mL": 2239.5
+    },
+    "Lungs": {
+     "mean_hu": -733.0,
+     "mL": 4272.9
+    },
+    "SpinalCord": {
+     "mean_hu": 40.9,
+     "mL": 75.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-023": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -16.8,
+     "mL": 41.5
+    },
+    "GTV": {
+     "mean_hu": 22.4,
+     "mL": 661.3
+    },
+    "Heart": {
+     "mean_hu": 80.4,
+     "mL": 887.7
+    },
+    "Lung_L": {
+     "mean_hu": -725.1,
+     "mL": 2906.6
+    },
+    "Lung_R": {
+     "mean_hu": -733.1,
+     "mL": 2630.6
+    },
+    "Lungs": {
+     "mean_hu": -728.9,
+     "mL": 5537.2
+    },
+    "SpinalCord": {
+     "mean_hu": 47.3,
+     "mL": 145.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-024": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -4.3,
+     "mL": 43.9
+    },
+    "GTV": {
+     "mean_hu": -100.6,
+     "mL": 22.1
+    },
+    "Heart": {
+     "mean_hu": 117.2,
+     "mL": 1175.3
+    },
+    "Lung_L": {
+     "mean_hu": -593.2,
+     "mL": 950.1
+    },
+    "Lung_R": {
+     "mean_hu": -650.4,
+     "mL": 1900.2
+    },
+    "Lungs": {
+     "mean_hu": -631.3,
+     "mL": 2850.3
+    },
+    "SpinalCord": {
+     "mean_hu": 34.1,
+     "mL": 86.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-025": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 31.5,
+     "mL": 39.4
+    },
+    "GTV": {
+     "mean_hu": -28.1,
+     "mL": 105.3
+    },
+    "Heart": {
+     "mean_hu": 158.3,
+     "mL": 876.7
+    },
+    "Lung_L": {
+     "mean_hu": -694.4,
+     "mL": 2109.9
+    },
+    "Lung_R": {
+     "mean_hu": -712.8,
+     "mL": 2345.0
+    },
+    "Lungs": {
+     "mean_hu": -704.1,
+     "mL": 4454.8
+    },
+    "SpinalCord": {
+     "mean_hu": 41.8,
+     "mL": 74.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-026": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 21.3,
+     "mL": 35.6
+    },
+    "GTV": {
+     "mean_hu": 42.1,
+     "mL": 188.2
+    },
+    "Heart": {
+     "mean_hu": 105.0,
+     "mL": 497.6
+    },
+    "Lung_L": {
+     "mean_hu": -623.6,
+     "mL": 1606.1
+    },
+    "Lung_R": {
+     "mean_hu": -628.3,
+     "mL": 1651.9
+    },
+    "Lungs": {
+     "mean_hu": -626.0,
+     "mL": 3257.9
+    },
+    "SpinalCord": {
+     "mean_hu": 40.1,
+     "mL": 78.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-027": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -443.8,
+     "mL": 0.8
+    },
+    "Lung_L": {
+     "mean_hu": -761.1,
+     "mL": 2635.0
+    },
+    "Lung_R": {
+     "mean_hu": -790.2,
+     "mL": 3241.7
+    },
+    "Lungs": {
+     "mean_hu": -777.2,
+     "mL": 5876.7
+    },
+    "SpinalCord": {
+     "mean_hu": 46.8,
+     "mL": 72.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-028": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -13.6,
+     "mL": 54.1
+    },
+    "GTV": {
+     "mean_hu": -173.1,
+     "mL": 25.9
+    },
+    "Heart": {
+     "mean_hu": 196.4,
+     "mL": 1158.5
+    },
+    "Lung_L": {
+     "mean_hu": -712.0,
+     "mL": 1860.3
+    },
+    "Lung_R": {
+     "mean_hu": -706.4,
+     "mL": 2425.0
+    },
+    "Lungs": {
+     "mean_hu": -708.8,
+     "mL": 4285.3
+    },
+    "SpinalCord": {
+     "mean_hu": 30.3,
+     "mL": 74.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-029": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -29.4,
+     "mL": 46.5
+    },
+    "Lung_L": {
+     "mean_hu": -728.3,
+     "mL": 1454.5
+    },
+    "Lung_R": {
+     "mean_hu": -761.0,
+     "mL": 1959.1
+    },
+    "Lungs": {
+     "mean_hu": -747.1,
+     "mL": 3413.6
+    },
+    "SpinalCord": {
+     "mean_hu": 28.9,
+     "mL": 53.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-030": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -2.7,
+     "mL": 40.1
+    },
+    "GTV": {
+     "mean_hu": -42.9,
+     "mL": 79.9
+    },
+    "Heart": {
+     "mean_hu": 169.2,
+     "mL": 451.9
+    },
+    "Lung_L": {
+     "mean_hu": -750.0,
+     "mL": 2595.3
+    },
+    "Lung_R": {
+     "mean_hu": -789.4,
+     "mL": 2096.8
+    },
+    "Lungs": {
+     "mean_hu": -767.6,
+     "mL": 4691.5
+    },
+    "SpinalCord": {
+     "mean_hu": 29.1,
+     "mL": 72.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-031": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 7.9,
+     "mL": 42.8
+    },
+    "GTV": {
+     "mean_hu": -79.5,
+     "mL": 45.3
+    },
+    "Heart": {
+     "mean_hu": 20.6,
+     "mL": 784.2
+    },
+    "Lung_L": {
+     "mean_hu": -754.5,
+     "mL": 1841.7
+    },
+    "Lung_R": {
+     "mean_hu": -753.0,
+     "mL": 2079.5
+    },
+    "Lungs": {
+     "mean_hu": -753.7,
+     "mL": 3921.2
+    },
+    "SpinalCord": {
+     "mean_hu": 33.2,
+     "mL": 113.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-032": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -90.9,
+     "mL": 35.9
+    },
+    "GTV": {
+     "mean_hu": -1.6,
+     "mL": 91.0
+    },
+    "Lung_L": {
+     "mean_hu": -876.8,
+     "mL": 3420.3
+    },
+    "Lung_R": {
+     "mean_hu": -825.7,
+     "mL": 2736.9
+    },
+    "Lungs": {
+     "mean_hu": -854.1,
+     "mL": 6157.1
+    },
+    "SpinalCord": {
+     "mean_hu": 43.5,
+     "mL": 70.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-033": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -40.2,
+     "mL": 56.0
+    },
+    "GTV": {
+     "mean_hu": 2.8,
+     "mL": 157.1
+    },
+    "Heart": {
+     "mean_hu": 105.6,
+     "mL": 791.0
+    },
+    "Lung_L": {
+     "mean_hu": -808.9,
+     "mL": 3265.9
+    },
+    "Lung_R": {
+     "mean_hu": -794.1,
+     "mL": 3116.6
+    },
+    "Lungs": {
+     "mean_hu": -801.7,
+     "mL": 6382.5
+    },
+    "SpinalCord": {
+     "mean_hu": 42.5,
+     "mL": 65.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-034": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 29.9,
+     "mL": 43.7
+    },
+    "GTV": {
+     "mean_hu": 22.8,
+     "mL": 102.6
+    },
+    "Heart": {
+     "mean_hu": 115.7,
+     "mL": 655.5
+    },
+    "Lung_L": {
+     "mean_hu": -681.9,
+     "mL": 1980.4
+    },
+    "Lung_R": {
+     "mean_hu": -705.1,
+     "mL": 2223.7
+    },
+    "Lungs": {
+     "mean_hu": -694.2,
+     "mL": 4204.0
+    },
+    "SpinalCord": {
+     "mean_hu": 41.9,
+     "mL": 55.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-035": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 32.5,
+     "mL": 36.6
+    },
+    "GTV": {
+     "mean_hu": -42.9,
+     "mL": 115.8
+    },
+    "Lung_L": {
+     "mean_hu": -612.7,
+     "mL": 1542.8
+    },
+    "Lung_R": {
+     "mean_hu": -628.6,
+     "mL": 2001.6
+    },
+    "Lungs": {
+     "mean_hu": -621.7,
+     "mL": 3544.4
+    },
+    "SpinalCord": {
+     "mean_hu": 46.6,
+     "mL": 49.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-036": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -17.5,
+     "mL": 44.5
+    },
+    "Lung_L": {
+     "mean_hu": -761.5,
+     "mL": 2191.5
+    },
+    "Lung_R": {
+     "mean_hu": -789.8,
+     "mL": 2998.7
+    },
+    "Lungs": {
+     "mean_hu": -777.9,
+     "mL": 5189.9
+    },
+    "SpinalCord": {
+     "mean_hu": 30.0,
+     "mL": 52.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-037": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -34.8,
+     "mL": 42.8
+    },
+    "GTV": {
+     "mean_hu": -179.2,
+     "mL": 7.2
+    },
+    "Lung_L": {
+     "mean_hu": -659.1,
+     "mL": 1719.2
+    },
+    "Lung_R": {
+     "mean_hu": -700.5,
+     "mL": 2181.3
+    },
+    "Lungs": {
+     "mean_hu": -682.2,
+     "mL": 3900.5
+    },
+    "SpinalCord": {
+     "mean_hu": 25.8,
+     "mL": 83.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-038": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 15.9,
+     "mL": 30.5
+    },
+    "GTV": {
+     "mean_hu": -31.7,
+     "mL": 119.8
+    },
+    "Heart": {
+     "mean_hu": 161.7,
+     "mL": 576.7
+    },
+    "Lung_L": {
+     "mean_hu": -672.0,
+     "mL": 1234.7
+    },
+    "Lung_R": {
+     "mean_hu": -691.1,
+     "mL": 1821.7
+    },
+    "Lungs": {
+     "mean_hu": -683.4,
+     "mL": 3056.3
+    },
+    "SpinalCord": {
+     "mean_hu": 41.8,
+     "mL": 77.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-039": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 8.4,
+     "mL": 46.8
+    },
+    "GTV": {
+     "mean_hu": -241.5,
+     "mL": 6.2
+    },
+    "Heart": {
+     "mean_hu": 11.1,
+     "mL": 1061.2
+    },
+    "Lung_L": {
+     "mean_hu": -752.6,
+     "mL": 2135.0
+    },
+    "Lung_R": {
+     "mean_hu": -772.6,
+     "mL": 2528.4
+    },
+    "Lungs": {
+     "mean_hu": -763.4,
+     "mL": 4663.4
+    },
+    "SpinalCord": {
+     "mean_hu": 39.3,
+     "mL": 43.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-040": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -25.4,
+     "mL": 34.1
+    },
+    "GTV": {
+     "mean_hu": -2.3,
+     "mL": 274.0
+    },
+    "Heart": {
+     "mean_hu": 110.7,
+     "mL": 554.9
+    },
+    "Lung_L": {
+     "mean_hu": -656.5,
+     "mL": 1323.6
+    },
+    "Lung_R": {
+     "mean_hu": -626.3,
+     "mL": 1158.8
+    },
+    "Lungs": {
+     "mean_hu": -642.4,
+     "mL": 2482.4
+    },
+    "SpinalCord": {
+     "mean_hu": 42.3,
+     "mL": 63.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-041": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -16.6,
+     "mL": 31.6
+    },
+    "GTV": {
+     "mean_hu": 5.1,
+     "mL": 52.6
+    },
+    "Lung_L": {
+     "mean_hu": -695.5,
+     "mL": 1479.7
+    },
+    "Lung_R": {
+     "mean_hu": -670.9,
+     "mL": 1600.0
+    },
+    "Lungs": {
+     "mean_hu": -682.7,
+     "mL": 3079.7
+    },
+    "SpinalCord": {
+     "mean_hu": 53.4,
+     "mL": 63.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-042": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 24.1,
+     "mL": 35.3
+    },
+    "GTV": {
+     "mean_hu": 12.3,
+     "mL": 172.5
+    },
+    "Heart": {
+     "mean_hu": 141.6,
+     "mL": 813.1
+    },
+    "Lung_L": {
+     "mean_hu": -709.5,
+     "mL": 1916.0
+    },
+    "Lung_R": {
+     "mean_hu": -706.6,
+     "mL": 1188.4
+    },
+    "Lungs": {
+     "mean_hu": -708.4,
+     "mL": 3104.4
+    },
+    "SpinalCord": {
+     "mean_hu": 33.1,
+     "mL": 85.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-043": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -34.5,
+     "mL": 44.7
+    },
+    "GTV": {
+     "mean_hu": -17.8,
+     "mL": 226.6
+    },
+    "Heart": {
+     "mean_hu": 139.9,
+     "mL": 970.8
+    },
+    "Lung_L": {
+     "mean_hu": -677.4,
+     "mL": 1602.9
+    },
+    "Lung_R": {
+     "mean_hu": -716.2,
+     "mL": 2624.4
+    },
+    "Lungs": {
+     "mean_hu": -701.5,
+     "mL": 4227.3
+    },
+    "SpinalCord": {
+     "mean_hu": 38.5,
+     "mL": 66.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-044": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 22.3,
+     "mL": 29.0
+    },
+    "GTV": {
+     "mean_hu": -24.2,
+     "mL": 120.9
+    },
+    "Lung_L": {
+     "mean_hu": -773.3,
+     "mL": 1737.2
+    },
+    "Lung_R": {
+     "mean_hu": -591.9,
+     "mL": 1584.2
+    },
+    "Lungs": {
+     "mean_hu": -686.8,
+     "mL": 3321.5
+    },
+    "SpinalCord": {
+     "mean_hu": 55.6,
+     "mL": 61.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-045": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 1.2,
+     "mL": 20.4
+    },
+    "Lung_L": {
+     "mean_hu": -651.1,
+     "mL": 1259.7
+    },
+    "Lung_R": {
+     "mean_hu": -679.6,
+     "mL": 1982.1
+    },
+    "Lungs": {
+     "mean_hu": -668.5,
+     "mL": 3241.7
+    },
+    "SpinalCord": {
+     "mean_hu": 39.6,
+     "mL": 72.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-046": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 35.3,
+     "mL": 41.8
+    },
+    "GTV": {
+     "mean_hu": -26.6,
+     "mL": 124.0
+    },
+    "Heart": {
+     "mean_hu": 131.5,
+     "mL": 769.2
+    },
+    "Lung_L": {
+     "mean_hu": -658.3,
+     "mL": 1444.7
+    },
+    "Lung_R": {
+     "mean_hu": -628.9,
+     "mL": 1774.0
+    },
+    "Lungs": {
+     "mean_hu": -642.1,
+     "mL": 3218.6
+    },
+    "SpinalCord": {
+     "mean_hu": 32.2,
+     "mL": 63.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-047": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -12.5,
+     "mL": 33.7
+    },
+    "GTV": {
+     "mean_hu": -122.3,
+     "mL": 49.7
+    },
+    "Lung_L": {
+     "mean_hu": -688.2,
+     "mL": 2157.1
+    },
+    "Lung_R": {
+     "mean_hu": -696.8,
+     "mL": 2342.2
+    },
+    "Lungs": {
+     "mean_hu": -692.7,
+     "mL": 4499.4
+    },
+    "SpinalCord": {
+     "mean_hu": 46.9,
+     "mL": 65.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-048": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 38.5,
+     "mL": 50.9
+    },
+    "Lung_L": {
+     "mean_hu": -731.8,
+     "mL": 1198.3
+    },
+    "Lung_R": {
+     "mean_hu": -728.7,
+     "mL": 1307.8
+    },
+    "Lungs": {
+     "mean_hu": -730.2,
+     "mL": 2506.0
+    },
+    "SpinalCord": {
+     "mean_hu": 49.1,
+     "mL": 45.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-049": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -203.6,
+     "mL": 2.7
+    },
+    "Lung_L": {
+     "mean_hu": -779.7,
+     "mL": 2623.1
+    },
+    "Lung_R": {
+     "mean_hu": -795.1,
+     "mL": 3029.1
+    },
+    "Lungs": {
+     "mean_hu": -788.0,
+     "mL": 5652.3
+    },
+    "SpinalCord": {
+     "mean_hu": 19.1,
+     "mL": 62.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-050": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 119.5,
+     "mL": 6.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-051": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 7.6,
+     "mL": 35.3
+    },
+    "GTV": {
+     "mean_hu": -38.4,
+     "mL": 90.2
+    },
+    "Heart": {
+     "mean_hu": 19.3,
+     "mL": 506.9
+    },
+    "Lung_L": {
+     "mean_hu": -850.0,
+     "mL": 3083.0
+    },
+    "Lung_R": {
+     "mean_hu": -816.1,
+     "mL": 3174.7
+    },
+    "Lungs": {
+     "mean_hu": -832.8,
+     "mL": 6257.7
+    },
+    "SpinalCord": {
+     "mean_hu": 9.3,
+     "mL": 93.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-052": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -7.5,
+     "mL": 33.8
+    },
+    "GTV": {
+     "mean_hu": -110.3,
+     "mL": 119.7
+    },
+    "Lung_L": {
+     "mean_hu": -632.9,
+     "mL": 1207.6
+    },
+    "Lung_R": {
+     "mean_hu": -666.2,
+     "mL": 1338.9
+    },
+    "Lungs": {
+     "mean_hu": -650.4,
+     "mL": 2546.5
+    },
+    "SpinalCord": {
+     "mean_hu": 33.7,
+     "mL": 74.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-053": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -11.3,
+     "mL": 37.2
+    },
+    "GTV": {
+     "mean_hu": 16.3,
+     "mL": 80.7
+    },
+    "Lung_L": {
+     "mean_hu": -749.3,
+     "mL": 1292.4
+    },
+    "Lung_R": {
+     "mean_hu": -661.4,
+     "mL": 2334.8
+    },
+    "Lungs": {
+     "mean_hu": -692.7,
+     "mL": 3627.2
+    },
+    "SpinalCord": {
+     "mean_hu": 16.5,
+     "mL": 76.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-054": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -14.1,
+     "mL": 36.1
+    },
+    "GTV": {
+     "mean_hu": -107.4,
+     "mL": 61.1
+    },
+    "Lung_L": {
+     "mean_hu": -805.9,
+     "mL": 2974.8
+    },
+    "Lung_R": {
+     "mean_hu": -808.5,
+     "mL": 2328.2
+    },
+    "Lungs": {
+     "mean_hu": -807.0,
+     "mL": 5303.0
+    },
+    "SpinalCord": {
+     "mean_hu": 36.8,
+     "mL": 68.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-055": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 26.7,
+     "mL": 54.1
+    },
+    "GTV": {
+     "mean_hu": 14.9,
+     "mL": 45.4
+    },
+    "Lung_L": {
+     "mean_hu": -661.1,
+     "mL": 1649.7
+    },
+    "Lung_R": {
+     "mean_hu": -646.5,
+     "mL": 1727.4
+    },
+    "Lungs": {
+     "mean_hu": -653.6,
+     "mL": 3377.1
+    },
+    "SpinalCord": {
+     "mean_hu": 35.2,
+     "mL": 90.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-056": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 19.7,
+     "mL": 20.4
+    },
+    "GTV": {
+     "mean_hu": -0.9,
+     "mL": 130.8
+    },
+    "Lung_L": {
+     "mean_hu": -722.2,
+     "mL": 1398.6
+    },
+    "Lung_R": {
+     "mean_hu": -776.0,
+     "mL": 2422.9
+    },
+    "Lungs": {
+     "mean_hu": -756.3,
+     "mL": 3821.4
+    },
+    "SpinalCord": {
+     "mean_hu": 28.7,
+     "mL": 88.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-057": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -26.6,
+     "mL": 41.4
+    },
+    "GTV": {
+     "mean_hu": -22.7,
+     "mL": 66.7
+    },
+    "Lung_L": {
+     "mean_hu": -731.3,
+     "mL": 1581.7
+    },
+    "Lung_R": {
+     "mean_hu": -787.1,
+     "mL": 2064.4
+    },
+    "Lungs": {
+     "mean_hu": -762.9,
+     "mL": 3646.1
+    },
+    "SpinalCord": {
+     "mean_hu": 47.8,
+     "mL": 68.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-058": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 20.1,
+     "mL": 37.0
+    },
+    "GTV": {
+     "mean_hu": -258.5,
+     "mL": 122.7
+    },
+    "Lung_L": {
+     "mean_hu": -773.3,
+     "mL": 2526.5
+    },
+    "Lung_R": {
+     "mean_hu": -787.5,
+     "mL": 3256.0
+    },
+    "Lungs": {
+     "mean_hu": -781.3,
+     "mL": 5782.2
+    },
+    "SpinalCord": {
+     "mean_hu": 33.0,
+     "mL": 84.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-059": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -16.0,
+     "mL": 43.3
+    },
+    "GTV": {
+     "mean_hu": 26.3,
+     "mL": 38.0
+    },
+    "Lung_L": {
+     "mean_hu": -797.5,
+     "mL": 2762.6
+    },
+    "Lung_R": {
+     "mean_hu": -829.1,
+     "mL": 2303.4
+    },
+    "Lungs": {
+     "mean_hu": -811.9,
+     "mL": 5066.0
+    },
+    "SpinalCord": {
+     "mean_hu": 42.2,
+     "mL": 73.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-060": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -99.0,
+     "mL": 29.4
+    },
+    "GTV": {
+     "mean_hu": -20.9,
+     "mL": 197.2
+    },
+    "Lung_L": {
+     "mean_hu": -730.0,
+     "mL": 1948.3
+    },
+    "Lung_R": {
+     "mean_hu": -774.8,
+     "mL": 3123.5
+    },
+    "Lungs": {
+     "mean_hu": -757.6,
+     "mL": 5071.3
+    },
+    "SpinalCord": {
+     "mean_hu": 38.9,
+     "mL": 103.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-061": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -17.9,
+     "mL": 58.4
+    },
+    "GTV": {
+     "mean_hu": -247.8,
+     "mL": 6.4
+    },
+    "Lung_L": {
+     "mean_hu": -709.0,
+     "mL": 1949.0
+    },
+    "Lung_R": {
+     "mean_hu": -725.8,
+     "mL": 2501.7
+    },
+    "Lungs": {
+     "mean_hu": -718.5,
+     "mL": 4450.7
+    },
+    "SpinalCord": {
+     "mean_hu": 21.0,
+     "mL": 71.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-062": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -37.3,
+     "mL": 27.6
+    },
+    "GTV": {
+     "mean_hu": 19.6,
+     "mL": 3.5
+    },
+    "Lung_L": {
+     "mean_hu": -684.8,
+     "mL": 1458.0
+    },
+    "Lung_R": {
+     "mean_hu": -701.7,
+     "mL": 1816.2
+    },
+    "Lungs": {
+     "mean_hu": -694.2,
+     "mL": 3274.2
+    },
+    "SpinalCord": {
+     "mean_hu": 32.2,
+     "mL": 45.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-063": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 2.1,
+     "mL": 11.5
+    },
+    "Lung_L": {
+     "mean_hu": -695.2,
+     "mL": 967.4
+    },
+    "Lung_R": {
+     "mean_hu": -679.8,
+     "mL": 1572.9
+    },
+    "Lungs": {
+     "mean_hu": -685.7,
+     "mL": 2540.3
+    },
+    "SpinalCord": {
+     "mean_hu": 58.9,
+     "mL": 54.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-064": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 11.3,
+     "mL": 30.4
+    },
+    "GTV": {
+     "mean_hu": -31.3,
+     "mL": 18.7
+    },
+    "Heart": {
+     "mean_hu": 129.5,
+     "mL": 555.8
+    },
+    "Lung_L": {
+     "mean_hu": -774.0,
+     "mL": 2395.6
+    },
+    "Lung_R": {
+     "mean_hu": -773.8,
+     "mL": 2946.4
+    },
+    "Lungs": {
+     "mean_hu": -773.9,
+     "mL": 5342.1
+    },
+    "SpinalCord": {
+     "mean_hu": 32.7,
+     "mL": 55.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-065": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -25.7,
+     "mL": 39.1
+    },
+    "GTV": {
+     "mean_hu": 57.5,
+     "mL": 264.3
+    },
+    "Lung_L": {
+     "mean_hu": -674.3,
+     "mL": 1113.1
+    },
+    "Lung_R": {
+     "mean_hu": -611.6,
+     "mL": 1541.6
+    },
+    "Lungs": {
+     "mean_hu": -637.9,
+     "mL": 2654.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-066": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 28.1,
+     "mL": 37.2
+    },
+    "GTV": {
+     "mean_hu": -71.6,
+     "mL": 19.0
+    },
+    "Heart": {
+     "mean_hu": 111.4,
+     "mL": 731.0
+    },
+    "Lung_L": {
+     "mean_hu": -618.8,
+     "mL": 1142.1
+    },
+    "Lung_R": {
+     "mean_hu": -677.0,
+     "mL": 1904.0
+    },
+    "Lungs": {
+     "mean_hu": -655.2,
+     "mL": 3046.1
+    },
+    "SpinalCord": {
+     "mean_hu": 41.6,
+     "mL": 43.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-067": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 22.4,
+     "mL": 31.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-068": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -10.2,
+     "mL": 61.8
+    },
+    "GTV": {
+     "mean_hu": -232.5,
+     "mL": 78.0
+    },
+    "Lung_L": {
+     "mean_hu": -759.7,
+     "mL": 2266.5
+    },
+    "Lung_R": {
+     "mean_hu": -753.1,
+     "mL": 2469.0
+    },
+    "Lungs": {
+     "mean_hu": -756.3,
+     "mL": 4735.5
+    },
+    "SpinalCord": {
+     "mean_hu": 31.6,
+     "mL": 64.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-069": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 44.6,
+     "mL": 27.2
+    },
+    "GTV": {
+     "mean_hu": 74.0,
+     "mL": 310.3
+    },
+    "Lung_L": {
+     "mean_hu": -742.6,
+     "mL": 1852.5
+    },
+    "Lung_R": {
+     "mean_hu": -762.3,
+     "mL": 1942.5
+    },
+    "Lungs": {
+     "mean_hu": -752.7,
+     "mL": 3794.7
+    },
+    "SpinalCord": {
+     "mean_hu": 41.1,
+     "mL": 107.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-070": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -40.4,
+     "mL": 68.2
+    },
+    "GTV": {
+     "mean_hu": -77.5,
+     "mL": 23.0
+    },
+    "Lung_L": {
+     "mean_hu": -756.3,
+     "mL": 2199.4
+    },
+    "Lung_R": {
+     "mean_hu": -797.1,
+     "mL": 3216.3
+    },
+    "Lungs": {
+     "mean_hu": -780.5,
+     "mL": 5415.7
+    },
+    "SpinalCord": {
+     "mean_hu": 28.4,
+     "mL": 68.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-071": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -9.1,
+     "mL": 21.4
+    },
+    "GTV": {
+     "mean_hu": -36.1,
+     "mL": 33.6
+    },
+    "Heart": {
+     "mean_hu": 129.7,
+     "mL": 845.8
+    },
+    "Lung_L": {
+     "mean_hu": -710.5,
+     "mL": 1532.5
+    },
+    "Lung_R": {
+     "mean_hu": -692.6,
+     "mL": 1480.7
+    },
+    "Lungs": {
+     "mean_hu": -701.7,
+     "mL": 3013.2
+    },
+    "SpinalCord": {
+     "mean_hu": 23.1,
+     "mL": 83.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-072": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -0.3,
+     "mL": 18.1
+    },
+    "GTV": {
+     "mean_hu": 6.1,
+     "mL": 81.2
+    },
+    "Lung_L": {
+     "mean_hu": -725.1,
+     "mL": 1900.8
+    },
+    "Lung_R": {
+     "mean_hu": -705.7,
+     "mL": 2129.7
+    },
+    "Lungs": {
+     "mean_hu": -714.8,
+     "mL": 4030.5
+    },
+    "SpinalCord": {
+     "mean_hu": 25.4,
+     "mL": 61.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-073": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 23.6,
+     "mL": 22.6
+    },
+    "GTV": {
+     "mean_hu": -7.5,
+     "mL": 89.4
+    },
+    "Lung_L": {
+     "mean_hu": -688.0,
+     "mL": 1634.7
+    },
+    "Lung_R": {
+     "mean_hu": -663.6,
+     "mL": 1906.6
+    },
+    "Lungs": {
+     "mean_hu": -674.9,
+     "mL": 3541.3
+    },
+    "SpinalCord": {
+     "mean_hu": 94.8,
+     "mL": 53.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-074": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 31.6,
+     "mL": 36.0
+    },
+    "GTV": {
+     "mean_hu": 18.1,
+     "mL": 121.9
+    },
+    "Lung_L": {
+     "mean_hu": -612.5,
+     "mL": 1264.0
+    },
+    "Lung_R": {
+     "mean_hu": -636.6,
+     "mL": 1324.2
+    },
+    "Lungs": {
+     "mean_hu": -624.8,
+     "mL": 2588.2
+    },
+    "SpinalCord": {
+     "mean_hu": 34.9,
+     "mL": 68.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-075": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 13.4,
+     "mL": 49.7
+    },
+    "GTV": {
+     "mean_hu": 47.3,
+     "mL": 79.8
+    },
+    "Lung_L": {
+     "mean_hu": -748.2,
+     "mL": 1923.6
+    },
+    "Lung_R": {
+     "mean_hu": -776.8,
+     "mL": 2508.0
+    },
+    "Lungs": {
+     "mean_hu": -764.4,
+     "mL": 4431.6
+    },
+    "SpinalCord": {
+     "mean_hu": 24.5,
+     "mL": 81.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-076": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 6.7,
+     "mL": 54.8
+    },
+    "GTV": {
+     "mean_hu": -246.9,
+     "mL": 4.3
+    },
+    "Lung_L": {
+     "mean_hu": -727.3,
+     "mL": 1498.7
+    },
+    "Lung_R": {
+     "mean_hu": -758.0,
+     "mL": 2070.4
+    },
+    "Lungs": {
+     "mean_hu": -745.1,
+     "mL": 3569.1
+    },
+    "SpinalCord": {
+     "mean_hu": 39.5,
+     "mL": 52.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-077": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -47.3,
+     "mL": 54.3
+    },
+    "Lung_L": {
+     "mean_hu": -668.8,
+     "mL": 1082.0
+    },
+    "Lung_R": {
+     "mean_hu": -722.1,
+     "mL": 1622.9
+    },
+    "Lungs": {
+     "mean_hu": -700.8,
+     "mL": 2704.9
+    },
+    "SpinalCord": {
+     "mean_hu": 30.2,
+     "mL": 55.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-078": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -39.2,
+     "mL": 41.6
+    },
+    "GTV": {
+     "mean_hu": -224.2,
+     "mL": 11.0
+    },
+    "Heart": {
+     "mean_hu": 31.7,
+     "mL": 602.0
+    },
+    "Lung_L": {
+     "mean_hu": -793.5,
+     "mL": 2776.6
+    },
+    "Lung_R": {
+     "mean_hu": -792.0,
+     "mL": 3143.3
+    },
+    "Lungs": {
+     "mean_hu": -792.7,
+     "mL": 5919.7
+    },
+    "SpinalCord": {
+     "mean_hu": 50.8,
+     "mL": 65.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-079": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 21.5,
+     "mL": 38.1
+    },
+    "GTV": {
+     "mean_hu": -1.1,
+     "mL": 43.0
+    },
+    "Lung_L": {
+     "mean_hu": -699.4,
+     "mL": 1789.4
+    },
+    "Lung_R": {
+     "mean_hu": -636.8,
+     "mL": 780.8
+    },
+    "Lungs": {
+     "mean_hu": -680.4,
+     "mL": 2570.3
+    },
+    "SpinalCord": {
+     "mean_hu": -60.1,
+     "mL": 78.7
+    }
+   },
+   "flags": [
+    "SpinalCord: mean HU -60 outside [-50,150]"
+   ],
+   "slice_uniformity": 1.0000000000000095
+  },
+  "LUNG1-080": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -7.2,
+     "mL": 35.1
+    },
+    "GTV": {
+     "mean_hu": -289.7,
+     "mL": 5.0
+    },
+    "Heart": {
+     "mean_hu": 18.0,
+     "mL": 608.0
+    },
+    "Lung_L": {
+     "mean_hu": -774.2,
+     "mL": 2635.1
+    },
+    "Lung_R": {
+     "mean_hu": -756.3,
+     "mL": 2407.3
+    },
+    "Lungs": {
+     "mean_hu": -765.7,
+     "mL": 5042.4
+    },
+    "SpinalCord": {
+     "mean_hu": 19.4,
+     "mL": 69.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-081": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -42.3,
+     "mL": 60.5
+    },
+    "GTV": {
+     "mean_hu": -59.7,
+     "mL": 7.2
+    },
+    "Lung_L": {
+     "mean_hu": -694.0,
+     "mL": 1969.6
+    },
+    "Lung_R": {
+     "mean_hu": -700.9,
+     "mL": 2257.5
+    },
+    "Lungs": {
+     "mean_hu": -697.7,
+     "mL": 4227.1
+    },
+    "SpinalCord": {
+     "mean_hu": 29.4,
+     "mL": 68.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-082": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 17.6,
+     "mL": 35.8
+    },
+    "GTV": {
+     "mean_hu": -398.1,
+     "mL": 5.9
+    },
+    "Lung_L": {
+     "mean_hu": -700.0,
+     "mL": 1697.9
+    },
+    "Lung_R": {
+     "mean_hu": -695.8,
+     "mL": 1772.0
+    },
+    "Lungs": {
+     "mean_hu": -697.9,
+     "mL": 3469.9
+    },
+    "SpinalCord": {
+     "mean_hu": 47.8,
+     "mL": 45.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-083": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 0.9,
+     "mL": 36.3
+    },
+    "GTV": {
+     "mean_hu": -162.4,
+     "mL": 11.7
+    },
+    "Heart": {
+     "mean_hu": 14.1,
+     "mL": 767.3
+    },
+    "Lung_L": {
+     "mean_hu": -795.1,
+     "mL": 3069.4
+    },
+    "Lung_R": {
+     "mean_hu": -794.1,
+     "mL": 3258.5
+    },
+    "Lungs": {
+     "mean_hu": -794.6,
+     "mL": 6327.9
+    },
+    "SpinalCord": {
+     "mean_hu": 43.3,
+     "mL": 51.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-084": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -13.3,
+     "mL": 42.2
+    },
+    "GTV": {
+     "mean_hu": -214.2,
+     "mL": 11.1
+    },
+    "Lung_L": {
+     "mean_hu": -804.1,
+     "mL": 2134.5
+    },
+    "Lung_R": {
+     "mean_hu": -804.3,
+     "mL": 2672.2
+    },
+    "Lungs": {
+     "mean_hu": -804.3,
+     "mL": 4806.1
+    },
+    "SpinalCord": {
+     "mean_hu": 23.2,
+     "mL": 94.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-085": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 26.7,
+     "mL": 27.2
+    },
+    "GTV": {
+     "mean_hu": -19.9,
+     "mL": 15.0
+    },
+    "Heart": {
+     "mean_hu": 138.1,
+     "mL": 321.6
+    },
+    "Lung_L": {
+     "mean_hu": -734.0,
+     "mL": 1898.8
+    },
+    "Lung_R": {
+     "mean_hu": -741.5,
+     "mL": 2168.6
+    },
+    "Lungs": {
+     "mean_hu": -738.0,
+     "mL": 4067.3
+    },
+    "SpinalCord": {
+     "mean_hu": 69.1,
+     "mL": 64.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-086": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -297.6,
+     "mL": 0.9
+    },
+    "Lung_L": {
+     "mean_hu": -666.7,
+     "mL": 1636.9
+    },
+    "Lung_R": {
+     "mean_hu": -680.0,
+     "mL": 2290.6
+    },
+    "Lungs": {
+     "mean_hu": -674.5,
+     "mL": 3927.5
+    },
+    "SpinalCord": {
+     "mean_hu": 39.9,
+     "mL": 67.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-087": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -27.1,
+     "mL": 42.1
+    },
+    "GTV": {
+     "mean_hu": -277.1,
+     "mL": 3.7
+    },
+    "Heart": {
+     "mean_hu": 34.0,
+     "mL": 506.9
+    },
+    "Lung_L": {
+     "mean_hu": -824.4,
+     "mL": 2572.8
+    },
+    "Lung_R": {
+     "mean_hu": -820.8,
+     "mL": 2831.6
+    },
+    "Lungs": {
+     "mean_hu": -822.5,
+     "mL": 5404.4
+    },
+    "SpinalCord": {
+     "mean_hu": 47.4,
+     "mL": 73.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-088": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 101.7,
+     "mL": 43.6
+    },
+    "GTV": {
+     "mean_hu": -88.5,
+     "mL": 21.0
+    },
+    "Lung_L": {
+     "mean_hu": -764.9,
+     "mL": 3285.9
+    },
+    "Lung_R": {
+     "mean_hu": -721.2,
+     "mL": 2532.0
+    },
+    "Lungs": {
+     "mean_hu": -745.8,
+     "mL": 5817.9
+    },
+    "SpinalCord": {
+     "mean_hu": 40.9,
+     "mL": 103.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-089": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 53.7,
+     "mL": 34.7
+    },
+    "GTV": {
+     "mean_hu": -461.4,
+     "mL": 1.0
+    },
+    "Lung_L": {
+     "mean_hu": -717.9,
+     "mL": 1630.9
+    },
+    "Lung_R": {
+     "mean_hu": -741.3,
+     "mL": 2005.5
+    },
+    "Lungs": {
+     "mean_hu": -730.8,
+     "mL": 3636.5
+    },
+    "SpinalCord": {
+     "mean_hu": 46.3,
+     "mL": 62.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-090": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -138.1,
+     "mL": 6.5
+    },
+    "Lung_L": {
+     "mean_hu": -851.8,
+     "mL": 3132.0
+    },
+    "Lung_R": {
+     "mean_hu": -853.9,
+     "mL": 3238.3
+    },
+    "Lungs": {
+     "mean_hu": -852.9,
+     "mL": 6370.3
+    },
+    "SpinalCord": {
+     "mean_hu": 47.0,
+     "mL": 91.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-091": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -1.7,
+     "mL": 49.7
+    },
+    "GTV": {
+     "mean_hu": 70.9,
+     "mL": 420.2
+    },
+    "Lung_L": {
+     "mean_hu": -695.3,
+     "mL": 728.6
+    },
+    "Lung_R": {
+     "mean_hu": -712.6,
+     "mL": 2364.0
+    },
+    "Lungs": {
+     "mean_hu": -708.5,
+     "mL": 3092.6
+    },
+    "SpinalCord": {
+     "mean_hu": 40.8,
+     "mL": 91.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-092": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 25.7,
+     "mL": 33.5
+    },
+    "GTV": {
+     "mean_hu": 30.9,
+     "mL": 71.3
+    },
+    "Lung_L": {
+     "mean_hu": -705.3,
+     "mL": 2637.5
+    },
+    "Lung_R": {
+     "mean_hu": -739.7,
+     "mL": 2460.7
+    },
+    "Lungs": {
+     "mean_hu": -721.9,
+     "mL": 5098.2
+    },
+    "SpinalCord": {
+     "mean_hu": 24.6,
+     "mL": 86.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-093": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 31.1,
+     "mL": 31.7
+    },
+    "GTV": {
+     "mean_hu": 21.0,
+     "mL": 54.2
+    },
+    "Lung_L": {
+     "mean_hu": -757.9,
+     "mL": 2337.5
+    },
+    "Lung_R": {
+     "mean_hu": -763.9,
+     "mL": 2382.6
+    },
+    "Lungs": {
+     "mean_hu": -760.9,
+     "mL": 4720.1
+    },
+    "SpinalCord": {
+     "mean_hu": 37.8,
+     "mL": 79.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-094": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -30.9,
+     "mL": 26.4
+    },
+    "GTV": {
+     "mean_hu": -114.2,
+     "mL": 4.4
+    },
+    "Lung_L": {
+     "mean_hu": -665.7,
+     "mL": 1065.8
+    },
+    "Lung_R": {
+     "mean_hu": -724.2,
+     "mL": 1629.6
+    },
+    "Lungs": {
+     "mean_hu": -701.1,
+     "mL": 2695.5
+    },
+    "SpinalCord": {
+     "mean_hu": 26.1,
+     "mL": 59.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-095": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 30.8,
+     "mL": 46.5
+    },
+    "GTV": {
+     "mean_hu": 27.7,
+     "mL": 305.2
+    },
+    "Lung_L": {
+     "mean_hu": -682.9,
+     "mL": 2162.2
+    },
+    "Lung_R": {
+     "mean_hu": -646.0,
+     "mL": 526.1
+    },
+    "Lungs": {
+     "mean_hu": -675.7,
+     "mL": 2688.3
+    },
+    "SpinalCord": {
+     "mean_hu": 16.8,
+     "mL": 65.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-096": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 11.1,
+     "mL": 35.2
+    },
+    "GTV": {
+     "mean_hu": -88.1,
+     "mL": 119.6
+    },
+    "Lung_L": {
+     "mean_hu": -807.6,
+     "mL": 2558.9
+    },
+    "Lung_R": {
+     "mean_hu": -741.4,
+     "mL": 2860.4
+    },
+    "Lungs": {
+     "mean_hu": -772.6,
+     "mL": 5419.3
+    },
+    "SpinalCord": {
+     "mean_hu": 25.7,
+     "mL": 59.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-097": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -2.8,
+     "mL": 45.1
+    },
+    "GTV": {
+     "mean_hu": -18.2,
+     "mL": 344.0
+    },
+    "Lung_L": {
+     "mean_hu": -709.5,
+     "mL": 1316.7
+    },
+    "Lung_R": {
+     "mean_hu": -733.6,
+     "mL": 2669.9
+    },
+    "Lungs": {
+     "mean_hu": -725.7,
+     "mL": 3986.4
+    },
+    "SpinalCord": {
+     "mean_hu": 23.7,
+     "mL": 94.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-098": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -36.6,
+     "mL": 39.6
+    },
+    "GTV": {
+     "mean_hu": -296.3,
+     "mL": 1.6
+    },
+    "Lung_L": {
+     "mean_hu": -781.6,
+     "mL": 2030.5
+    },
+    "Lung_R": {
+     "mean_hu": -778.0,
+     "mL": 2267.4
+    },
+    "Lungs": {
+     "mean_hu": -779.7,
+     "mL": 4297.9
+    },
+    "SpinalCord": {
+     "mean_hu": 24.2,
+     "mL": 46.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-099": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -198.7,
+     "mL": 27.5
+    },
+    "GTV": {
+     "mean_hu": -84.0,
+     "mL": 62.2
+    },
+    "Lung_L": {
+     "mean_hu": -817.5,
+     "mL": 2534.3
+    },
+    "Lung_R": {
+     "mean_hu": -847.1,
+     "mL": 2798.1
+    },
+    "Lungs": {
+     "mean_hu": -833.0,
+     "mL": 5332.4
+    },
+    "SpinalCord": {
+     "mean_hu": 25.0,
+     "mL": 68.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-100": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 18.0,
+     "mL": 32.4
+    },
+    "GTV": {
+     "mean_hu": -223.7,
+     "mL": 3.4
+    },
+    "Lung_L": {
+     "mean_hu": -740.8,
+     "mL": 1406.3
+    },
+    "Lung_R": {
+     "mean_hu": -741.5,
+     "mL": 1676.0
+    },
+    "Lungs": {
+     "mean_hu": -741.2,
+     "mL": 3082.2
+    },
+    "SpinalCord": {
+     "mean_hu": 20.0,
+     "mL": 71.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-101": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 18.4,
+     "mL": 51.8
+    },
+    "GTV": {
+     "mean_hu": -0.6,
+     "mL": 50.5
+    },
+    "Lung_L": {
+     "mean_hu": -714.1,
+     "mL": 1601.7
+    },
+    "Lung_R": {
+     "mean_hu": -741.2,
+     "mL": 1760.7
+    },
+    "Lungs": {
+     "mean_hu": -728.3,
+     "mL": 3362.4
+    },
+    "SpinalCord": {
+     "mean_hu": 36.5,
+     "mL": 46.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-102": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -262.0,
+     "mL": 10.8
+    },
+    "Lung_L": {
+     "mean_hu": -785.6,
+     "mL": 2241.3
+    },
+    "Lung_R": {
+     "mean_hu": -799.0,
+     "mL": 2235.9
+    },
+    "Lungs": {
+     "mean_hu": -792.3,
+     "mL": 4477.3
+    },
+    "SpinalCord": {
+     "mean_hu": 33.0,
+     "mL": 66.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-103": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -8.5,
+     "mL": 39.6
+    },
+    "GTV": {
+     "mean_hu": -254.4,
+     "mL": 9.0
+    },
+    "Heart": {
+     "mean_hu": 24.5,
+     "mL": 655.9
+    },
+    "Lung_L": {
+     "mean_hu": -820.4,
+     "mL": 2532.5
+    },
+    "Lung_R": {
+     "mean_hu": -753.8,
+     "mL": 2392.9
+    },
+    "Lungs": {
+     "mean_hu": -788.1,
+     "mL": 4925.2
+    },
+    "SpinalCord": {
+     "mean_hu": 26.6,
+     "mL": 64.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-104": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 7.1,
+     "mL": 61.1
+    },
+    "GTV": {
+     "mean_hu": 82.2,
+     "mL": 108.3
+    },
+    "Lung_L": {
+     "mean_hu": -674.6,
+     "mL": 1212.5
+    },
+    "Lung_R": {
+     "mean_hu": -722.6,
+     "mL": 1859.9
+    },
+    "Lungs": {
+     "mean_hu": -703.7,
+     "mL": 3072.5
+    },
+    "SpinalCord": {
+     "mean_hu": 22.0,
+     "mL": 51.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-105": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 11.6,
+     "mL": 27.4
+    },
+    "GTV": {
+     "mean_hu": 23.2,
+     "mL": 315.9
+    },
+    "Lung_L": {
+     "mean_hu": -766.3,
+     "mL": 1902.2
+    },
+    "Lung_R": {
+     "mean_hu": -773.2,
+     "mL": 2460.1
+    },
+    "Lungs": {
+     "mean_hu": -770.2,
+     "mL": 4362.3
+    },
+    "SpinalCord": {
+     "mean_hu": 28.0,
+     "mL": 68.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-106": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -24.6,
+     "mL": 37.1
+    },
+    "GTV": {
+     "mean_hu": -148.2,
+     "mL": 5.1
+    },
+    "Lung_L": {
+     "mean_hu": -656.1,
+     "mL": 1655.6
+    },
+    "Lung_R": {
+     "mean_hu": -663.8,
+     "mL": 1863.7
+    },
+    "Lungs": {
+     "mean_hu": -660.2,
+     "mL": 3519.3
+    },
+    "SpinalCord": {
+     "mean_hu": 20.2,
+     "mL": 52.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-107": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 26.9,
+     "mL": 33.1
+    },
+    "GTV": {
+     "mean_hu": 52.9,
+     "mL": 11.2
+    },
+    "Lung_L": {
+     "mean_hu": -681.4,
+     "mL": 1398.2
+    },
+    "Lung_R": {
+     "mean_hu": -728.4,
+     "mL": 2493.0
+    },
+    "Lungs": {
+     "mean_hu": -711.5,
+     "mL": 3891.2
+    },
+    "SpinalCord": {
+     "mean_hu": 41.1,
+     "mL": 64.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-108": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -35.5,
+     "mL": 44.7
+    },
+    "GTV": {
+     "mean_hu": -168.3,
+     "mL": 1.5
+    },
+    "Lung_L": {
+     "mean_hu": -743.7,
+     "mL": 2075.4
+    },
+    "Lung_R": {
+     "mean_hu": -758.0,
+     "mL": 2633.7
+    },
+    "Lungs": {
+     "mean_hu": -751.7,
+     "mL": 4709.0
+    },
+    "SpinalCord": {
+     "mean_hu": 34.2,
+     "mL": 74.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-109": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 18.1,
+     "mL": 40.6
+    },
+    "GTV": {
+     "mean_hu": -23.1,
+     "mL": 91.9
+    },
+    "Lung_L": {
+     "mean_hu": -799.7,
+     "mL": 1847.7
+    },
+    "Lung_R": {
+     "mean_hu": -792.4,
+     "mL": 1967.5
+    },
+    "Lungs": {
+     "mean_hu": -796.0,
+     "mL": 3815.1
+    },
+    "SpinalCord": {
+     "mean_hu": 22.6,
+     "mL": 56.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-110": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 24.3,
+     "mL": 39.1
+    },
+    "GTV": {
+     "mean_hu": -321.3,
+     "mL": 1.5
+    },
+    "Lung_L": {
+     "mean_hu": -773.9,
+     "mL": 1614.9
+    },
+    "Lung_R": {
+     "mean_hu": -789.3,
+     "mL": 2156.0
+    },
+    "Lungs": {
+     "mean_hu": -782.7,
+     "mL": 3770.8
+    },
+    "SpinalCord": {
+     "mean_hu": 37.5,
+     "mL": 85.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-111": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -350.6,
+     "mL": 2.6
+    },
+    "Lung_L": {
+     "mean_hu": -786.1,
+     "mL": 2665.0
+    },
+    "Lung_R": {
+     "mean_hu": -777.6,
+     "mL": 2957.2
+    },
+    "Lungs": {
+     "mean_hu": -781.6,
+     "mL": 5622.2
+    },
+    "SpinalCord": {
+     "mean_hu": 47.4,
+     "mL": 74.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-112": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 35.0,
+     "mL": 48.0
+    },
+    "GTV": {
+     "mean_hu": 57.2,
+     "mL": 8.1
+    },
+    "Lung_L": {
+     "mean_hu": -739.3,
+     "mL": 1806.4
+    },
+    "Lung_R": {
+     "mean_hu": -779.6,
+     "mL": 3265.6
+    },
+    "Lungs": {
+     "mean_hu": -765.3,
+     "mL": 5072.0
+    },
+    "SpinalCord": {
+     "mean_hu": 22.1,
+     "mL": 64.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-113": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -5.6,
+     "mL": 42.1
+    },
+    "GTV": {
+     "mean_hu": -118.5,
+     "mL": 50.4
+    },
+    "Lung_L": {
+     "mean_hu": -764.8,
+     "mL": 2023.1
+    },
+    "Lung_R": {
+     "mean_hu": -750.9,
+     "mL": 2125.7
+    },
+    "Lungs": {
+     "mean_hu": -757.7,
+     "mL": 4148.7
+    },
+    "SpinalCord": {
+     "mean_hu": 22.9,
+     "mL": 54.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-114": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 3.6,
+     "mL": 29.7
+    },
+    "GTV": {
+     "mean_hu": -166.2,
+     "mL": 2.8
+    },
+    "Lung_L": {
+     "mean_hu": -764.3,
+     "mL": 1870.4
+    },
+    "Lung_R": {
+     "mean_hu": -782.4,
+     "mL": 2328.0
+    },
+    "Lungs": {
+     "mean_hu": -774.4,
+     "mL": 4198.4
+    },
+    "SpinalCord": {
+     "mean_hu": 24.5,
+     "mL": 83.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-115": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -49.8,
+     "mL": 232.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-116": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -290.8,
+     "mL": 66.8
+    },
+    "GTV": {
+     "mean_hu": -20.6,
+     "mL": 187.3
+    },
+    "Heart": {
+     "mean_hu": 27.4,
+     "mL": 1003.9
+    },
+    "Lung_L": {
+     "mean_hu": -723.5,
+     "mL": 1698.8
+    },
+    "Lung_R": {
+     "mean_hu": -775.5,
+     "mL": 3208.3
+    },
+    "Lungs": {
+     "mean_hu": -757.5,
+     "mL": 4907.1
+    },
+    "SpinalCord": {
+     "mean_hu": 18.0,
+     "mL": 109.5
+    }
+   },
+   "flags": [
+    "Esophagus: mean HU -291 outside [-200,150]"
+   ],
+   "slice_uniformity": 1.0
+  },
+  "LUNG1-117": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 41.2,
+     "mL": 38.3
+    },
+    "Lung_L": {
+     "mean_hu": -721.2,
+     "mL": 1675.1
+    },
+    "Lung_R": {
+     "mean_hu": -735.7,
+     "mL": 2109.2
+    },
+    "Lungs": {
+     "mean_hu": -729.3,
+     "mL": 3784.3
+    },
+    "SpinalCord": {
+     "mean_hu": 19.3,
+     "mL": 61.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-118": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -356.9,
+     "mL": 6.3
+    },
+    "Lung_L": {
+     "mean_hu": -825.1,
+     "mL": 3050.3
+    },
+    "Lung_R": {
+     "mean_hu": -844.5,
+     "mL": 3046.4
+    },
+    "Lungs": {
+     "mean_hu": -834.8,
+     "mL": 6096.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-119": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 11.8,
+     "mL": 32.7
+    },
+    "GTV": {
+     "mean_hu": -269.4,
+     "mL": 2.3
+    },
+    "SpinalCord": {
+     "mean_hu": 61.7,
+     "mL": 84.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-120": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 4.9,
+     "mL": 38.3
+    },
+    "GTV": {
+     "mean_hu": -27.2,
+     "mL": 37.5
+    },
+    "Lung_L": {
+     "mean_hu": -773.1,
+     "mL": 2325.1
+    },
+    "Lung_R": {
+     "mean_hu": -765.3,
+     "mL": 2360.8
+    },
+    "Lungs": {
+     "mean_hu": -769.2,
+     "mL": 4686.0
+    },
+    "SpinalCord": {
+     "mean_hu": 35.2,
+     "mL": 65.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-121": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 38.1,
+     "mL": 11.4
+    },
+    "GTV": {
+     "mean_hu": -6.4,
+     "mL": 30.7
+    },
+    "SpinalCord": {
+     "mean_hu": 12.1,
+     "mL": 63.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-122": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -60.7,
+     "mL": 11.7
+    },
+    "Lung_L": {
+     "mean_hu": -749.3,
+     "mL": 2015.0
+    },
+    "Lung_R": {
+     "mean_hu": -759.0,
+     "mL": 2402.3
+    },
+    "Lungs": {
+     "mean_hu": -754.6,
+     "mL": 4417.3
+    },
+    "SpinalCord": {
+     "mean_hu": 26.0,
+     "mL": 76.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-123": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -151.1,
+     "mL": 45.2
+    },
+    "GTV": {
+     "mean_hu": -54.3,
+     "mL": 75.3
+    },
+    "Lung_L": {
+     "mean_hu": -839.5,
+     "mL": 1835.1
+    },
+    "Lung_R": {
+     "mean_hu": -836.7,
+     "mL": 3044.0
+    },
+    "Lungs": {
+     "mean_hu": -837.8,
+     "mL": 4879.1
+    },
+    "SpinalCord": {
+     "mean_hu": 25.2,
+     "mL": 62.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-124": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -27.6,
+     "mL": 27.8
+    },
+    "GTV": {
+     "mean_hu": -192.3,
+     "mL": 30.8
+    },
+    "Heart": {
+     "mean_hu": 1.7,
+     "mL": 476.4
+    },
+    "Lung_L": {
+     "mean_hu": -838.1,
+     "mL": 2460.9
+    },
+    "Lung_R": {
+     "mean_hu": -823.7,
+     "mL": 2594.8
+    },
+    "Lungs": {
+     "mean_hu": -830.7,
+     "mL": 5055.6
+    },
+    "SpinalCord": {
+     "mean_hu": 23.8,
+     "mL": 96.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-125": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -14.3,
+     "mL": 43.5
+    },
+    "GTV": {
+     "mean_hu": -131.7,
+     "mL": 43.1
+    },
+    "Lung_L": {
+     "mean_hu": -752.7,
+     "mL": 1859.4
+    },
+    "Lung_R": {
+     "mean_hu": -748.2,
+     "mL": 2176.3
+    },
+    "Lungs": {
+     "mean_hu": -750.3,
+     "mL": 4035.7
+    },
+    "SpinalCord": {
+     "mean_hu": 33.6,
+     "mL": 56.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-126": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -5.4,
+     "mL": 23.5
+    },
+    "GTV": {
+     "mean_hu": -603.1,
+     "mL": 4.9
+    },
+    "Lung_L": {
+     "mean_hu": -701.9,
+     "mL": 1185.4
+    },
+    "Lung_R": {
+     "mean_hu": -732.5,
+     "mL": 1612.5
+    },
+    "Lungs": {
+     "mean_hu": -719.5,
+     "mL": 2797.9
+    },
+    "SpinalCord": {
+     "mean_hu": 19.6,
+     "mL": 79.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-127": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -16.1,
+     "mL": 17.6
+    },
+    "GTV": {
+     "mean_hu": -231.7,
+     "mL": 12.1
+    },
+    "Lung_L": {
+     "mean_hu": -695.2,
+     "mL": 1632.7
+    },
+    "Lung_R": {
+     "mean_hu": -721.0,
+     "mL": 2166.4
+    },
+    "Lungs": {
+     "mean_hu": -709.9,
+     "mL": 3799.1
+    },
+    "SpinalCord": {
+     "mean_hu": 6.2,
+     "mL": 53.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-129": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -26.1,
+     "mL": 36.6
+    },
+    "GTV": {
+     "mean_hu": -37.1,
+     "mL": 25.0
+    },
+    "Lung_L": {
+     "mean_hu": -607.6,
+     "mL": 1481.9
+    },
+    "Lung_R": {
+     "mean_hu": -597.4,
+     "mL": 1591.4
+    },
+    "Lungs": {
+     "mean_hu": -602.3,
+     "mL": 3073.3
+    },
+    "SpinalCord": {
+     "mean_hu": 44.2,
+     "mL": 75.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-130": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -4.3,
+     "mL": 31.3
+    },
+    "GTV": {
+     "mean_hu": 3.3,
+     "mL": 152.1
+    },
+    "Lung_L": {
+     "mean_hu": -711.2,
+     "mL": 1535.1
+    },
+    "Lung_R": {
+     "mean_hu": -713.8,
+     "mL": 1771.4
+    },
+    "Lungs": {
+     "mean_hu": -712.6,
+     "mL": 3306.4
+    },
+    "SpinalCord": {
+     "mean_hu": 27.6,
+     "mL": 77.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-131": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -92.3,
+     "mL": 13.5
+    },
+    "Lung_L": {
+     "mean_hu": -736.3,
+     "mL": 1532.1
+    },
+    "Lung_R": {
+     "mean_hu": -769.5,
+     "mL": 2049.7
+    },
+    "Lungs": {
+     "mean_hu": -755.3,
+     "mL": 3581.8
+    },
+    "SpinalCord": {
+     "mean_hu": 33.9,
+     "mL": 55.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-132": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -12.1,
+     "mL": 41.5
+    },
+    "GTV": {
+     "mean_hu": -0.7,
+     "mL": 46.6
+    },
+    "Lung_L": {
+     "mean_hu": -694.8,
+     "mL": 1748.6
+    },
+    "Lung_R": {
+     "mean_hu": -699.3,
+     "mL": 1725.6
+    },
+    "Lungs": {
+     "mean_hu": -697.1,
+     "mL": 3474.2
+    },
+    "SpinalCord": {
+     "mean_hu": 14.1,
+     "mL": 55.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-133": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -249.6,
+     "mL": 1.4
+    },
+    "Lung_L": {
+     "mean_hu": -829.0,
+     "mL": 2470.9
+    },
+    "Lung_R": {
+     "mean_hu": -850.7,
+     "mL": 3397.5
+    },
+    "Lungs": {
+     "mean_hu": -841.6,
+     "mL": 5868.3
+    },
+    "SpinalCord": {
+     "mean_hu": 29.0,
+     "mL": 129.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-134": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -135.1,
+     "mL": 2.9
+    },
+    "Lung_L": {
+     "mean_hu": -866.8,
+     "mL": 2408.6
+    },
+    "Lung_R": {
+     "mean_hu": -851.9,
+     "mL": 2680.9
+    },
+    "Lungs": {
+     "mean_hu": -858.9,
+     "mL": 5089.5
+    },
+    "SpinalCord": {
+     "mean_hu": 15.2,
+     "mL": 38.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-135": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 4.4,
+     "mL": 25.1
+    },
+    "GTV": {
+     "mean_hu": 11.1,
+     "mL": 6.8
+    },
+    "Heart": {
+     "mean_hu": 22.0,
+     "mL": 531.5
+    },
+    "Lung_L": {
+     "mean_hu": -746.4,
+     "mL": 1532.0
+    },
+    "Lung_R": {
+     "mean_hu": -768.3,
+     "mL": 2049.0
+    },
+    "Lungs": {
+     "mean_hu": -758.9,
+     "mL": 3581.0
+    },
+    "SpinalCord": {
+     "mean_hu": 33.7,
+     "mL": 58.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-136": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -64.1,
+     "mL": 46.9
+    },
+    "GTV": {
+     "mean_hu": -130.7,
+     "mL": 15.4
+    },
+    "Lung_L": {
+     "mean_hu": -692.9,
+     "mL": 1831.2
+    },
+    "Lung_R": {
+     "mean_hu": -699.5,
+     "mL": 1971.5
+    },
+    "Lungs": {
+     "mean_hu": -696.3,
+     "mL": 3802.7
+    },
+    "SpinalCord": {
+     "mean_hu": 15.4,
+     "mL": 64.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-137": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 10.5,
+     "mL": 47.2
+    },
+    "GTV": {
+     "mean_hu": -13.2,
+     "mL": 135.5
+    },
+    "Heart": {
+     "mean_hu": 20.4,
+     "mL": 637.3
+    },
+    "Lung_L": {
+     "mean_hu": -639.3,
+     "mL": 915.8
+    },
+    "Lung_R": {
+     "mean_hu": -697.6,
+     "mL": 2028.7
+    },
+    "Lungs": {
+     "mean_hu": -679.5,
+     "mL": 2944.4
+    },
+    "SpinalCord": {
+     "mean_hu": 30.5,
+     "mL": 116.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-138": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -239.6,
+     "mL": 44.0
+    },
+    "GTV": {
+     "mean_hu": -263.2,
+     "mL": 3.2
+    },
+    "Lung_L": {
+     "mean_hu": -692.9,
+     "mL": 2096.4
+    },
+    "Lungs": {
+     "mean_hu": -692.9,
+     "mL": 2096.4
+    },
+    "SpinalCord": {
+     "mean_hu": 27.8,
+     "mL": 41.5
+    }
+   },
+   "flags": [
+    "Esophagus: mean HU -240 outside [-200,150]"
+   ],
+   "slice_uniformity": 1.0
+  },
+  "LUNG1-139": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -6.4,
+     "mL": 38.4
+    },
+    "GTV": {
+     "mean_hu": -210.0,
+     "mL": 6.5
+    },
+    "Lung_L": {
+     "mean_hu": -752.6,
+     "mL": 2458.0
+    },
+    "Lung_R": {
+     "mean_hu": -750.7,
+     "mL": 2033.0
+    },
+    "Lungs": {
+     "mean_hu": -751.7,
+     "mL": 4491.0
+    },
+    "SpinalCord": {
+     "mean_hu": 15.5,
+     "mL": 66.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-140": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -22.8,
+     "mL": 334.0
+    },
+    "Lung_L": {
+     "mean_hu": -802.2,
+     "mL": 1956.7
+    },
+    "Lung_R": {
+     "mean_hu": -787.5,
+     "mL": 1498.1
+    },
+    "Lungs": {
+     "mean_hu": -795.8,
+     "mL": 3454.7
+    },
+    "SpinalCord": {
+     "mean_hu": 27.3,
+     "mL": 79.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-141": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 43.7,
+     "mL": 181.9
+    },
+    "Lung_L": {
+     "mean_hu": -811.2,
+     "mL": 1771.8
+    },
+    "Lung_R": {
+     "mean_hu": -792.7,
+     "mL": 1929.3
+    },
+    "Lungs": {
+     "mean_hu": -801.5,
+     "mL": 3701.1
+    },
+    "SpinalCord": {
+     "mean_hu": 19.6,
+     "mL": 55.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-142": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -49.6,
+     "mL": 222.6
+    },
+    "Lung_L": {
+     "mean_hu": -693.3,
+     "mL": 1992.3
+    },
+    "Lung_R": {
+     "mean_hu": -654.2,
+     "mL": 2039.3
+    },
+    "Lungs": {
+     "mean_hu": -673.5,
+     "mL": 4031.6
+    },
+    "SpinalCord": {
+     "mean_hu": 29.9,
+     "mL": 71.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-143": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 40.0,
+     "mL": 25.9
+    },
+    "GTV": {
+     "mean_hu": 17.1,
+     "mL": 103.2
+    },
+    "Lung_L": {
+     "mean_hu": -611.9,
+     "mL": 1573.1
+    },
+    "Lung_R": {
+     "mean_hu": -605.5,
+     "mL": 1392.0
+    },
+    "Lungs": {
+     "mean_hu": -608.9,
+     "mL": 2965.1
+    },
+    "SpinalCord": {
+     "mean_hu": 29.5,
+     "mL": 87.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-144": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -34.5,
+     "mL": 39.2
+    },
+    "GTV": {
+     "mean_hu": 13.6,
+     "mL": 257.6
+    },
+    "Lung_L": {
+     "mean_hu": -711.8,
+     "mL": 1572.5
+    },
+    "Lung_R": {
+     "mean_hu": -725.2,
+     "mL": 2241.5
+    },
+    "Lungs": {
+     "mean_hu": -719.7,
+     "mL": 3814.0
+    },
+    "SpinalCord": {
+     "mean_hu": 53.5,
+     "mL": 85.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-145": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -36.9,
+     "mL": 38.1
+    },
+    "Lung_L": {
+     "mean_hu": -737.8,
+     "mL": 1844.6
+    },
+    "Lung_R": {
+     "mean_hu": -720.9,
+     "mL": 1781.4
+    },
+    "Lungs": {
+     "mean_hu": -729.5,
+     "mL": 3625.9
+    },
+    "SpinalCord": {
+     "mean_hu": 18.4,
+     "mL": 51.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-146": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -171.1,
+     "mL": 8.7
+    },
+    "Lung_L": {
+     "mean_hu": -704.3,
+     "mL": 1550.7
+    },
+    "Lung_R": {
+     "mean_hu": -725.2,
+     "mL": 2265.7
+    },
+    "Lungs": {
+     "mean_hu": -716.7,
+     "mL": 3816.4
+    },
+    "SpinalCord": {
+     "mean_hu": 15.3,
+     "mL": 52.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-147": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -17.4,
+     "mL": 38.9
+    },
+    "Lung_L": {
+     "mean_hu": -734.8,
+     "mL": 1386.3
+    },
+    "Lung_R": {
+     "mean_hu": -759.2,
+     "mL": 2002.7
+    },
+    "Lungs": {
+     "mean_hu": -749.2,
+     "mL": 3389.0
+    },
+    "SpinalCord": {
+     "mean_hu": 25.2,
+     "mL": 63.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-148": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 6.9,
+     "mL": 28.5
+    },
+    "GTV": {
+     "mean_hu": -49.4,
+     "mL": 114.5
+    },
+    "Lung_L": {
+     "mean_hu": -776.8,
+     "mL": 1501.9
+    },
+    "Lung_R": {
+     "mean_hu": -751.9,
+     "mL": 1930.1
+    },
+    "Lungs": {
+     "mean_hu": -762.8,
+     "mL": 3432.0
+    },
+    "SpinalCord": {
+     "mean_hu": 12.6,
+     "mL": 72.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-149": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 64.4,
+     "mL": 411.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-150": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -103.4,
+     "mL": 40.8
+    },
+    "GTV": {
+     "mean_hu": -203.4,
+     "mL": 8.3
+    },
+    "Lung_L": {
+     "mean_hu": -740.2,
+     "mL": 1909.9
+    },
+    "Lung_R": {
+     "mean_hu": -791.7,
+     "mL": 2167.5
+    },
+    "Lungs": {
+     "mean_hu": -767.6,
+     "mL": 4077.4
+    },
+    "SpinalCord": {
+     "mean_hu": 37.1,
+     "mL": 83.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-151": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -9.7,
+     "mL": 38.8
+    },
+    "GTV": {
+     "mean_hu": -74.6,
+     "mL": 41.6
+    },
+    "Lung_L": {
+     "mean_hu": -846.4,
+     "mL": 2914.9
+    },
+    "Lung_R": {
+     "mean_hu": -861.7,
+     "mL": 3393.7
+    },
+    "Lungs": {
+     "mean_hu": -854.6,
+     "mL": 6308.4
+    },
+    "SpinalCord": {
+     "mean_hu": 21.9,
+     "mL": 86.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-152": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -70.9,
+     "mL": 37.1
+    },
+    "GTV": {
+     "mean_hu": -261.4,
+     "mL": 6.3
+    },
+    "Heart": {
+     "mean_hu": 27.1,
+     "mL": 613.9
+    },
+    "Lung_L": {
+     "mean_hu": -841.8,
+     "mL": 2196.6
+    },
+    "Lung_R": {
+     "mean_hu": -837.5,
+     "mL": 3117.9
+    },
+    "Lungs": {
+     "mean_hu": -839.3,
+     "mL": 5313.2
+    },
+    "SpinalCord": {
+     "mean_hu": 18.6,
+     "mL": 85.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-153": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -4.3,
+     "mL": 16.3
+    },
+    "GTV": {
+     "mean_hu": -175.7,
+     "mL": 6.0
+    },
+    "Lung_L": {
+     "mean_hu": -772.9,
+     "mL": 1468.2
+    },
+    "Lung_R": {
+     "mean_hu": -744.2,
+     "mL": 1724.3
+    },
+    "Lungs": {
+     "mean_hu": -757.4,
+     "mL": 3192.4
+    },
+    "SpinalCord": {
+     "mean_hu": 23.2,
+     "mL": 39.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-154": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -21.5,
+     "mL": 21.7
+    },
+    "GTV": {
+     "mean_hu": -259.2,
+     "mL": 4.9
+    },
+    "Lung_L": {
+     "mean_hu": -808.6,
+     "mL": 2059.4
+    },
+    "Lung_R": {
+     "mean_hu": -817.7,
+     "mL": 2390.7
+    },
+    "Lungs": {
+     "mean_hu": -813.5,
+     "mL": 4450.1
+    },
+    "SpinalCord": {
+     "mean_hu": 24.6,
+     "mL": 51.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-155": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 28.1,
+     "mL": 30.8
+    },
+    "GTV": {
+     "mean_hu": -16.2,
+     "mL": 61.3
+    },
+    "Lung_L": {
+     "mean_hu": -705.1,
+     "mL": 1747.6
+    },
+    "Lung_R": {
+     "mean_hu": -768.0,
+     "mL": 1755.1
+    },
+    "Lungs": {
+     "mean_hu": -736.6,
+     "mL": 3502.7
+    },
+    "SpinalCord": {
+     "mean_hu": 32.3,
+     "mL": 69.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-156": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -21.9,
+     "mL": 46.8
+    },
+    "GTV": {
+     "mean_hu": -404.3,
+     "mL": 0.7
+    },
+    "Lung_L": {
+     "mean_hu": -530.3,
+     "mL": 1453.0
+    },
+    "Lung_R": {
+     "mean_hu": -541.8,
+     "mL": 1557.7
+    },
+    "Lungs": {
+     "mean_hu": -536.2,
+     "mL": 3010.7
+    },
+    "SpinalCord": {
+     "mean_hu": 9.9,
+     "mL": 45.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-157": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -86.1,
+     "mL": 15.4
+    },
+    "Lung_L": {
+     "mean_hu": -768.5,
+     "mL": 1705.6
+    },
+    "Lung_R": {
+     "mean_hu": -777.6,
+     "mL": 1933.9
+    },
+    "Lungs": {
+     "mean_hu": -773.3,
+     "mL": 3639.6
+    },
+    "SpinalCord": {
+     "mean_hu": 23.9,
+     "mL": 60.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-158": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 6.8,
+     "mL": 29.6
+    },
+    "GTV": {
+     "mean_hu": -444.2,
+     "mL": 1.4
+    },
+    "SpinalCord": {
+     "mean_hu": 60.6,
+     "mL": 79.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-159": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -11.2,
+     "mL": 38.2
+    },
+    "GTV": {
+     "mean_hu": -127.2,
+     "mL": 58.4
+    },
+    "Lung_L": {
+     "mean_hu": -780.5,
+     "mL": 2508.4
+    },
+    "Lung_R": {
+     "mean_hu": -784.1,
+     "mL": 2507.8
+    },
+    "Lungs": {
+     "mean_hu": -782.3,
+     "mL": 5015.4
+    },
+    "SpinalCord": {
+     "mean_hu": 37.7,
+     "mL": 116.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-160": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -0.7,
+     "mL": 42.2
+    },
+    "GTV": {
+     "mean_hu": -279.6,
+     "mL": 4.9
+    },
+    "Lung_L": {
+     "mean_hu": -859.6,
+     "mL": 2821.3
+    },
+    "Lung_R": {
+     "mean_hu": -870.7,
+     "mL": 3622.1
+    },
+    "Lungs": {
+     "mean_hu": -865.9,
+     "mL": 6442.5
+    },
+    "SpinalCord": {
+     "mean_hu": 15.1,
+     "mL": 69.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-161": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -271.2,
+     "mL": 0.9
+    },
+    "Lung_L": {
+     "mean_hu": -726.3,
+     "mL": 1894.5
+    },
+    "Lung_R": {
+     "mean_hu": -760.4,
+     "mL": 2689.2
+    },
+    "Lungs": {
+     "mean_hu": -746.3,
+     "mL": 4583.6
+    },
+    "SpinalCord": {
+     "mean_hu": 20.2,
+     "mL": 84.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-162": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 1.8,
+     "mL": 39.4
+    },
+    "GTV": {
+     "mean_hu": -99.6,
+     "mL": 16.0
+    },
+    "Lung_L": {
+     "mean_hu": -778.7,
+     "mL": 2194.3
+    },
+    "Lung_R": {
+     "mean_hu": -777.7,
+     "mL": 2190.4
+    },
+    "Lungs": {
+     "mean_hu": -778.2,
+     "mL": 4384.7
+    },
+    "SpinalCord": {
+     "mean_hu": 22.4,
+     "mL": 75.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-163": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 1.7,
+     "mL": 136.9
+    },
+    "Lung_L": {
+     "mean_hu": -704.8,
+     "mL": 1642.5
+    },
+    "Lung_R": {
+     "mean_hu": -723.1,
+     "mL": 1198.8
+    },
+    "Lungs": {
+     "mean_hu": -712.5,
+     "mL": 2841.4
+    },
+    "SpinalCord": {
+     "mean_hu": 10.6,
+     "mL": 71.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-164": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 7.8,
+     "mL": 30.2
+    },
+    "GTV": {
+     "mean_hu": -138.4,
+     "mL": 28.6
+    },
+    "Lung_L": {
+     "mean_hu": -674.4,
+     "mL": 1338.0
+    },
+    "Lung_R": {
+     "mean_hu": -685.7,
+     "mL": 1448.0
+    },
+    "Lungs": {
+     "mean_hu": -680.3,
+     "mL": 2785.9
+    },
+    "SpinalCord": {
+     "mean_hu": 46.3,
+     "mL": 65.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-165": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -9.8,
+     "mL": 31.6
+    },
+    "GTV": {
+     "mean_hu": -177.1,
+     "mL": 8.9
+    },
+    "Lung_L": {
+     "mean_hu": -762.3,
+     "mL": 1846.7
+    },
+    "Lung_R": {
+     "mean_hu": -769.0,
+     "mL": 2047.5
+    },
+    "Lungs": {
+     "mean_hu": -765.9,
+     "mL": 3894.1
+    },
+    "SpinalCord": {
+     "mean_hu": 30.8,
+     "mL": 56.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-166": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -112.1,
+     "mL": 37.2
+    },
+    "GTV": {
+     "mean_hu": -38.6,
+     "mL": 26.7
+    },
+    "Lung_L": {
+     "mean_hu": -794.8,
+     "mL": 2286.8
+    },
+    "Lung_R": {
+     "mean_hu": -797.5,
+     "mL": 2643.6
+    },
+    "Lungs": {
+     "mean_hu": -796.2,
+     "mL": 4930.4
+    },
+    "SpinalCord": {
+     "mean_hu": 24.9,
+     "mL": 81.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-167": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -79.6,
+     "mL": 39.8
+    },
+    "GTV": {
+     "mean_hu": -72.5,
+     "mL": 1.0
+    },
+    "Lung_L": {
+     "mean_hu": -732.3,
+     "mL": 2743.5
+    },
+    "Lung_R": {
+     "mean_hu": -822.5,
+     "mL": 2663.5
+    },
+    "Lungs": {
+     "mean_hu": -776.8,
+     "mL": 5406.9
+    },
+    "SpinalCord": {
+     "mean_hu": 16.5,
+     "mL": 56.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-168": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 17.1,
+     "mL": 37.4
+    },
+    "GTV": {
+     "mean_hu": -52.0,
+     "mL": 63.6
+    },
+    "Lung_L": {
+     "mean_hu": -773.3,
+     "mL": 1539.2
+    },
+    "Lung_R": {
+     "mean_hu": -784.9,
+     "mL": 2015.7
+    },
+    "Lungs": {
+     "mean_hu": -779.9,
+     "mL": 3554.9
+    },
+    "SpinalCord": {
+     "mean_hu": 35.6,
+     "mL": 69.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-169": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -69.5,
+     "mL": 31.8
+    },
+    "GTV": {
+     "mean_hu": -373.8,
+     "mL": 19.4
+    },
+    "Lung_L": {
+     "mean_hu": -774.2,
+     "mL": 2313.3
+    },
+    "Lung_R": {
+     "mean_hu": -760.1,
+     "mL": 2379.0
+    },
+    "Lungs": {
+     "mean_hu": -767.1,
+     "mL": 4692.2
+    },
+    "SpinalCord": {
+     "mean_hu": 14.0,
+     "mL": 71.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-170": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -20.8,
+     "mL": 53.8
+    },
+    "GTV": {
+     "mean_hu": -51.1,
+     "mL": 38.6
+    },
+    "Lung_L": {
+     "mean_hu": -735.5,
+     "mL": 2662.6
+    },
+    "Lung_R": {
+     "mean_hu": -754.0,
+     "mL": 2447.9
+    },
+    "Lungs": {
+     "mean_hu": -744.4,
+     "mL": 5110.5
+    },
+    "SpinalCord": {
+     "mean_hu": 28.1,
+     "mL": 49.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-171": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -48.1,
+     "mL": 46.8
+    },
+    "GTV": {
+     "mean_hu": -75.6,
+     "mL": 16.8
+    },
+    "Lung_L": {
+     "mean_hu": -783.0,
+     "mL": 1878.6
+    },
+    "Lung_R": {
+     "mean_hu": -768.7,
+     "mL": 2599.9
+    },
+    "Lungs": {
+     "mean_hu": -774.7,
+     "mL": 4478.5
+    },
+    "SpinalCord": {
+     "mean_hu": 21.0,
+     "mL": 51.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-172": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -8.1,
+     "mL": 33.0
+    },
+    "GTV": {
+     "mean_hu": 6.6,
+     "mL": 167.0
+    },
+    "Lung_L": {
+     "mean_hu": -758.8,
+     "mL": 2484.1
+    },
+    "Lung_R": {
+     "mean_hu": -745.8,
+     "mL": 2481.0
+    },
+    "Lungs": {
+     "mean_hu": -752.3,
+     "mL": 4964.9
+    },
+    "SpinalCord": {
+     "mean_hu": 35.6,
+     "mL": 51.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-173": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 36.8,
+     "mL": 29.3
+    },
+    "GTV": {
+     "mean_hu": 9.1,
+     "mL": 213.3
+    },
+    "Lung_L": {
+     "mean_hu": -779.3,
+     "mL": 1609.0
+    },
+    "Lung_R": {
+     "mean_hu": -789.4,
+     "mL": 2171.8
+    },
+    "Lungs": {
+     "mean_hu": -785.1,
+     "mL": 3780.7
+    },
+    "SpinalCord": {
+     "mean_hu": 25.1,
+     "mL": 50.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-174": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -28.2,
+     "mL": 26.8
+    },
+    "GTV": {
+     "mean_hu": -259.3,
+     "mL": 9.0
+    },
+    "Lung_R": {
+     "mean_hu": -785.5,
+     "mL": 2774.4
+    },
+    "Lungs": {
+     "mean_hu": -785.5,
+     "mL": 2774.4
+    },
+    "SpinalCord": {
+     "mean_hu": 45.5,
+     "mL": 49.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-175": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 34.5,
+     "mL": 41.6
+    },
+    "GTV": {
+     "mean_hu": -25.6,
+     "mL": 33.2
+    },
+    "Lung_L": {
+     "mean_hu": -721.7,
+     "mL": 2204.3
+    },
+    "Lung_R": {
+     "mean_hu": -720.3,
+     "mL": 2666.1
+    },
+    "Lungs": {
+     "mean_hu": -720.9,
+     "mL": 4870.4
+    },
+    "SpinalCord": {
+     "mean_hu": 30.1,
+     "mL": 89.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-176": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -142.4,
+     "mL": 34.7
+    },
+    "GTV": {
+     "mean_hu": -243.0,
+     "mL": 5.4
+    },
+    "Lung_L": {
+     "mean_hu": -653.5,
+     "mL": 1216.8
+    },
+    "Lung_R": {
+     "mean_hu": -710.5,
+     "mL": 1601.9
+    },
+    "Lungs": {
+     "mean_hu": -685.9,
+     "mL": 2818.7
+    },
+    "SpinalCord": {
+     "mean_hu": 12.6,
+     "mL": 33.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-177": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -10.6,
+     "mL": 33.8
+    },
+    "GTV": {
+     "mean_hu": -25.7,
+     "mL": 42.9
+    },
+    "Lung_L": {
+     "mean_hu": -734.9,
+     "mL": 1725.5
+    },
+    "Lung_R": {
+     "mean_hu": -738.9,
+     "mL": 1483.3
+    },
+    "Lungs": {
+     "mean_hu": -736.8,
+     "mL": 3208.8
+    },
+    "SpinalCord": {
+     "mean_hu": 43.6,
+     "mL": 64.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-178": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -4.5,
+     "mL": 34.4
+    },
+    "GTV": {
+     "mean_hu": -206.3,
+     "mL": 1.7
+    },
+    "Lung_L": {
+     "mean_hu": -777.2,
+     "mL": 1922.8
+    },
+    "Lung_R": {
+     "mean_hu": -790.7,
+     "mL": 2021.6
+    },
+    "Lungs": {
+     "mean_hu": -784.2,
+     "mL": 3944.4
+    },
+    "SpinalCord": {
+     "mean_hu": 25.7,
+     "mL": 71.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-179": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -132.9,
+     "mL": 45.2
+    },
+    "GTV": {
+     "mean_hu": -18.8,
+     "mL": 365.7
+    },
+    "Lung_L": {
+     "mean_hu": -755.9,
+     "mL": 1597.1
+    },
+    "Lung_R": {
+     "mean_hu": -786.9,
+     "mL": 2852.6
+    },
+    "Lungs": {
+     "mean_hu": -775.8,
+     "mL": 4449.7
+    },
+    "SpinalCord": {
+     "mean_hu": 19.5,
+     "mL": 76.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-180": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -15.2,
+     "mL": 45.6
+    },
+    "GTV": {
+     "mean_hu": -104.5,
+     "mL": 13.3
+    },
+    "Lung_L": {
+     "mean_hu": -743.8,
+     "mL": 2116.6
+    },
+    "Lung_R": {
+     "mean_hu": -754.8,
+     "mL": 2305.4
+    },
+    "Lungs": {
+     "mean_hu": -749.6,
+     "mL": 4422.0
+    },
+    "SpinalCord": {
+     "mean_hu": 29.6,
+     "mL": 92.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-181": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 7.8,
+     "mL": 55.4
+    },
+    "GTV": {
+     "mean_hu": -25.4,
+     "mL": 147.2
+    },
+    "Lung_L": {
+     "mean_hu": -680.8,
+     "mL": 2173.2
+    },
+    "Lung_R": {
+     "mean_hu": -684.6,
+     "mL": 2854.8
+    },
+    "Lungs": {
+     "mean_hu": -683.0,
+     "mL": 5027.8
+    },
+    "SpinalCord": {
+     "mean_hu": 36.3,
+     "mL": 129.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-182": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 27.6,
+     "mL": 48.2
+    },
+    "GTV": {
+     "mean_hu": 11.2,
+     "mL": 7.8
+    },
+    "Lung_L": {
+     "mean_hu": -625.1,
+     "mL": 1871.2
+    },
+    "Lung_R": {
+     "mean_hu": -632.4,
+     "mL": 2184.0
+    },
+    "Lungs": {
+     "mean_hu": -629.0,
+     "mL": 4055.2
+    },
+    "SpinalCord": {
+     "mean_hu": 59.9,
+     "mL": 108.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-183": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 8.1,
+     "mL": 54.4
+    },
+    "GTV": {
+     "mean_hu": -100.0,
+     "mL": 7.7
+    },
+    "Lung_L": {
+     "mean_hu": -721.3,
+     "mL": 1740.9
+    },
+    "Lung_R": {
+     "mean_hu": -717.7,
+     "mL": 1746.9
+    },
+    "Lungs": {
+     "mean_hu": -719.5,
+     "mL": 3487.5
+    },
+    "SpinalCord": {
+     "mean_hu": 21.7,
+     "mL": 67.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-184": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -27.2,
+     "mL": 40.1
+    },
+    "GTV": {
+     "mean_hu": -151.2,
+     "mL": 30.0
+    },
+    "Lung_L": {
+     "mean_hu": -828.9,
+     "mL": 3025.5
+    },
+    "Lung_R": {
+     "mean_hu": -808.8,
+     "mL": 3222.8
+    },
+    "Lungs": {
+     "mean_hu": -818.5,
+     "mL": 6248.3
+    },
+    "SpinalCord": {
+     "mean_hu": 41.6,
+     "mL": 92.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-185": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 13.9,
+     "mL": 37.6
+    },
+    "GTV": {
+     "mean_hu": -23.1,
+     "mL": 39.2
+    },
+    "Lung_L": {
+     "mean_hu": -634.3,
+     "mL": 2160.9
+    },
+    "Lung_R": {
+     "mean_hu": -652.6,
+     "mL": 2098.4
+    },
+    "Lungs": {
+     "mean_hu": -643.3,
+     "mL": 4259.3
+    },
+    "SpinalCord": {
+     "mean_hu": 30.2,
+     "mL": 89.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-186": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -83.8,
+     "mL": 55.6
+    },
+    "GTV": {
+     "mean_hu": -4.4,
+     "mL": 168.6
+    },
+    "Lung_L": {
+     "mean_hu": -706.1,
+     "mL": 1115.5
+    },
+    "Lung_R": {
+     "mean_hu": -732.8,
+     "mL": 2313.7
+    },
+    "Lungs": {
+     "mean_hu": -724.1,
+     "mL": 3429.2
+    },
+    "SpinalCord": {
+     "mean_hu": 16.9,
+     "mL": 91.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-187": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -55.6,
+     "mL": 17.0
+    },
+    "Lung_L": {
+     "mean_hu": -646.0,
+     "mL": 1159.8
+    },
+    "Lung_R": {
+     "mean_hu": -645.9,
+     "mL": 1356.6
+    },
+    "Lungs": {
+     "mean_hu": -645.9,
+     "mL": 2516.4
+    },
+    "SpinalCord": {
+     "mean_hu": 26.5,
+     "mL": 58.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-188": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -121.6,
+     "mL": 2.5
+    },
+    "Lung_L": {
+     "mean_hu": -687.6,
+     "mL": 1923.8
+    },
+    "Lung_R": {
+     "mean_hu": -706.2,
+     "mL": 2291.5
+    },
+    "Lungs": {
+     "mean_hu": -697.8,
+     "mL": 4215.3
+    },
+    "SpinalCord": {
+     "mean_hu": 21.5,
+     "mL": 74.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-189": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -25.3,
+     "mL": 32.0
+    },
+    "GTV": {
+     "mean_hu": -98.9,
+     "mL": 50.6
+    },
+    "Lung_L": {
+     "mean_hu": -723.6,
+     "mL": 1526.1
+    },
+    "Lung_R": {
+     "mean_hu": -709.1,
+     "mL": 1895.4
+    },
+    "Lungs": {
+     "mean_hu": -715.5,
+     "mL": 3421.5
+    },
+    "SpinalCord": {
+     "mean_hu": 36.8,
+     "mL": 62.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-190": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -12.8,
+     "mL": 34.3
+    },
+    "GTV": {
+     "mean_hu": -26.8,
+     "mL": 205.7
+    },
+    "Lung_L": {
+     "mean_hu": -802.8,
+     "mL": 1232.2
+    },
+    "Lung_R": {
+     "mean_hu": -772.4,
+     "mL": 1760.8
+    },
+    "Lungs": {
+     "mean_hu": -784.9,
+     "mL": 2993.1
+    },
+    "SpinalCord": {
+     "mean_hu": 62.7,
+     "mL": 87.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-191": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -8.1,
+     "mL": 50.8
+    },
+    "GTV": {
+     "mean_hu": -118.6,
+     "mL": 101.8
+    },
+    "Lung_L": {
+     "mean_hu": -827.1,
+     "mL": 2772.5
+    },
+    "Lung_R": {
+     "mean_hu": -818.5,
+     "mL": 3021.1
+    },
+    "Lungs": {
+     "mean_hu": -822.6,
+     "mL": 5793.7
+    },
+    "SpinalCord": {
+     "mean_hu": 29.7,
+     "mL": 83.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-192": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 10.6,
+     "mL": 42.2
+    },
+    "GTV": {
+     "mean_hu": -359.9,
+     "mL": 1.4
+    },
+    "Lung_L": {
+     "mean_hu": -618.6,
+     "mL": 1378.4
+    },
+    "Lung_R": {
+     "mean_hu": -618.2,
+     "mL": 1311.8
+    },
+    "Lungs": {
+     "mean_hu": -618.4,
+     "mL": 2690.2
+    },
+    "SpinalCord": {
+     "mean_hu": 19.9,
+     "mL": 87.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-193": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 5.5,
+     "mL": 34.5
+    },
+    "GTV": {
+     "mean_hu": -63.2,
+     "mL": 154.2
+    },
+    "Lung_L": {
+     "mean_hu": -689.0,
+     "mL": 1362.8
+    },
+    "Lung_R": {
+     "mean_hu": -632.8,
+     "mL": 1420.1
+    },
+    "Lungs": {
+     "mean_hu": -660.3,
+     "mL": 2782.9
+    },
+    "SpinalCord": {
+     "mean_hu": 27.6,
+     "mL": 50.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-194": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 21.6,
+     "mL": 35.4
+    },
+    "GTV": {
+     "mean_hu": -378.0,
+     "mL": 39.3
+    },
+    "Lung_L": {
+     "mean_hu": -780.8,
+     "mL": 1998.7
+    },
+    "Lung_R": {
+     "mean_hu": -824.3,
+     "mL": 2638.1
+    },
+    "Lungs": {
+     "mean_hu": -805.5,
+     "mL": 4636.8
+    },
+    "SpinalCord": {
+     "mean_hu": 29.5,
+     "mL": 69.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-195": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -401.4,
+     "mL": 2.0
+    },
+    "Lung_L": {
+     "mean_hu": -769.7,
+     "mL": 1188.8
+    },
+    "Lung_R": {
+     "mean_hu": -770.9,
+     "mL": 1688.0
+    },
+    "Lungs": {
+     "mean_hu": -770.4,
+     "mL": 2876.8
+    },
+    "SpinalCord": {
+     "mean_hu": 24.4,
+     "mL": 63.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-196": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -89.4,
+     "mL": 37.1
+    },
+    "GTV": {
+     "mean_hu": -65.1,
+     "mL": 290.1
+    },
+    "Lung_L": {
+     "mean_hu": -644.5,
+     "mL": 1065.7
+    },
+    "Lung_R": {
+     "mean_hu": -643.7,
+     "mL": 944.4
+    },
+    "Lungs": {
+     "mean_hu": -644.1,
+     "mL": 2010.1
+    },
+    "SpinalCord": {
+     "mean_hu": 13.8,
+     "mL": 38.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-197": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -74.6,
+     "mL": 42.5
+    },
+    "GTV": {
+     "mean_hu": -208.3,
+     "mL": 46.2
+    },
+    "Lung_L": {
+     "mean_hu": -707.9,
+     "mL": 1807.1
+    },
+    "Lung_R": {
+     "mean_hu": -738.9,
+     "mL": 2212.3
+    },
+    "Lungs": {
+     "mean_hu": -725.0,
+     "mL": 4019.4
+    },
+    "SpinalCord": {
+     "mean_hu": 25.7,
+     "mL": 60.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-198": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 9.2,
+     "mL": 56.0
+    },
+    "GTV": {
+     "mean_hu": -104.0,
+     "mL": 40.8
+    },
+    "Lung_L": {
+     "mean_hu": -625.0,
+     "mL": 1657.3
+    },
+    "Lung_R": {
+     "mean_hu": -659.3,
+     "mL": 2160.3
+    },
+    "Lungs": {
+     "mean_hu": -644.4,
+     "mL": 3817.7
+    },
+    "SpinalCord": {
+     "mean_hu": 26.1,
+     "mL": 99.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-199": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 13.4,
+     "mL": 18.5
+    },
+    "GTV": {
+     "mean_hu": -34.6,
+     "mL": 124.1
+    },
+    "Lung_L": {
+     "mean_hu": -682.0,
+     "mL": 1048.1
+    },
+    "Lung_R": {
+     "mean_hu": -708.6,
+     "mL": 1465.5
+    },
+    "Lungs": {
+     "mean_hu": -697.5,
+     "mL": 2513.6
+    },
+    "SpinalCord": {
+     "mean_hu": 12.9,
+     "mL": 50.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-200": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 35.3,
+     "mL": 117.9
+    },
+    "Lung_L": {
+     "mean_hu": -817.3,
+     "mL": 3557.4
+    },
+    "Lung_R": {
+     "mean_hu": -703.6,
+     "mL": 1113.2
+    },
+    "Lungs": {
+     "mean_hu": -790.2,
+     "mL": 4670.7
+    },
+    "SpinalCord": {
+     "mean_hu": 32.3,
+     "mL": 69.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-201": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -4.2,
+     "mL": 41.3
+    },
+    "GTV": {
+     "mean_hu": -12.7,
+     "mL": 169.6
+    },
+    "Lung_L": {
+     "mean_hu": -757.9,
+     "mL": 2027.3
+    },
+    "Lung_R": {
+     "mean_hu": -738.7,
+     "mL": 1988.5
+    },
+    "Lungs": {
+     "mean_hu": -748.4,
+     "mL": 4015.7
+    },
+    "SpinalCord": {
+     "mean_hu": 33.1,
+     "mL": 105.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-202": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -5.2,
+     "mL": 33.0
+    },
+    "GTV": {
+     "mean_hu": -268.3,
+     "mL": 10.3
+    },
+    "Heart": {
+     "mean_hu": 16.6,
+     "mL": 645.2
+    },
+    "Lung_L": {
+     "mean_hu": -667.4,
+     "mL": 1099.6
+    },
+    "Lung_R": {
+     "mean_hu": -706.4,
+     "mL": 1407.7
+    },
+    "Lungs": {
+     "mean_hu": -689.3,
+     "mL": 2507.3
+    },
+    "SpinalCord": {
+     "mean_hu": 32.0,
+     "mL": 56.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-203": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 3.2,
+     "mL": 40.6
+    },
+    "GTV": {
+     "mean_hu": -69.3,
+     "mL": 25.9
+    },
+    "Lung_L": {
+     "mean_hu": -687.3,
+     "mL": 1196.5
+    },
+    "Lung_R": {
+     "mean_hu": -698.7,
+     "mL": 1761.9
+    },
+    "Lungs": {
+     "mean_hu": -694.1,
+     "mL": 2958.4
+    },
+    "SpinalCord": {
+     "mean_hu": 40.0,
+     "mL": 94.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-204": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -29.5,
+     "mL": 28.6
+    },
+    "GTV": {
+     "mean_hu": -205.2,
+     "mL": 16.7
+    },
+    "Heart": {
+     "mean_hu": 4.4,
+     "mL": 878.4
+    },
+    "Lung_L": {
+     "mean_hu": -796.1,
+     "mL": 1612.8
+    },
+    "Lung_R": {
+     "mean_hu": -796.5,
+     "mL": 1983.4
+    },
+    "Lungs": {
+     "mean_hu": -796.3,
+     "mL": 3596.2
+    },
+    "SpinalCord": {
+     "mean_hu": 30.5,
+     "mL": 47.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-205": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 19.4,
+     "mL": 30.7
+    },
+    "GTV": {
+     "mean_hu": -262.6,
+     "mL": 67.3
+    },
+    "Lung_L": {
+     "mean_hu": -664.2,
+     "mL": 1082.2
+    },
+    "Lung_R": {
+     "mean_hu": -741.3,
+     "mL": 2076.0
+    },
+    "Lungs": {
+     "mean_hu": -714.9,
+     "mL": 3158.2
+    },
+    "SpinalCord": {
+     "mean_hu": 13.6,
+     "mL": 44.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-206": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -0.8,
+     "mL": 42.7
+    },
+    "GTV": {
+     "mean_hu": -257.9,
+     "mL": 8.3
+    },
+    "Lung_L": {
+     "mean_hu": -757.8,
+     "mL": 2128.9
+    },
+    "Lung_R": {
+     "mean_hu": -767.4,
+     "mL": 2290.6
+    },
+    "Lungs": {
+     "mean_hu": -762.7,
+     "mL": 4419.5
+    },
+    "SpinalCord": {
+     "mean_hu": 23.5,
+     "mL": 48.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-207": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -58.2,
+     "mL": 52.0
+    },
+    "GTV": {
+     "mean_hu": -59.0,
+     "mL": 59.0
+    },
+    "Lung_L": {
+     "mean_hu": -833.3,
+     "mL": 3301.5
+    },
+    "Lung_R": {
+     "mean_hu": -814.3,
+     "mL": 3328.7
+    },
+    "Lungs": {
+     "mean_hu": -823.8,
+     "mL": 6629.9
+    },
+    "SpinalCord": {
+     "mean_hu": 30.6,
+     "mL": 79.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-208": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 7.5,
+     "mL": 41.0
+    },
+    "GTV": {
+     "mean_hu": -262.0,
+     "mL": 47.0
+    },
+    "Lung_L": {
+     "mean_hu": -728.5,
+     "mL": 2265.1
+    },
+    "Lung_R": {
+     "mean_hu": -743.0,
+     "mL": 2680.6
+    },
+    "Lungs": {
+     "mean_hu": -736.4,
+     "mL": 4945.7
+    },
+    "SpinalCord": {
+     "mean_hu": 19.1,
+     "mL": 53.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-209": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -38.5,
+     "mL": 52.5
+    },
+    "GTV": {
+     "mean_hu": -84.8,
+     "mL": 39.0
+    },
+    "Lung_L": {
+     "mean_hu": -729.0,
+     "mL": 2344.3
+    },
+    "Lung_R": {
+     "mean_hu": -779.9,
+     "mL": 2980.1
+    },
+    "Lungs": {
+     "mean_hu": -757.5,
+     "mL": 5324.5
+    },
+    "SpinalCord": {
+     "mean_hu": 33.2,
+     "mL": 93.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-210": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 26.9,
+     "mL": 63.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-211": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 11.0,
+     "mL": 38.8
+    },
+    "GTV": {
+     "mean_hu": -105.4,
+     "mL": 52.2
+    },
+    "Lung_L": {
+     "mean_hu": -697.6,
+     "mL": 1790.2
+    },
+    "Lung_R": {
+     "mean_hu": -701.8,
+     "mL": 2219.2
+    },
+    "Lungs": {
+     "mean_hu": -699.9,
+     "mL": 4009.4
+    },
+    "SpinalCord": {
+     "mean_hu": 18.8,
+     "mL": 35.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-212": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 10.9,
+     "mL": 44.9
+    },
+    "GTV": {
+     "mean_hu": -55.4,
+     "mL": 8.0
+    },
+    "Lung_L": {
+     "mean_hu": -769.3,
+     "mL": 2313.5
+    },
+    "Lung_R": {
+     "mean_hu": -723.6,
+     "mL": 1488.2
+    },
+    "Lungs": {
+     "mean_hu": -751.4,
+     "mL": 3801.7
+    },
+    "SpinalCord": {
+     "mean_hu": 24.4,
+     "mL": 76.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-213": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -39.1,
+     "mL": 41.3
+    },
+    "GTV": {
+     "mean_hu": -117.9,
+     "mL": 16.3
+    },
+    "Lung_L": {
+     "mean_hu": -750.4,
+     "mL": 1757.3
+    },
+    "Lung_R": {
+     "mean_hu": -754.6,
+     "mL": 2159.4
+    },
+    "Lungs": {
+     "mean_hu": -752.8,
+     "mL": 3916.7
+    },
+    "SpinalCord": {
+     "mean_hu": 30.5,
+     "mL": 55.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-214": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 10.0,
+     "mL": 31.6
+    },
+    "GTV": {
+     "mean_hu": -52.3,
+     "mL": 65.5
+    },
+    "Lung_L": {
+     "mean_hu": -781.0,
+     "mL": 1787.1
+    },
+    "Lung_R": {
+     "mean_hu": -784.3,
+     "mL": 2388.5
+    },
+    "Lungs": {
+     "mean_hu": -782.9,
+     "mL": 4175.5
+    },
+    "SpinalCord": {
+     "mean_hu": 26.9,
+     "mL": 56.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-215": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 18.8,
+     "mL": 36.1
+    },
+    "GTV": {
+     "mean_hu": -178.8,
+     "mL": 2.6
+    },
+    "Lung_L": {
+     "mean_hu": -758.1,
+     "mL": 1801.5
+    },
+    "Lung_R": {
+     "mean_hu": -716.5,
+     "mL": 1336.4
+    },
+    "Lungs": {
+     "mean_hu": -740.4,
+     "mL": 3137.9
+    },
+    "SpinalCord": {
+     "mean_hu": 16.2,
+     "mL": 35.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-216": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 5.5,
+     "mL": 46.7
+    },
+    "GTV": {
+     "mean_hu": -41.6,
+     "mL": 5.7
+    },
+    "Lung_L": {
+     "mean_hu": -760.6,
+     "mL": 2330.4
+    },
+    "Lung_R": {
+     "mean_hu": -728.1,
+     "mL": 2693.2
+    },
+    "Lungs": {
+     "mean_hu": -743.2,
+     "mL": 5023.6
+    },
+    "SpinalCord": {
+     "mean_hu": 54.0,
+     "mL": 86.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-217": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -17.1,
+     "mL": 24.2
+    },
+    "GTV": {
+     "mean_hu": 18.8,
+     "mL": 177.0
+    },
+    "Lung_L": {
+     "mean_hu": -543.8,
+     "mL": 1312.7
+    },
+    "Lung_R": {
+     "mean_hu": -709.0,
+     "mL": 1501.3
+    },
+    "Lungs": {
+     "mean_hu": -631.9,
+     "mL": 2814.0
+    },
+    "SpinalCord": {
+     "mean_hu": 19.5,
+     "mL": 46.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-218": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 4.0,
+     "mL": 30.0
+    },
+    "GTV": {
+     "mean_hu": 3.1,
+     "mL": 130.7
+    },
+    "Lung_L": {
+     "mean_hu": -716.8,
+     "mL": 1091.5
+    },
+    "Lung_R": {
+     "mean_hu": -746.4,
+     "mL": 2119.4
+    },
+    "Lungs": {
+     "mean_hu": -736.3,
+     "mL": 3210.8
+    },
+    "SpinalCord": {
+     "mean_hu": 44.6,
+     "mL": 42.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-219": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -52.1,
+     "mL": 24.5
+    },
+    "GTV": {
+     "mean_hu": 52.3,
+     "mL": 43.9
+    },
+    "SpinalCord": {
+     "mean_hu": 42.5,
+     "mL": 41.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-220": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -75.2,
+     "mL": 65.0
+    },
+    "GTV": {
+     "mean_hu": -16.2,
+     "mL": 63.1
+    },
+    "Lung_L": {
+     "mean_hu": -705.9,
+     "mL": 2087.7
+    },
+    "Lung_R": {
+     "mean_hu": -754.5,
+     "mL": 2444.5
+    },
+    "Lungs": {
+     "mean_hu": -732.1,
+     "mL": 4532.1
+    },
+    "SpinalCord": {
+     "mean_hu": 34.4,
+     "mL": 52.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-221": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -21.0,
+     "mL": 52.8
+    },
+    "GTV": {
+     "mean_hu": 24.6,
+     "mL": 193.5
+    },
+    "Lung_L": {
+     "mean_hu": -694.9,
+     "mL": 2202.2
+    },
+    "Lung_R": {
+     "mean_hu": -690.8,
+     "mL": 2577.1
+    },
+    "Lungs": {
+     "mean_hu": -692.7,
+     "mL": 4779.3
+    },
+    "SpinalCord": {
+     "mean_hu": 32.4,
+     "mL": 62.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-222": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -181.1,
+     "mL": 15.8
+    },
+    "Lung_L": {
+     "mean_hu": -818.7,
+     "mL": 2597.2
+    },
+    "Lung_R": {
+     "mean_hu": -883.9,
+     "mL": 2999.8
+    },
+    "Lungs": {
+     "mean_hu": -853.6,
+     "mL": 5597.0
+    },
+    "SpinalCord": {
+     "mean_hu": 33.8,
+     "mL": 54.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-223": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 17.2,
+     "mL": 29.7
+    },
+    "GTV": {
+     "mean_hu": 14.6,
+     "mL": 10.4
+    },
+    "Lung_L": {
+     "mean_hu": -733.5,
+     "mL": 1978.9
+    },
+    "Lung_R": {
+     "mean_hu": -733.9,
+     "mL": 2121.5
+    },
+    "Lungs": {
+     "mean_hu": -733.7,
+     "mL": 4100.4
+    },
+    "SpinalCord": {
+     "mean_hu": 31.0,
+     "mL": 46.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-224": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -0.6,
+     "mL": 28.0
+    },
+    "GTV": {
+     "mean_hu": -49.6,
+     "mL": 131.3
+    },
+    "Lung_L": {
+     "mean_hu": -740.9,
+     "mL": 1845.7
+    },
+    "Lung_R": {
+     "mean_hu": -746.7,
+     "mL": 1918.8
+    },
+    "Lungs": {
+     "mean_hu": -743.9,
+     "mL": 3764.5
+    },
+    "SpinalCord": {
+     "mean_hu": 24.2,
+     "mL": 53.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-225": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -17.9,
+     "mL": 35.0
+    },
+    "GTV": {
+     "mean_hu": -8.9,
+     "mL": 62.6
+    },
+    "Lung_L": {
+     "mean_hu": -755.9,
+     "mL": 1761.4
+    },
+    "Lung_R": {
+     "mean_hu": -772.5,
+     "mL": 2334.6
+    },
+    "Lungs": {
+     "mean_hu": -765.4,
+     "mL": 4096.0
+    },
+    "SpinalCord": {
+     "mean_hu": 48.3,
+     "mL": 78.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-226": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -5.3,
+     "mL": 33.2
+    },
+    "GTV": {
+     "mean_hu": -23.6,
+     "mL": 24.9
+    },
+    "Lung_L": {
+     "mean_hu": -709.4,
+     "mL": 1585.5
+    },
+    "Lung_R": {
+     "mean_hu": -690.8,
+     "mL": 1568.6
+    },
+    "Lungs": {
+     "mean_hu": -700.1,
+     "mL": 3154.1
+    },
+    "SpinalCord": {
+     "mean_hu": 27.0,
+     "mL": 53.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-227": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 19.0,
+     "mL": 40.3
+    },
+    "GTV": {
+     "mean_hu": -95.9,
+     "mL": 36.8
+    },
+    "Lung_L": {
+     "mean_hu": -728.0,
+     "mL": 1933.6
+    },
+    "Lung_R": {
+     "mean_hu": -688.3,
+     "mL": 1830.9
+    },
+    "Lungs": {
+     "mean_hu": -708.7,
+     "mL": 3764.5
+    },
+    "SpinalCord": {
+     "mean_hu": 26.1,
+     "mL": 51.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-228": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -82.7,
+     "mL": 110.2
+    },
+    "Lung_L": {
+     "mean_hu": -641.4,
+     "mL": 1271.6
+    },
+    "Lung_R": {
+     "mean_hu": -629.7,
+     "mL": 1178.5
+    },
+    "Lungs": {
+     "mean_hu": -635.8,
+     "mL": 2450.1
+    },
+    "SpinalCord": {
+     "mean_hu": 19.5,
+     "mL": 37.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-229": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 3.1,
+     "mL": 41.7
+    },
+    "GTV": {
+     "mean_hu": 3.9,
+     "mL": 254.5
+    },
+    "Lung_L": {
+     "mean_hu": -474.8,
+     "mL": 716.8
+    },
+    "Lung_R": {
+     "mean_hu": -705.5,
+     "mL": 1993.7
+    },
+    "Lungs": {
+     "mean_hu": -644.5,
+     "mL": 2710.5
+    },
+    "SpinalCord": {
+     "mean_hu": 11.1,
+     "mL": 52.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-230": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -51.2,
+     "mL": 48.8
+    },
+    "GTV": {
+     "mean_hu": -8.2,
+     "mL": 39.5
+    },
+    "Lung_L": {
+     "mean_hu": -708.7,
+     "mL": 1345.3
+    },
+    "Lung_R": {
+     "mean_hu": -738.1,
+     "mL": 1457.7
+    },
+    "Lungs": {
+     "mean_hu": -724.0,
+     "mL": 2803.1
+    },
+    "SpinalCord": {
+     "mean_hu": 33.0,
+     "mL": 58.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-231": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -40.6,
+     "mL": 59.8
+    },
+    "GTV": {
+     "mean_hu": -333.4,
+     "mL": 3.7
+    },
+    "Lung_L": {
+     "mean_hu": -742.4,
+     "mL": 1797.8
+    },
+    "Lung_R": {
+     "mean_hu": -752.9,
+     "mL": 2284.9
+    },
+    "Lungs": {
+     "mean_hu": -748.3,
+     "mL": 4082.7
+    },
+    "SpinalCord": {
+     "mean_hu": 47.0,
+     "mL": 60.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-232": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -91.7,
+     "mL": 45.0
+    },
+    "GTV": {
+     "mean_hu": -22.0,
+     "mL": 62.3
+    },
+    "Lung_L": {
+     "mean_hu": -716.1,
+     "mL": 1827.7
+    },
+    "Lung_R": {
+     "mean_hu": -723.6,
+     "mL": 2195.3
+    },
+    "Lungs": {
+     "mean_hu": -720.2,
+     "mL": 4023.0
+    },
+    "SpinalCord": {
+     "mean_hu": 39.6,
+     "mL": 45.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-233": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -27.4,
+     "mL": 53.0
+    },
+    "GTV": {
+     "mean_hu": 22.3,
+     "mL": 159.1
+    },
+    "Lung_L": {
+     "mean_hu": -704.4,
+     "mL": 1858.2
+    },
+    "Lung_R": {
+     "mean_hu": -701.1,
+     "mL": 1639.8
+    },
+    "Lungs": {
+     "mean_hu": -702.9,
+     "mL": 3498.0
+    },
+    "SpinalCord": {
+     "mean_hu": 28.1,
+     "mL": 61.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-234": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 17.3,
+     "mL": 27.7
+    },
+    "GTV": {
+     "mean_hu": -160.1,
+     "mL": 7.9
+    },
+    "Lung_L": {
+     "mean_hu": -716.8,
+     "mL": 1467.8
+    },
+    "Lung_R": {
+     "mean_hu": -723.4,
+     "mL": 1821.7
+    },
+    "Lungs": {
+     "mean_hu": -720.5,
+     "mL": 3289.5
+    },
+    "SpinalCord": {
+     "mean_hu": 27.7,
+     "mL": 51.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-235": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 8.1,
+     "mL": 31.5
+    },
+    "GTV": {
+     "mean_hu": -23.9,
+     "mL": 71.0
+    },
+    "Lung_L": {
+     "mean_hu": -709.6,
+     "mL": 1584.3
+    },
+    "Lung_R": {
+     "mean_hu": -688.8,
+     "mL": 1523.9
+    },
+    "Lungs": {
+     "mean_hu": -699.4,
+     "mL": 3108.3
+    },
+    "SpinalCord": {
+     "mean_hu": 51.9,
+     "mL": 24.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-236": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -50.1,
+     "mL": 32.5
+    },
+    "GTV": {
+     "mean_hu": -29.8,
+     "mL": 56.0
+    },
+    "Lung_L": {
+     "mean_hu": -676.4,
+     "mL": 1207.0
+    },
+    "Lung_R": {
+     "mean_hu": -681.1,
+     "mL": 1426.9
+    },
+    "Lungs": {
+     "mean_hu": -679.0,
+     "mL": 2633.9
+    },
+    "SpinalCord": {
+     "mean_hu": 40.5,
+     "mL": 49.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-237": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -2.4,
+     "mL": 38.8
+    },
+    "GTV": {
+     "mean_hu": -137.9,
+     "mL": 85.4
+    },
+    "Lung_L": {
+     "mean_hu": -682.5,
+     "mL": 2245.6
+    },
+    "Lung_R": {
+     "mean_hu": -662.6,
+     "mL": 2480.2
+    },
+    "Lungs": {
+     "mean_hu": -672.0,
+     "mL": 4725.6
+    },
+    "SpinalCord": {
+     "mean_hu": 42.7,
+     "mL": 55.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-238": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -28.9,
+     "mL": 31.1
+    },
+    "GTV": {
+     "mean_hu": -63.6,
+     "mL": 59.6
+    },
+    "Lung_L": {
+     "mean_hu": -745.9,
+     "mL": 1558.4
+    },
+    "Lung_R": {
+     "mean_hu": -737.5,
+     "mL": 1888.9
+    },
+    "Lungs": {
+     "mean_hu": -741.3,
+     "mL": 3447.3
+    },
+    "SpinalCord": {
+     "mean_hu": 32.2,
+     "mL": 38.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-239": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -56.8,
+     "mL": 51.4
+    },
+    "GTV": {
+     "mean_hu": -1.9,
+     "mL": 118.8
+    },
+    "Lung_L": {
+     "mean_hu": -679.5,
+     "mL": 1662.9
+    },
+    "Lung_R": {
+     "mean_hu": -683.5,
+     "mL": 1767.1
+    },
+    "Lungs": {
+     "mean_hu": -681.5,
+     "mL": 3430.0
+    },
+    "SpinalCord": {
+     "mean_hu": 30.1,
+     "mL": 81.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-240": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -20.1,
+     "mL": 44.0
+    },
+    "GTV": {
+     "mean_hu": -178.8,
+     "mL": 10.2
+    },
+    "Lung_L": {
+     "mean_hu": -703.7,
+     "mL": 2571.0
+    },
+    "Lung_R": {
+     "mean_hu": -681.3,
+     "mL": 2739.6
+    },
+    "Lungs": {
+     "mean_hu": -692.1,
+     "mL": 5310.6
+    },
+    "SpinalCord": {
+     "mean_hu": 22.7,
+     "mL": 60.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-241": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -60.6,
+     "mL": 57.4
+    },
+    "GTV": {
+     "mean_hu": 13.4,
+     "mL": 18.0
+    },
+    "Lung_L": {
+     "mean_hu": -728.9,
+     "mL": 1748.3
+    },
+    "Lung_R": {
+     "mean_hu": -736.7,
+     "mL": 1934.0
+    },
+    "Lungs": {
+     "mean_hu": -733.0,
+     "mL": 3682.3
+    },
+    "SpinalCord": {
+     "mean_hu": 43.8,
+     "mL": 70.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-242": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -152.2,
+     "mL": 46.2
+    },
+    "GTV": {
+     "mean_hu": 15.0,
+     "mL": 38.7
+    },
+    "Lung_L": {
+     "mean_hu": -613.9,
+     "mL": 1287.0
+    },
+    "Lung_R": {
+     "mean_hu": -644.4,
+     "mL": 1607.4
+    },
+    "Lungs": {
+     "mean_hu": -630.9,
+     "mL": 2894.4
+    },
+    "SpinalCord": {
+     "mean_hu": 22.8,
+     "mL": 65.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-243": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -82.9,
+     "mL": 18.8
+    },
+    "Lung_L": {
+     "mean_hu": -689.5,
+     "mL": 1536.9
+    },
+    "Lung_R": {
+     "mean_hu": -683.4,
+     "mL": 1713.9
+    },
+    "Lungs": {
+     "mean_hu": -686.3,
+     "mL": 3250.8
+    },
+    "SpinalCord": {
+     "mean_hu": 36.9,
+     "mL": 68.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-244": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 8.3,
+     "mL": 17.6
+    },
+    "Lung_L": {
+     "mean_hu": -639.6,
+     "mL": 1585.8
+    },
+    "Lung_R": {
+     "mean_hu": -673.4,
+     "mL": 1198.8
+    },
+    "Lungs": {
+     "mean_hu": -654.1,
+     "mL": 2784.6
+    },
+    "SpinalCord": {
+     "mean_hu": 38.3,
+     "mL": 42.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-245": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 5.0,
+     "mL": 116.1
+    },
+    "Lung_L": {
+     "mean_hu": -729.5,
+     "mL": 1676.9
+    },
+    "Lung_R": {
+     "mean_hu": -745.5,
+     "mL": 2671.3
+    },
+    "Lungs": {
+     "mean_hu": -739.3,
+     "mL": 4348.2
+    },
+    "SpinalCord": {
+     "mean_hu": 44.4,
+     "mL": 75.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-246": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 6.5,
+     "mL": 26.3
+    },
+    "GTV": {
+     "mean_hu": -92.6,
+     "mL": 10.5
+    },
+    "Lung_L": {
+     "mean_hu": -714.2,
+     "mL": 1834.7
+    },
+    "Lung_R": {
+     "mean_hu": -728.2,
+     "mL": 2207.0
+    },
+    "Lungs": {
+     "mean_hu": -721.8,
+     "mL": 4041.7
+    },
+    "SpinalCord": {
+     "mean_hu": 46.1,
+     "mL": 74.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-247": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -74.1,
+     "mL": 48.0
+    },
+    "GTV": {
+     "mean_hu": -150.6,
+     "mL": 13.1
+    },
+    "Lung_L": {
+     "mean_hu": -689.2,
+     "mL": 1171.7
+    },
+    "Lung_R": {
+     "mean_hu": -729.7,
+     "mL": 1623.3
+    },
+    "Lungs": {
+     "mean_hu": -712.7,
+     "mL": 2795.1
+    },
+    "SpinalCord": {
+     "mean_hu": 36.1,
+     "mL": 38.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-248": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 15.2,
+     "mL": 32.3
+    },
+    "GTV": {
+     "mean_hu": -179.6,
+     "mL": 89.8
+    },
+    "Lung_L": {
+     "mean_hu": -684.9,
+     "mL": 1594.1
+    },
+    "Lung_R": {
+     "mean_hu": -638.8,
+     "mL": 1195.2
+    },
+    "Lungs": {
+     "mean_hu": -665.1,
+     "mL": 2789.3
+    },
+    "SpinalCord": {
+     "mean_hu": 32.9,
+     "mL": 47.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-249": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -52.8,
+     "mL": 46.2
+    },
+    "GTV": {
+     "mean_hu": -18.2,
+     "mL": 46.5
+    },
+    "Lung_L": {
+     "mean_hu": -667.6,
+     "mL": 1664.4
+    },
+    "Lung_R": {
+     "mean_hu": -647.1,
+     "mL": 1705.4
+    },
+    "Lungs": {
+     "mean_hu": -657.3,
+     "mL": 3369.8
+    },
+    "SpinalCord": {
+     "mean_hu": 29.7,
+     "mL": 52.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-250": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -4.4,
+     "mL": 55.4
+    },
+    "GTV": {
+     "mean_hu": -106.8,
+     "mL": 3.1
+    },
+    "Lung_L": {
+     "mean_hu": -725.8,
+     "mL": 2036.1
+    },
+    "Lung_R": {
+     "mean_hu": -737.8,
+     "mL": 2358.6
+    },
+    "Lungs": {
+     "mean_hu": -732.2,
+     "mL": 4394.7
+    },
+    "SpinalCord": {
+     "mean_hu": 39.7,
+     "mL": 53.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-251": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -157.4,
+     "mL": 8.0
+    },
+    "Lung_L": {
+     "mean_hu": -710.3,
+     "mL": 2070.7
+    },
+    "Lung_R": {
+     "mean_hu": -726.5,
+     "mL": 2335.8
+    },
+    "Lungs": {
+     "mean_hu": -718.9,
+     "mL": 4406.5
+    },
+    "SpinalCord": {
+     "mean_hu": 27.3,
+     "mL": 54.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-252": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -40.3,
+     "mL": 39.0
+    },
+    "GTV": {
+     "mean_hu": -151.0,
+     "mL": 4.8
+    },
+    "Heart": {
+     "mean_hu": 24.8,
+     "mL": 972.5
+    },
+    "Lung_L": {
+     "mean_hu": -665.1,
+     "mL": 1954.3
+    },
+    "Lung_R": {
+     "mean_hu": -671.3,
+     "mL": 1473.4
+    },
+    "Lungs": {
+     "mean_hu": -667.7,
+     "mL": 3427.7
+    },
+    "SpinalCord": {
+     "mean_hu": 19.7,
+     "mL": 44.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-253": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -23.6,
+     "mL": 3.3
+    },
+    "Lung_L": {
+     "mean_hu": -671.5,
+     "mL": 2275.7
+    },
+    "Lung_R": {
+     "mean_hu": -693.9,
+     "mL": 2161.0
+    },
+    "Lungs": {
+     "mean_hu": -682.4,
+     "mL": 4436.7
+    },
+    "SpinalCord": {
+     "mean_hu": 46.1,
+     "mL": 42.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-254": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -56.0,
+     "mL": 89.4
+    },
+    "GTV": {
+     "mean_hu": -125.2,
+     "mL": 9.1
+    },
+    "Lung_L": {
+     "mean_hu": -733.6,
+     "mL": 1857.3
+    },
+    "Lung_R": {
+     "mean_hu": -751.9,
+     "mL": 2391.4
+    },
+    "Lungs": {
+     "mean_hu": -743.9,
+     "mL": 4248.7
+    },
+    "SpinalCord": {
+     "mean_hu": 48.5,
+     "mL": 42.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-255": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -12.8,
+     "mL": 31.9
+    },
+    "GTV": {
+     "mean_hu": -365.6,
+     "mL": 4.8
+    },
+    "Heart": {
+     "mean_hu": 25.4,
+     "mL": 880.0
+    },
+    "Lung_L": {
+     "mean_hu": -835.4,
+     "mL": 3264.0
+    },
+    "Lung_R": {
+     "mean_hu": -837.1,
+     "mL": 3592.5
+    },
+    "Lungs": {
+     "mean_hu": -836.3,
+     "mL": 6855.9
+    },
+    "SpinalCord": {
+     "mean_hu": 34.8,
+     "mL": 44.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-256": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -163.1,
+     "mL": 37.6
+    },
+    "GTV": {
+     "mean_hu": 6.5,
+     "mL": 70.3
+    },
+    "Heart": {
+     "mean_hu": 8.5,
+     "mL": 483.8
+    },
+    "Lung_L": {
+     "mean_hu": -770.7,
+     "mL": 2178.4
+    },
+    "Lung_R": {
+     "mean_hu": -762.2,
+     "mL": 2044.9
+    },
+    "Lungs": {
+     "mean_hu": -766.6,
+     "mL": 4223.2
+    },
+    "SpinalCord": {
+     "mean_hu": 38.1,
+     "mL": 91.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-257": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 4.8,
+     "mL": 35.5
+    },
+    "GTV": {
+     "mean_hu": -24.1,
+     "mL": 182.7
+    },
+    "Lung_L": {
+     "mean_hu": -735.9,
+     "mL": 1488.4
+    },
+    "Lung_R": {
+     "mean_hu": -725.3,
+     "mL": 1636.4
+    },
+    "Lungs": {
+     "mean_hu": -730.3,
+     "mL": 3124.9
+    },
+    "SpinalCord": {
+     "mean_hu": 33.1,
+     "mL": 80.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-258": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 3.6,
+     "mL": 36.9
+    },
+    "GTV": {
+     "mean_hu": -37.7,
+     "mL": 59.6
+    },
+    "Lung_L": {
+     "mean_hu": -791.4,
+     "mL": 2209.9
+    },
+    "Lung_R": {
+     "mean_hu": -748.7,
+     "mL": 1995.7
+    },
+    "Lungs": {
+     "mean_hu": -771.2,
+     "mL": 4205.6
+    },
+    "SpinalCord": {
+     "mean_hu": 32.2,
+     "mL": 75.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-259": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 13.9,
+     "mL": 34.6
+    },
+    "GTV": {
+     "mean_hu": -1.6,
+     "mL": 50.5
+    },
+    "Lung_L": {
+     "mean_hu": -708.5,
+     "mL": 1755.2
+    },
+    "Lung_R": {
+     "mean_hu": -690.1,
+     "mL": 1933.2
+    },
+    "Lungs": {
+     "mean_hu": -698.9,
+     "mL": 3688.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-260": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -46.2,
+     "mL": 38.4
+    },
+    "GTV": {
+     "mean_hu": -168.1,
+     "mL": 13.6
+    },
+    "Heart": {
+     "mean_hu": 10.0,
+     "mL": 743.0
+    },
+    "Lung_L": {
+     "mean_hu": -782.6,
+     "mL": 2695.0
+    },
+    "Lung_R": {
+     "mean_hu": -802.4,
+     "mL": 3278.8
+    },
+    "Lungs": {
+     "mean_hu": -793.5,
+     "mL": 5973.8
+    },
+    "SpinalCord": {
+     "mean_hu": 47.6,
+     "mL": 59.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-261": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 48.5,
+     "mL": 35.1
+    },
+    "GTV": {
+     "mean_hu": -44.9,
+     "mL": 11.0
+    },
+    "Lung_L": {
+     "mean_hu": -598.6,
+     "mL": 943.3
+    },
+    "Lung_R": {
+     "mean_hu": -654.4,
+     "mL": 1550.5
+    },
+    "Lungs": {
+     "mean_hu": -633.3,
+     "mL": 2493.7
+    },
+    "SpinalCord": {
+     "mean_hu": 46.9,
+     "mL": 42.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-262": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -21.6,
+     "mL": 36.4
+    },
+    "GTV": {
+     "mean_hu": -17.5,
+     "mL": 166.7
+    },
+    "Lung_L": {
+     "mean_hu": -791.5,
+     "mL": 1967.3
+    },
+    "Lung_R": {
+     "mean_hu": -730.7,
+     "mL": 2357.2
+    },
+    "Lungs": {
+     "mean_hu": -758.4,
+     "mL": 4324.2
+    },
+    "SpinalCord": {
+     "mean_hu": 34.8,
+     "mL": 41.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-263": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -8.1,
+     "mL": 43.3
+    },
+    "GTV": {
+     "mean_hu": 14.4,
+     "mL": 183.1
+    },
+    "Lung_L": {
+     "mean_hu": -713.5,
+     "mL": 2429.4
+    },
+    "Lung_R": {
+     "mean_hu": -719.6,
+     "mL": 3007.0
+    },
+    "Lungs": {
+     "mean_hu": -716.9,
+     "mL": 5435.8
+    },
+    "SpinalCord": {
+     "mean_hu": 33.6,
+     "mL": 85.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-264": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -42.6,
+     "mL": 35.4
+    },
+    "GTV": {
+     "mean_hu": -43.7,
+     "mL": 52.4
+    },
+    "Lung_L": {
+     "mean_hu": -733.4,
+     "mL": 1582.8
+    },
+    "Lung_R": {
+     "mean_hu": -730.9,
+     "mL": 2190.4
+    },
+    "Lungs": {
+     "mean_hu": -732.0,
+     "mL": 3773.2
+    },
+    "SpinalCord": {
+     "mean_hu": 40.3,
+     "mL": 78.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-265": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -32.2,
+     "mL": 35.8
+    },
+    "GTV": {
+     "mean_hu": -103.1,
+     "mL": 25.1
+    },
+    "Lung_L": {
+     "mean_hu": -806.6,
+     "mL": 3018.7
+    },
+    "Lung_R": {
+     "mean_hu": -786.1,
+     "mL": 2819.2
+    },
+    "Lungs": {
+     "mean_hu": -796.7,
+     "mL": 5837.9
+    },
+    "SpinalCord": {
+     "mean_hu": 29.2,
+     "mL": 53.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-266": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -78.3,
+     "mL": 31.7
+    },
+    "GTV": {
+     "mean_hu": -190.7,
+     "mL": 10.9
+    },
+    "Lung_L": {
+     "mean_hu": -751.5,
+     "mL": 1860.8
+    },
+    "Lung_R": {
+     "mean_hu": -829.2,
+     "mL": 2199.2
+    },
+    "Lungs": {
+     "mean_hu": -793.6,
+     "mL": 4060.0
+    },
+    "SpinalCord": {
+     "mean_hu": 35.4,
+     "mL": 53.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-267": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -27.6,
+     "mL": 36.7
+    },
+    "GTV": {
+     "mean_hu": 2.9,
+     "mL": 66.8
+    },
+    "Lung_L": {
+     "mean_hu": -755.2,
+     "mL": 2465.3
+    },
+    "Lung_R": {
+     "mean_hu": -762.6,
+     "mL": 2911.1
+    },
+    "Lungs": {
+     "mean_hu": -759.2,
+     "mL": 5376.4
+    },
+    "SpinalCord": {
+     "mean_hu": 39.0,
+     "mL": 35.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-268": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -26.1,
+     "mL": 52.9
+    },
+    "GTV": {
+     "mean_hu": -19.2,
+     "mL": 34.4
+    },
+    "Lung_L": {
+     "mean_hu": -716.0,
+     "mL": 2880.1
+    },
+    "Lung_R": {
+     "mean_hu": -682.7,
+     "mL": 2859.7
+    },
+    "Lungs": {
+     "mean_hu": -699.4,
+     "mL": 5739.7
+    },
+    "SpinalCord": {
+     "mean_hu": 22.2,
+     "mL": 65.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-269": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -6.4,
+     "mL": 42.4
+    },
+    "GTV": {
+     "mean_hu": -17.2,
+     "mL": 26.8
+    },
+    "Lung_L": {
+     "mean_hu": -625.1,
+     "mL": 1094.6
+    },
+    "Lung_R": {
+     "mean_hu": -629.3,
+     "mL": 1619.5
+    },
+    "Lungs": {
+     "mean_hu": -627.6,
+     "mL": 2714.0
+    },
+    "SpinalCord": {
+     "mean_hu": 43.8,
+     "mL": 80.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-270": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -90.9,
+     "mL": 1.1
+    },
+    "Lung_L": {
+     "mean_hu": -730.9,
+     "mL": 2452.6
+    },
+    "Lung_R": {
+     "mean_hu": -755.5,
+     "mL": 2991.8
+    },
+    "Lungs": {
+     "mean_hu": -744.4,
+     "mL": 5444.4
+    },
+    "SpinalCord": {
+     "mean_hu": 42.2,
+     "mL": 95.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-271": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -14.2,
+     "mL": 29.9
+    },
+    "GTV": {
+     "mean_hu": -82.8,
+     "mL": 17.6
+    },
+    "Lung_L": {
+     "mean_hu": -748.1,
+     "mL": 2320.3
+    },
+    "Lung_R": {
+     "mean_hu": -786.9,
+     "mL": 2984.0
+    },
+    "Lungs": {
+     "mean_hu": -769.9,
+     "mL": 5304.3
+    },
+    "SpinalCord": {
+     "mean_hu": 29.9,
+     "mL": 77.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-272": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -36.7,
+     "mL": 46.4
+    },
+    "GTV": {
+     "mean_hu": -1.4,
+     "mL": 5.5
+    },
+    "Lung_L": {
+     "mean_hu": -734.7,
+     "mL": 2028.1
+    },
+    "Lung_R": {
+     "mean_hu": -744.4,
+     "mL": 2533.2
+    },
+    "Lungs": {
+     "mean_hu": -740.1,
+     "mL": 4561.3
+    },
+    "SpinalCord": {
+     "mean_hu": 33.9,
+     "mL": 81.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-273": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -84.6,
+     "mL": 41.9
+    },
+    "GTV": {
+     "mean_hu": -175.5,
+     "mL": 317.9
+    },
+    "SpinalCord": {
+     "mean_hu": 29.3,
+     "mL": 66.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-274": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 20.2,
+     "mL": 32.4
+    },
+    "GTV": {
+     "mean_hu": -39.7,
+     "mL": 35.2
+    },
+    "Lung_L": {
+     "mean_hu": -717.8,
+     "mL": 1766.4
+    },
+    "Lung_R": {
+     "mean_hu": -733.6,
+     "mL": 1828.9
+    },
+    "Lungs": {
+     "mean_hu": -725.8,
+     "mL": 3595.3
+    },
+    "SpinalCord": {
+     "mean_hu": 42.6,
+     "mL": 49.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-275": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -6.9,
+     "mL": 51.8
+    },
+    "GTV": {
+     "mean_hu": -59.6,
+     "mL": 87.6
+    },
+    "Lung_L": {
+     "mean_hu": -683.1,
+     "mL": 1709.5
+    },
+    "Lung_R": {
+     "mean_hu": -677.4,
+     "mL": 1948.8
+    },
+    "Lungs": {
+     "mean_hu": -680.1,
+     "mL": 3658.3
+    },
+    "SpinalCord": {
+     "mean_hu": 34.7,
+     "mL": 52.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-276": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -46.2,
+     "mL": 49.4
+    },
+    "GTV": {
+     "mean_hu": 3.1,
+     "mL": 290.9
+    },
+    "Heart": {
+     "mean_hu": 19.1,
+     "mL": 594.8
+    },
+    "Lung_L": {
+     "mean_hu": -728.4,
+     "mL": 1930.2
+    },
+    "Lung_R": {
+     "mean_hu": -688.2,
+     "mL": 2496.1
+    },
+    "Lungs": {
+     "mean_hu": -705.8,
+     "mL": 4426.2
+    },
+    "SpinalCord": {
+     "mean_hu": 45.7,
+     "mL": 52.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-277": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -69.8,
+     "mL": 24.4
+    },
+    "Lung_L": {
+     "mean_hu": -697.6,
+     "mL": 1920.3
+    },
+    "Lung_R": {
+     "mean_hu": -685.3,
+     "mL": 2197.6
+    },
+    "Lungs": {
+     "mean_hu": -691.0,
+     "mL": 4117.9
+    },
+    "SpinalCord": {
+     "mean_hu": 37.4,
+     "mL": 72.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-278": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -53.4,
+     "mL": 28.5
+    },
+    "GTV": {
+     "mean_hu": -84.7,
+     "mL": 27.8
+    },
+    "Heart": {
+     "mean_hu": 25.6,
+     "mL": 604.1
+    },
+    "Lung_L": {
+     "mean_hu": -890.3,
+     "mL": 3594.3
+    },
+    "Lung_R": {
+     "mean_hu": -790.5,
+     "mL": 3073.1
+    },
+    "Lungs": {
+     "mean_hu": -844.3,
+     "mL": 6666.4
+    },
+    "SpinalCord": {
+     "mean_hu": 34.4,
+     "mL": 57.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-279": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 12.1,
+     "mL": 38.3
+    },
+    "GTV": {
+     "mean_hu": 4.2,
+     "mL": 32.7
+    },
+    "Lung_L": {
+     "mean_hu": -780.1,
+     "mL": 2710.9
+    },
+    "Lung_R": {
+     "mean_hu": -775.4,
+     "mL": 3603.9
+    },
+    "Lungs": {
+     "mean_hu": -777.4,
+     "mL": 6314.5
+    },
+    "SpinalCord": {
+     "mean_hu": 35.9,
+     "mL": 62.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-280": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 17.5,
+     "mL": 34.1
+    },
+    "GTV": {
+     "mean_hu": -56.5,
+     "mL": 73.7
+    },
+    "Lungs": {
+     "mean_hu": -633.6,
+     "mL": 3553.0
+    },
+    "SpinalCord": {
+     "mean_hu": 25.3,
+     "mL": 90.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-281": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -77.9,
+     "mL": 3.2
+    },
+    "Lung_L": {
+     "mean_hu": -752.6,
+     "mL": 2728.5
+    },
+    "Lung_R": {
+     "mean_hu": -747.6,
+     "mL": 3166.7
+    },
+    "Lungs": {
+     "mean_hu": -749.9,
+     "mL": 5894.9
+    },
+    "SpinalCord": {
+     "mean_hu": 32.6,
+     "mL": 49.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-282": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -231.3,
+     "mL": 0.5
+    },
+    "Lung_L": {
+     "mean_hu": -661.6,
+     "mL": 1649.0
+    },
+    "Lung_R": {
+     "mean_hu": -688.0,
+     "mL": 2242.9
+    },
+    "Lungs": {
+     "mean_hu": -676.8,
+     "mL": 3891.9
+    },
+    "SpinalCord": {
+     "mean_hu": 43.9,
+     "mL": 35.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-283": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 16.3,
+     "mL": 300.4
+    },
+    "Lung_L": {
+     "mean_hu": -734.7,
+     "mL": 1858.3
+    },
+    "Lung_R": {
+     "mean_hu": -718.8,
+     "mL": 1362.8
+    },
+    "Lungs": {
+     "mean_hu": -728.0,
+     "mL": 3221.0
+    },
+    "SpinalCord": {
+     "mean_hu": 31.8,
+     "mL": 69.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-284": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -199.7,
+     "mL": 31.9
+    },
+    "Lung_L": {
+     "mean_hu": -749.2,
+     "mL": 2160.0
+    },
+    "Lung_R": {
+     "mean_hu": -749.8,
+     "mL": 2666.1
+    },
+    "Lungs": {
+     "mean_hu": -749.5,
+     "mL": 4826.0
+    },
+    "SpinalCord": {
+     "mean_hu": 15.9,
+     "mL": 40.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-285": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -44.8,
+     "mL": 39.6
+    },
+    "GTV": {
+     "mean_hu": -31.5,
+     "mL": 93.5
+    },
+    "Lung_L": {
+     "mean_hu": -579.4,
+     "mL": 1170.0
+    },
+    "Lung_R": {
+     "mean_hu": -648.1,
+     "mL": 1795.0
+    },
+    "Lungs": {
+     "mean_hu": -621.0,
+     "mL": 2965.1
+    },
+    "SpinalCord": {
+     "mean_hu": 27.0,
+     "mL": 46.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-286": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -72.7,
+     "mL": 57.7
+    },
+    "Lung_L": {
+     "mean_hu": -641.0,
+     "mL": 1760.4
+    },
+    "Lung_R": {
+     "mean_hu": -542.1,
+     "mL": 1265.6
+    },
+    "Lungs": {
+     "mean_hu": -599.7,
+     "mL": 3026.0
+    },
+    "SpinalCord": {
+     "mean_hu": 56.3,
+     "mL": 102.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-287": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -196.3,
+     "mL": 42.3
+    },
+    "GTV": {
+     "mean_hu": -92.9,
+     "mL": 5.7
+    },
+    "Lung_L": {
+     "mean_hu": -714.7,
+     "mL": 1320.0
+    },
+    "Lung_R": {
+     "mean_hu": -719.6,
+     "mL": 1505.5
+    },
+    "Lungs": {
+     "mean_hu": -717.3,
+     "mL": 2825.5
+    },
+    "SpinalCord": {
+     "mean_hu": 45.3,
+     "mL": 38.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-288": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 11.0,
+     "mL": 27.9
+    },
+    "GTV": {
+     "mean_hu": -182.0,
+     "mL": 0.7
+    },
+    "Lung_L": {
+     "mean_hu": -731.2,
+     "mL": 1919.2
+    },
+    "Lung_R": {
+     "mean_hu": -745.4,
+     "mL": 2239.7
+    },
+    "Lungs": {
+     "mean_hu": -738.8,
+     "mL": 4159.0
+    },
+    "SpinalCord": {
+     "mean_hu": 47.6,
+     "mL": 79.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-289": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -34.0,
+     "mL": 26.3
+    },
+    "GTV": {
+     "mean_hu": 6.9,
+     "mL": 190.8
+    },
+    "Lung_L": {
+     "mean_hu": -723.8,
+     "mL": 2099.7
+    },
+    "Lung_R": {
+     "mean_hu": -740.0,
+     "mL": 1718.8
+    },
+    "Lungs": {
+     "mean_hu": -731.1,
+     "mL": 3818.6
+    },
+    "SpinalCord": {
+     "mean_hu": 33.3,
+     "mL": 76.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-290": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 4.3,
+     "mL": 33.4
+    },
+    "GTV": {
+     "mean_hu": -0.4,
+     "mL": 123.1
+    },
+    "Lung_L": {
+     "mean_hu": -731.2,
+     "mL": 1158.5
+    },
+    "Lung_R": {
+     "mean_hu": -761.3,
+     "mL": 2645.0
+    },
+    "Lungs": {
+     "mean_hu": -752.2,
+     "mL": 3803.2
+    },
+    "SpinalCord": {
+     "mean_hu": 42.3,
+     "mL": 93.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-291": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 10.9,
+     "mL": 43.9
+    },
+    "GTV": {
+     "mean_hu": -65.1,
+     "mL": 52.5
+    },
+    "Lung_L": {
+     "mean_hu": -681.7,
+     "mL": 1392.3
+    },
+    "Lung_R": {
+     "mean_hu": -718.8,
+     "mL": 2539.8
+    },
+    "Lungs": {
+     "mean_hu": -705.7,
+     "mL": 3932.2
+    },
+    "SpinalCord": {
+     "mean_hu": 46.4,
+     "mL": 102.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-292": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -88.0,
+     "mL": 43.6
+    },
+    "GTV": {
+     "mean_hu": 55.3,
+     "mL": 117.2
+    },
+    "Lungs": {
+     "mean_hu": -808.1,
+     "mL": 5678.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-293": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 5.5,
+     "mL": 34.0
+    },
+    "GTV": {
+     "mean_hu": -196.7,
+     "mL": 27.5
+    },
+    "Lung_L": {
+     "mean_hu": -791.7,
+     "mL": 2099.9
+    },
+    "Lung_R": {
+     "mean_hu": -788.6,
+     "mL": 2513.2
+    },
+    "Lungs": {
+     "mean_hu": -790.0,
+     "mL": 4613.0
+    },
+    "SpinalCord": {
+     "mean_hu": 40.9,
+     "mL": 78.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-294": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 30.7,
+     "mL": 33.2
+    },
+    "GTV": {
+     "mean_hu": -123.1,
+     "mL": 41.6
+    },
+    "Lung_L": {
+     "mean_hu": -725.1,
+     "mL": 1823.7
+    },
+    "Lung_R": {
+     "mean_hu": -763.0,
+     "mL": 2329.7
+    },
+    "Lungs": {
+     "mean_hu": -746.3,
+     "mL": 4153.4
+    },
+    "SpinalCord": {
+     "mean_hu": 45.8,
+     "mL": 51.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-295": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -2.8,
+     "mL": 48.3
+    },
+    "GTV": {
+     "mean_hu": -425.2,
+     "mL": 3.5
+    },
+    "Lung_L": {
+     "mean_hu": -720.2,
+     "mL": 2135.4
+    },
+    "Lung_R": {
+     "mean_hu": -701.0,
+     "mL": 1958.9
+    },
+    "Lungs": {
+     "mean_hu": -711.0,
+     "mL": 4094.3
+    },
+    "SpinalCord": {
+     "mean_hu": 59.9,
+     "mL": 95.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-296": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 15.0,
+     "mL": 30.3
+    },
+    "GTV": {
+     "mean_hu": 12.0,
+     "mL": 5.0
+    },
+    "Lungs": {
+     "mean_hu": -773.5,
+     "mL": 5076.7
+    },
+    "SpinalCord": {
+     "mean_hu": 34.3,
+     "mL": 79.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-297": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -10.6,
+     "mL": 30.7
+    },
+    "GTV": {
+     "mean_hu": -197.8,
+     "mL": 44.9
+    },
+    "Lungs": {
+     "mean_hu": -778.7,
+     "mL": 4453.0
+    },
+    "SpinalCord": {
+     "mean_hu": 34.7,
+     "mL": 43.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-298": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -92.7,
+     "mL": 60.6
+    },
+    "GTV": {
+     "mean_hu": -237.8,
+     "mL": 23.2
+    },
+    "Heart": {
+     "mean_hu": 22.0,
+     "mL": 449.6
+    },
+    "Lung_L": {
+     "mean_hu": -813.1,
+     "mL": 2681.1
+    },
+    "Lung_R": {
+     "mean_hu": -816.0,
+     "mL": 2857.2
+    },
+    "Lungs": {
+     "mean_hu": -814.6,
+     "mL": 5538.2
+    },
+    "SpinalCord": {
+     "mean_hu": 39.2,
+     "mL": 37.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-299": {
+   "structures": {
+    "GTV": {
+     "mean_hu": 11.1,
+     "mL": 41.8
+    },
+    "Lungs": {
+     "mean_hu": -713.8,
+     "mL": 3795.6
+    },
+    "SpinalCord": {
+     "mean_hu": 34.1,
+     "mL": 48.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-300": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -38.1,
+     "mL": 43.8
+    },
+    "GTV": {
+     "mean_hu": -109.3,
+     "mL": 61.2
+    },
+    "Lungs": {
+     "mean_hu": -788.3,
+     "mL": 6800.2
+    },
+    "SpinalCord": {
+     "mean_hu": 25.8,
+     "mL": 74.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-301": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -16.0,
+     "mL": 128.9
+    },
+    "Lungs": {
+     "mean_hu": -700.6,
+     "mL": 3178.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-302": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -76.8,
+     "mL": 42.0
+    },
+    "Lung_L": {
+     "mean_hu": -770.3,
+     "mL": 3181.5
+    },
+    "Lung_R": {
+     "mean_hu": -746.7,
+     "mL": 3224.4
+    },
+    "Lungs": {
+     "mean_hu": -758.4,
+     "mL": 6405.9
+    },
+    "SpinalCord": {
+     "mean_hu": 25.0,
+     "mL": 74.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-303": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 2.3,
+     "mL": 50.6
+    },
+    "GTV": {
+     "mean_hu": -124.0,
+     "mL": 153.4
+    },
+    "Lungs": {
+     "mean_hu": -753.6,
+     "mL": 4112.4
+    },
+    "SpinalCord": {
+     "mean_hu": 41.4,
+     "mL": 108.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-304": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -73.6,
+     "mL": 95.8
+    },
+    "Lung_L": {
+     "mean_hu": -666.3,
+     "mL": 1210.3
+    },
+    "Lung_R": {
+     "mean_hu": -745.4,
+     "mL": 2032.7
+    },
+    "Lungs": {
+     "mean_hu": -715.9,
+     "mL": 3243.0
+    },
+    "SpinalCord": {
+     "mean_hu": 24.9,
+     "mL": 43.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-305": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -218.1,
+     "mL": 3.7
+    },
+    "Lungs": {
+     "mean_hu": -793.3,
+     "mL": 3360.3
+    },
+    "SpinalCord": {
+     "mean_hu": 22.5,
+     "mL": 24.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-306": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -104.3,
+     "mL": 15.5
+    },
+    "Lungs": {
+     "mean_hu": -810.6,
+     "mL": 5629.4
+    },
+    "SpinalCord": {
+     "mean_hu": 44.0,
+     "mL": 75.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-307": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 19.3,
+     "mL": 31.8
+    },
+    "GTV": {
+     "mean_hu": -125.7,
+     "mL": 1.7
+    },
+    "Lungs": {
+     "mean_hu": -690.5,
+     "mL": 2142.0
+    },
+    "SpinalCord": {
+     "mean_hu": 39.3,
+     "mL": 29.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-308": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 8.0,
+     "mL": 26.7
+    },
+    "GTV": {
+     "mean_hu": 6.5,
+     "mL": 330.3
+    },
+    "Lung_L": {
+     "mean_hu": -778.0,
+     "mL": 1648.3
+    },
+    "Lung_R": {
+     "mean_hu": -760.5,
+     "mL": 1474.4
+    },
+    "Lungs": {
+     "mean_hu": -769.7,
+     "mL": 3122.8
+    },
+    "SpinalCord": {
+     "mean_hu": 17.1,
+     "mL": 52.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-309": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -8.8,
+     "mL": 30.5
+    },
+    "Lungs": {
+     "mean_hu": -755.9,
+     "mL": 6512.2
+    },
+    "SpinalCord": {
+     "mean_hu": 37.6,
+     "mL": 97.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-310": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 15.5,
+     "mL": 29.6
+    },
+    "GTV": {
+     "mean_hu": 21.2,
+     "mL": 251.2
+    },
+    "Lung_L": {
+     "mean_hu": -682.4,
+     "mL": 1500.6
+    },
+    "Lung_R": {
+     "mean_hu": -645.1,
+     "mL": 1462.6
+    },
+    "Lungs": {
+     "mean_hu": -664.0,
+     "mL": 2963.2
+    },
+    "SpinalCord": {
+     "mean_hu": 46.6,
+     "mL": 78.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-311": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -3.0,
+     "mL": 40.0
+    },
+    "GTV": {
+     "mean_hu": -355.9,
+     "mL": 1.2
+    },
+    "Heart": {
+     "mean_hu": 23.3,
+     "mL": 705.6
+    },
+    "Lungs": {
+     "mean_hu": -786.1,
+     "mL": 5809.1
+    },
+    "SpinalCord": {
+     "mean_hu": 39.6,
+     "mL": 71.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-312": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -8.6,
+     "mL": 39.9
+    },
+    "GTV": {
+     "mean_hu": -36.8,
+     "mL": 91.3
+    },
+    "Lung_L": {
+     "mean_hu": -817.2,
+     "mL": 3206.7
+    },
+    "Lung_R": {
+     "mean_hu": -835.4,
+     "mL": 2893.2
+    },
+    "Lungs": {
+     "mean_hu": -825.8,
+     "mL": 6099.9
+    },
+    "SpinalCord": {
+     "mean_hu": 17.8,
+     "mL": 71.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-313": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -59.1,
+     "mL": 73.3
+    },
+    "GTV": {
+     "mean_hu": -143.1,
+     "mL": 9.9
+    },
+    "Lungs": {
+     "mean_hu": -810.8,
+     "mL": 4764.1
+    },
+    "SpinalCord": {
+     "mean_hu": 20.5,
+     "mL": 61.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-314": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -27.6,
+     "mL": 38.1
+    },
+    "GTV": {
+     "mean_hu": 21.1,
+     "mL": 80.3
+    },
+    "Lungs": {
+     "mean_hu": -694.1,
+     "mL": 2450.8
+    },
+    "SpinalCord": {
+     "mean_hu": 17.6,
+     "mL": 59.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-315": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -31.0,
+     "mL": 29.9
+    },
+    "GTV": {
+     "mean_hu": -127.6,
+     "mL": 11.4
+    },
+    "Heart": {
+     "mean_hu": 12.1,
+     "mL": 453.5
+    },
+    "Lungs": {
+     "mean_hu": -851.5,
+     "mL": 4598.7
+    },
+    "SpinalCord": {
+     "mean_hu": 27.1,
+     "mL": 49.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-316": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -136.6,
+     "mL": 24.6
+    },
+    "GTV": {
+     "mean_hu": -21.0,
+     "mL": 113.2
+    },
+    "Lungs": {
+     "mean_hu": -806.9,
+     "mL": 4410.4
+    },
+    "SpinalCord": {
+     "mean_hu": 33.8,
+     "mL": 39.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-317": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -102.7,
+     "mL": 14.2
+    },
+    "Lungs": {
+     "mean_hu": -755.6,
+     "mL": 4476.9
+    },
+    "SpinalCord": {
+     "mean_hu": 32.6,
+     "mL": 68.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-318": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 9.6,
+     "mL": 51.6
+    },
+    "GTV": {
+     "mean_hu": -116.4,
+     "mL": 14.5
+    },
+    "Lungs": {
+     "mean_hu": -791.1,
+     "mL": 5428.0
+    },
+    "SpinalCord": {
+     "mean_hu": 51.7,
+     "mL": 91.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-319": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -253.4,
+     "mL": 45.4
+    },
+    "GTV": {
+     "mean_hu": -35.4,
+     "mL": 39.4
+    },
+    "Lungs": {
+     "mean_hu": -757.4,
+     "mL": 3872.7
+    },
+    "SpinalCord": {
+     "mean_hu": 36.7,
+     "mL": 67.5
+    }
+   },
+   "flags": [
+    "Esophagus: mean HU -253 outside [-200,150]"
+   ],
+   "slice_uniformity": 1.0
+  },
+  "LUNG1-320": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -66.5,
+     "mL": 146.4
+    },
+    "Lungs": {
+     "mean_hu": -832.0,
+     "mL": 5978.3
+    },
+    "SpinalCord": {
+     "mean_hu": 40.5,
+     "mL": 67.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-321": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -198.6,
+     "mL": 36.9
+    },
+    "GTV": {
+     "mean_hu": -262.4,
+     "mL": 4.7
+    },
+    "Heart": {
+     "mean_hu": 34.2,
+     "mL": 450.8
+    },
+    "Lungs": {
+     "mean_hu": -865.2,
+     "mL": 6987.1
+    },
+    "SpinalCord": {
+     "mean_hu": 21.6,
+     "mL": 66.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-322": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -8.0,
+     "mL": 45.3
+    },
+    "GTV": {
+     "mean_hu": -42.4,
+     "mL": 24.5
+    },
+    "Heart": {
+     "mean_hu": 26.7,
+     "mL": 460.0
+    },
+    "Lungs": {
+     "mean_hu": -824.7,
+     "mL": 7124.3
+    },
+    "SpinalCord": {
+     "mean_hu": 39.3,
+     "mL": 82.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-323": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -114.6,
+     "mL": 45.4
+    },
+    "GTV": {
+     "mean_hu": 30.6,
+     "mL": 25.0
+    },
+    "Lungs": {
+     "mean_hu": -744.1,
+     "mL": 4101.0
+    },
+    "SpinalCord": {
+     "mean_hu": 32.4,
+     "mL": 77.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-324": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 8.0,
+     "mL": 36.5
+    },
+    "GTV": {
+     "mean_hu": -53.2,
+     "mL": 52.6
+    },
+    "Lungs": {
+     "mean_hu": -742.5,
+     "mL": 4244.2
+    },
+    "SpinalCord": {
+     "mean_hu": 41.4,
+     "mL": 87.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-325": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -56.3,
+     "mL": 47.4
+    },
+    "GTV": {
+     "mean_hu": -163.5,
+     "mL": 1.5
+    },
+    "Lungs": {
+     "mean_hu": -765.9,
+     "mL": 4970.8
+    },
+    "SpinalCord": {
+     "mean_hu": 26.0,
+     "mL": 107.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-326": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -98.8,
+     "mL": 50.9
+    },
+    "GTV": {
+     "mean_hu": -380.4,
+     "mL": 1.5
+    },
+    "Lungs": {
+     "mean_hu": -779.2,
+     "mL": 3799.1
+    },
+    "SpinalCord": {
+     "mean_hu": 16.0,
+     "mL": 47.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-327": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 7.6,
+     "mL": 39.5
+    },
+    "GTV": {
+     "mean_hu": -1.1,
+     "mL": 128.3
+    },
+    "Lungs": {
+     "mean_hu": -777.8,
+     "mL": 4422.3
+    },
+    "SpinalCord": {
+     "mean_hu": 35.5,
+     "mL": 57.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-328": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -10.9,
+     "mL": 27.9
+    },
+    "GTV": {
+     "mean_hu": -120.0,
+     "mL": 2.9
+    },
+    "Lungs": {
+     "mean_hu": -843.6,
+     "mL": 7804.9
+    },
+    "SpinalCord": {
+     "mean_hu": 28.1,
+     "mL": 30.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-329": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 5.1,
+     "mL": 22.8
+    },
+    "GTV": {
+     "mean_hu": -99.3,
+     "mL": 10.2
+    },
+    "Heart": {
+     "mean_hu": 23.3,
+     "mL": 440.1
+    },
+    "Lungs": {
+     "mean_hu": -799.1,
+     "mL": 4217.0
+    },
+    "SpinalCord": {
+     "mean_hu": 21.5,
+     "mL": 52.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-330": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -17.3,
+     "mL": 48.9
+    },
+    "GTV": {
+     "mean_hu": -35.8,
+     "mL": 28.1
+    },
+    "Lungs": {
+     "mean_hu": -767.2,
+     "mL": 4989.2
+    },
+    "SpinalCord": {
+     "mean_hu": 29.0,
+     "mL": 47.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-331": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -42.2,
+     "mL": 52.5
+    },
+    "GTV": {
+     "mean_hu": 15.1,
+     "mL": 109.8
+    },
+    "Lungs": {
+     "mean_hu": -748.4,
+     "mL": 3799.4
+    },
+    "SpinalCord": {
+     "mean_hu": 19.2,
+     "mL": 56.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-332": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -175.0,
+     "mL": 56.2
+    },
+    "GTV": {
+     "mean_hu": -191.3,
+     "mL": 8.2
+    },
+    "Heart": {
+     "mean_hu": 29.7,
+     "mL": 676.2
+    },
+    "Lungs": {
+     "mean_hu": -827.8,
+     "mL": 8619.5
+    },
+    "SpinalCord": {
+     "mean_hu": 25.7,
+     "mL": 39.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-333": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -2.5,
+     "mL": 34.5
+    },
+    "GTV": {
+     "mean_hu": -187.4,
+     "mL": 8.2
+    },
+    "Lungs": {
+     "mean_hu": -651.0,
+     "mL": 3020.1
+    },
+    "SpinalCord": {
+     "mean_hu": 41.8,
+     "mL": 34.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-334": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -8.5,
+     "mL": 22.9
+    },
+    "GTV": {
+     "mean_hu": -236.2,
+     "mL": 8.6
+    },
+    "Heart": {
+     "mean_hu": 7.3,
+     "mL": 673.2
+    },
+    "Lungs": {
+     "mean_hu": -667.6,
+     "mL": 2712.3
+    },
+    "SpinalCord": {
+     "mean_hu": 40.9,
+     "mL": 46.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-335": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -7.8,
+     "mL": 150.2
+    },
+    "Lungs": {
+     "mean_hu": -627.5,
+     "mL": 3220.4
+    },
+    "SpinalCord": {
+     "mean_hu": 28.9,
+     "mL": 76.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-336": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 11.5,
+     "mL": 44.2
+    },
+    "GTV": {
+     "mean_hu": 17.1,
+     "mL": 51.4
+    },
+    "Lungs": {
+     "mean_hu": -745.6,
+     "mL": 4879.8
+    },
+    "SpinalCord": {
+     "mean_hu": 36.5,
+     "mL": 61.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-337": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 23.0,
+     "mL": 37.5
+    },
+    "GTV": {
+     "mean_hu": -32.7,
+     "mL": 30.3
+    },
+    "Lungs": {
+     "mean_hu": -721.5,
+     "mL": 3657.3
+    },
+    "SpinalCord": {
+     "mean_hu": 39.4,
+     "mL": 74.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-338": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -15.7,
+     "mL": 69.2
+    },
+    "GTV": {
+     "mean_hu": -43.7,
+     "mL": 18.9
+    },
+    "Lungs": {
+     "mean_hu": -777.9,
+     "mL": 6383.0
+    },
+    "SpinalCord": {
+     "mean_hu": 23.0,
+     "mL": 76.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-339": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -22.7,
+     "mL": 66.6
+    },
+    "GTV": {
+     "mean_hu": 0.1,
+     "mL": 30.6
+    },
+    "Lungs": {
+     "mean_hu": -709.2,
+     "mL": 5656.9
+    },
+    "SpinalCord": {
+     "mean_hu": 32.4,
+     "mL": 82.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-340": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 19.2,
+     "mL": 49.9
+    },
+    "GTV": {
+     "mean_hu": 12.4,
+     "mL": 118.7
+    },
+    "Lungs": {
+     "mean_hu": -748.6,
+     "mL": 4599.4
+    },
+    "SpinalCord": {
+     "mean_hu": 40.3,
+     "mL": 69.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-341": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -11.3,
+     "mL": 49.0
+    },
+    "GTV": {
+     "mean_hu": -127.1,
+     "mL": 18.7
+    },
+    "Heart": {
+     "mean_hu": 18.8,
+     "mL": 582.2
+    },
+    "Lungs": {
+     "mean_hu": -754.1,
+     "mL": 4037.0
+    },
+    "SpinalCord": {
+     "mean_hu": 33.5,
+     "mL": 32.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-342": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -12.9,
+     "mL": 50.8
+    },
+    "GTV": {
+     "mean_hu": -121.3,
+     "mL": 39.2
+    },
+    "Lungs": {
+     "mean_hu": -632.3,
+     "mL": 2565.7
+    },
+    "SpinalCord": {
+     "mean_hu": 32.1,
+     "mL": 85.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-343": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -67.4,
+     "mL": 40.5
+    },
+    "GTV": {
+     "mean_hu": 13.4,
+     "mL": 101.5
+    },
+    "Lungs": {
+     "mean_hu": -680.3,
+     "mL": 2836.9
+    },
+    "SpinalCord": {
+     "mean_hu": 37.2,
+     "mL": 48.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-344": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -29.5,
+     "mL": 45.2
+    },
+    "GTV": {
+     "mean_hu": 5.0,
+     "mL": 177.6
+    },
+    "Lungs": {
+     "mean_hu": -749.7,
+     "mL": 4791.1
+    },
+    "SpinalCord": {
+     "mean_hu": 41.9,
+     "mL": 83.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-345": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -46.0,
+     "mL": 58.4
+    },
+    "Lungs": {
+     "mean_hu": -718.1,
+     "mL": 4033.4
+    },
+    "SpinalCord": {
+     "mean_hu": 42.9,
+     "mL": 58.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-346": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 17.3,
+     "mL": 28.4
+    },
+    "GTV": {
+     "mean_hu": -230.8,
+     "mL": 4.3
+    },
+    "Heart": {
+     "mean_hu": 13.0,
+     "mL": 547.3
+    },
+    "Lungs": {
+     "mean_hu": -755.1,
+     "mL": 3629.1
+    },
+    "SpinalCord": {
+     "mean_hu": 37.9,
+     "mL": 89.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-347": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -54.5,
+     "mL": 19.5
+    },
+    "GTV": {
+     "mean_hu": -195.6,
+     "mL": 3.0
+    },
+    "Lungs": {
+     "mean_hu": -717.8,
+     "mL": 3152.4
+    },
+    "SpinalCord": {
+     "mean_hu": 30.2,
+     "mL": 53.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-348": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -0.5,
+     "mL": 23.5
+    },
+    "GTV": {
+     "mean_hu": -105.6,
+     "mL": 260.0
+    },
+    "Lungs": {
+     "mean_hu": -745.8,
+     "mL": 4692.4
+    },
+    "SpinalCord": {
+     "mean_hu": 39.0,
+     "mL": 93.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-349": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -10.5,
+     "mL": 36.7
+    },
+    "GTV": {
+     "mean_hu": 14.8,
+     "mL": 498.1
+    },
+    "Lungs": {
+     "mean_hu": -720.4,
+     "mL": 3841.1
+    },
+    "SpinalCord": {
+     "mean_hu": 43.5,
+     "mL": 44.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-350": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 43.4,
+     "mL": 28.5
+    },
+    "GTV": {
+     "mean_hu": -43.9,
+     "mL": 17.3
+    },
+    "Lungs": {
+     "mean_hu": -673.4,
+     "mL": 2056.0
+    },
+    "SpinalCord": {
+     "mean_hu": 21.7,
+     "mL": 57.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-351": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 18.3,
+     "mL": 39.9
+    },
+    "GTV": {
+     "mean_hu": -15.4,
+     "mL": 93.7
+    },
+    "Lungs": {
+     "mean_hu": -726.4,
+     "mL": 3659.7
+    },
+    "SpinalCord": {
+     "mean_hu": 37.4,
+     "mL": 73.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-352": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -20.5,
+     "mL": 29.2
+    },
+    "GTV": {
+     "mean_hu": -59.0,
+     "mL": 94.2
+    },
+    "Lungs": {
+     "mean_hu": -778.9,
+     "mL": 5598.4
+    },
+    "SpinalCord": {
+     "mean_hu": 37.1,
+     "mL": 100.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-353": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 0.7,
+     "mL": 42.8
+    },
+    "GTV": {
+     "mean_hu": 12.9,
+     "mL": 162.1
+    },
+    "Lungs": {
+     "mean_hu": -775.8,
+     "mL": 4897.4
+    },
+    "SpinalCord": {
+     "mean_hu": 24.1,
+     "mL": 81.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-354": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -155.4,
+     "mL": 26.4
+    },
+    "GTV": {
+     "mean_hu": -65.4,
+     "mL": 12.7
+    },
+    "Lung_R": {
+     "mean_hu": -753.6,
+     "mL": 2289.0
+    },
+    "Lungs": {
+     "mean_hu": -753.6,
+     "mL": 2289.0
+    },
+    "SpinalCord": {
+     "mean_hu": 62.2,
+     "mL": 59.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-355": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -70.7,
+     "mL": 18.4
+    },
+    "GTV": {
+     "mean_hu": -90.4,
+     "mL": 15.4
+    },
+    "Heart": {
+     "mean_hu": 19.7,
+     "mL": 338.4
+    },
+    "Lungs": {
+     "mean_hu": -773.4,
+     "mL": 2791.9
+    },
+    "SpinalCord": {
+     "mean_hu": 32.0,
+     "mL": 39.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-356": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -20.5,
+     "mL": 32.7
+    },
+    "GTV": {
+     "mean_hu": -58.4,
+     "mL": 15.3
+    },
+    "Heart": {
+     "mean_hu": 24.2,
+     "mL": 409.8
+    },
+    "Lung_L": {
+     "mean_hu": -826.9,
+     "mL": 2499.1
+    },
+    "Lung_R": {
+     "mean_hu": -825.5,
+     "mL": 2624.5
+    },
+    "Lungs": {
+     "mean_hu": -826.2,
+     "mL": 5123.4
+    },
+    "SpinalCord": {
+     "mean_hu": 10.1,
+     "mL": 62.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-357": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -12.5,
+     "mL": 41.7
+    },
+    "GTV": {
+     "mean_hu": -5.2,
+     "mL": 148.6
+    },
+    "Lungs": {
+     "mean_hu": -763.5,
+     "mL": 4836.7
+    },
+    "SpinalCord": {
+     "mean_hu": 32.5,
+     "mL": 56.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-358": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -3.9,
+     "mL": 21.0
+    },
+    "GTV": {
+     "mean_hu": -36.9,
+     "mL": 46.8
+    },
+    "Heart": {
+     "mean_hu": 20.5,
+     "mL": 417.0
+    },
+    "Lungs": {
+     "mean_hu": -738.9,
+     "mL": 3592.7
+    },
+    "SpinalCord": {
+     "mean_hu": 41.0,
+     "mL": 57.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-359": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -60.7,
+     "mL": 42.2
+    },
+    "GTV": {
+     "mean_hu": -234.8,
+     "mL": 3.6
+    },
+    "Heart": {
+     "mean_hu": 18.6,
+     "mL": 480.8
+    },
+    "Lungs": {
+     "mean_hu": -742.2,
+     "mL": 3547.5
+    },
+    "SpinalCord": {
+     "mean_hu": 26.5,
+     "mL": 73.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-360": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -83.8,
+     "mL": 21.3
+    },
+    "GTV": {
+     "mean_hu": -216.8,
+     "mL": 104.1
+    },
+    "Lungs": {
+     "mean_hu": -711.0,
+     "mL": 4545.6
+    },
+    "SpinalCord": {
+     "mean_hu": 27.7,
+     "mL": 27.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-361": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -50.1,
+     "mL": 41.8
+    },
+    "GTV": {
+     "mean_hu": -1.8,
+     "mL": 111.3
+    },
+    "Heart": {
+     "mean_hu": 16.7,
+     "mL": 521.2
+    },
+    "Lungs": {
+     "mean_hu": -795.3,
+     "mL": 5092.8
+    },
+    "SpinalCord": {
+     "mean_hu": 26.7,
+     "mL": 90.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-362": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -46.2,
+     "mL": 42.5
+    },
+    "GTV": {
+     "mean_hu": -53.8,
+     "mL": 14.8
+    },
+    "Heart": {
+     "mean_hu": 17.1,
+     "mL": 736.6
+    },
+    "Lung_L": {
+     "mean_hu": -675.2,
+     "mL": 2220.6
+    },
+    "Lungs": {
+     "mean_hu": -675.2,
+     "mL": 2220.6
+    },
+    "SpinalCord": {
+     "mean_hu": 33.3,
+     "mL": 63.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-363": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -7.2,
+     "mL": 29.5
+    },
+    "GTV": {
+     "mean_hu": -56.9,
+     "mL": 25.5
+    },
+    "Heart": {
+     "mean_hu": -18.2,
+     "mL": 1046.7
+    },
+    "Lungs": {
+     "mean_hu": -741.2,
+     "mL": 4121.5
+    },
+    "SpinalCord": {
+     "mean_hu": 19.0,
+     "mL": 40.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-364": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 34.7,
+     "mL": 26.6
+    },
+    "GTV": {
+     "mean_hu": 15.2,
+     "mL": 95.6
+    },
+    "Heart": {
+     "mean_hu": 14.0,
+     "mL": 641.2
+    },
+    "Lungs": {
+     "mean_hu": -675.4,
+     "mL": 3321.1
+    },
+    "SpinalCord": {
+     "mean_hu": 27.1,
+     "mL": 67.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-365": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -18.6,
+     "mL": 24.2
+    },
+    "GTV": {
+     "mean_hu": 20.1,
+     "mL": 9.2
+    },
+    "Heart": {
+     "mean_hu": 29.5,
+     "mL": 719.9
+    },
+    "Lungs": {
+     "mean_hu": -773.6,
+     "mL": 4091.4
+    },
+    "SpinalCord": {
+     "mean_hu": 22.7,
+     "mL": 69.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-366": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -23.9,
+     "mL": 42.4
+    },
+    "GTV": {
+     "mean_hu": -100.5,
+     "mL": 5.4
+    },
+    "Heart": {
+     "mean_hu": 26.8,
+     "mL": 508.2
+    },
+    "Lungs": {
+     "mean_hu": -751.0,
+     "mL": 3589.6
+    },
+    "SpinalCord": {
+     "mean_hu": 40.7,
+     "mL": 70.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-367": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -3.1,
+     "mL": 64.1
+    },
+    "GTV": {
+     "mean_hu": 16.8,
+     "mL": 499.1
+    },
+    "Heart": {
+     "mean_hu": 20.9,
+     "mL": 1297.9
+    },
+    "Lungs": {
+     "mean_hu": -668.9,
+     "mL": 3393.0
+    },
+    "SpinalCord": {
+     "mean_hu": 35.1,
+     "mL": 94.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-368": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 9.0,
+     "mL": 29.8
+    },
+    "GTV": {
+     "mean_hu": -45.0,
+     "mL": 167.6
+    },
+    "Heart": {
+     "mean_hu": 17.3,
+     "mL": 684.3
+    },
+    "Lungs": {
+     "mean_hu": -783.5,
+     "mL": 5284.6
+    },
+    "SpinalCord": {
+     "mean_hu": 38.6,
+     "mL": 56.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-369": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -60.0,
+     "mL": 34.3
+    },
+    "GTV": {
+     "mean_hu": -161.7,
+     "mL": 2.9
+    },
+    "Heart": {
+     "mean_hu": 5.2,
+     "mL": 519.4
+    },
+    "Lungs": {
+     "mean_hu": -715.6,
+     "mL": 3043.2
+    },
+    "SpinalCord": {
+     "mean_hu": 29.7,
+     "mL": 65.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-370": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -45.3,
+     "mL": 58.7
+    },
+    "GTV": {
+     "mean_hu": -16.0,
+     "mL": 25.5
+    },
+    "Heart": {
+     "mean_hu": 22.9,
+     "mL": 717.1
+    },
+    "Lungs": {
+     "mean_hu": -688.2,
+     "mL": 5700.3
+    },
+    "SpinalCord": {
+     "mean_hu": 25.5,
+     "mL": 91.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-371": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 14.2,
+     "mL": 30.0
+    },
+    "GTV": {
+     "mean_hu": -45.3,
+     "mL": 4.4
+    },
+    "Heart": {
+     "mean_hu": 135.9,
+     "mL": 713.1
+    },
+    "Lungs": {
+     "mean_hu": -736.3,
+     "mL": 3874.0
+    },
+    "SpinalCord": {
+     "mean_hu": 48.8,
+     "mL": 90.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-372": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -14.6,
+     "mL": 32.6
+    },
+    "GTV": {
+     "mean_hu": -374.1,
+     "mL": 4.5
+    },
+    "Heart": {
+     "mean_hu": 16.1,
+     "mL": 543.0
+    },
+    "Lungs": {
+     "mean_hu": -836.0,
+     "mL": 5135.0
+    },
+    "SpinalCord": {
+     "mean_hu": 35.4,
+     "mL": 40.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-373": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -4.6,
+     "mL": 34.4
+    },
+    "GTV": {
+     "mean_hu": -57.5,
+     "mL": 40.9
+    },
+    "Heart": {
+     "mean_hu": 16.0,
+     "mL": 492.5
+    },
+    "Lung_L": {
+     "mean_hu": -718.3,
+     "mL": 1185.8
+    },
+    "Lung_R": {
+     "mean_hu": -726.9,
+     "mL": 1582.9
+    },
+    "Lungs": {
+     "mean_hu": -723.2,
+     "mL": 2768.6
+    },
+    "SpinalCord": {
+     "mean_hu": 40.8,
+     "mL": 37.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-374": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 0.5,
+     "mL": 50.3
+    },
+    "GTV": {
+     "mean_hu": -44.7,
+     "mL": 39.4
+    },
+    "Heart": {
+     "mean_hu": 26.3,
+     "mL": 667.4
+    },
+    "Lungs": {
+     "mean_hu": -734.6,
+     "mL": 6162.4
+    },
+    "SpinalCord": {
+     "mean_hu": 21.6,
+     "mL": 110.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-375": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -17.1,
+     "mL": 34.7
+    },
+    "GTV": {
+     "mean_hu": -7.4,
+     "mL": 400.8
+    },
+    "Heart": {
+     "mean_hu": 8.2,
+     "mL": 1011.2
+    },
+    "Lungs": {
+     "mean_hu": -667.0,
+     "mL": 3215.2
+    },
+    "SpinalCord": {
+     "mean_hu": 30.4,
+     "mL": 71.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-376": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -9.0,
+     "mL": 29.2
+    },
+    "GTV": {
+     "mean_hu": 0.5,
+     "mL": 116.7
+    },
+    "Heart": {
+     "mean_hu": 17.7,
+     "mL": 659.7
+    },
+    "Lungs": {
+     "mean_hu": -695.3,
+     "mL": 3376.7
+    },
+    "SpinalCord": {
+     "mean_hu": 22.3,
+     "mL": 56.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-377": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -11.2,
+     "mL": 49.7
+    },
+    "GTV": {
+     "mean_hu": 37.9,
+     "mL": 453.7
+    },
+    "Heart": {
+     "mean_hu": 14.3,
+     "mL": 680.5
+    },
+    "Lungs": {
+     "mean_hu": -766.2,
+     "mL": 6476.3
+    },
+    "SpinalCord": {
+     "mean_hu": 17.6,
+     "mL": 85.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-378": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 13.7,
+     "mL": 37.8
+    },
+    "GTV": {
+     "mean_hu": -9.4,
+     "mL": 15.8
+    },
+    "Heart": {
+     "mean_hu": 16.5,
+     "mL": 680.4
+    },
+    "Lungs": {
+     "mean_hu": -815.8,
+     "mL": 5045.6
+    },
+    "SpinalCord": {
+     "mean_hu": 39.7,
+     "mL": 67.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-379": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 1.2,
+     "mL": 23.4
+    },
+    "GTV": {
+     "mean_hu": -169.3,
+     "mL": 10.5
+    },
+    "Heart": {
+     "mean_hu": 3.7,
+     "mL": 558.4
+    },
+    "Lungs": {
+     "mean_hu": -691.3,
+     "mL": 2530.5
+    },
+    "SpinalCord": {
+     "mean_hu": 48.5,
+     "mL": 41.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-380": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -15.7,
+     "mL": 44.7
+    },
+    "GTV": {
+     "mean_hu": 23.4,
+     "mL": 17.7
+    },
+    "Heart": {
+     "mean_hu": 22.4,
+     "mL": 649.8
+    },
+    "Lungs": {
+     "mean_hu": -812.2,
+     "mL": 5765.7
+    },
+    "SpinalCord": {
+     "mean_hu": 22.4,
+     "mL": 80.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-381": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -27.7,
+     "mL": 33.2
+    },
+    "GTV": {
+     "mean_hu": 30.7,
+     "mL": 58.7
+    },
+    "Heart": {
+     "mean_hu": 15.3,
+     "mL": 691.7
+    },
+    "Lungs": {
+     "mean_hu": -707.8,
+     "mL": 1788.9
+    },
+    "SpinalCord": {
+     "mean_hu": 33.2,
+     "mL": 67.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-382": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 1.7,
+     "mL": 25.7
+    },
+    "GTV": {
+     "mean_hu": -40.6,
+     "mL": 42.7
+    },
+    "Heart": {
+     "mean_hu": 8.3,
+     "mL": 430.3
+    },
+    "Lungs": {
+     "mean_hu": -840.9,
+     "mL": 5647.5
+    },
+    "SpinalCord": {
+     "mean_hu": 22.7,
+     "mL": 75.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-383": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -67.0,
+     "mL": 45.1
+    },
+    "GTV": {
+     "mean_hu": -135.5,
+     "mL": 3.5
+    },
+    "Heart": {
+     "mean_hu": 9.2,
+     "mL": 803.8
+    },
+    "Lungs": {
+     "mean_hu": -786.7,
+     "mL": 6236.3
+    },
+    "SpinalCord": {
+     "mean_hu": 41.3,
+     "mL": 68.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-384": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -39.1,
+     "mL": 25.3
+    },
+    "GTV": {
+     "mean_hu": -42.0,
+     "mL": 28.0
+    },
+    "Lungs": {
+     "mean_hu": -682.8,
+     "mL": 4702.8
+    },
+    "SpinalCord": {
+     "mean_hu": 19.7,
+     "mL": 32.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-385": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 10.5,
+     "mL": 14.4
+    },
+    "GTV": {
+     "mean_hu": -171.3,
+     "mL": 2.6
+    },
+    "Heart": {
+     "mean_hu": 24.3,
+     "mL": 658.6
+    },
+    "Lungs": {
+     "mean_hu": -721.8,
+     "mL": 4528.6
+    },
+    "SpinalCord": {
+     "mean_hu": 31.5,
+     "mL": 37.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-386": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -16.4,
+     "mL": 37.3
+    },
+    "GTV": {
+     "mean_hu": -159.8,
+     "mL": 0.9
+    },
+    "Heart": {
+     "mean_hu": 15.0,
+     "mL": 766.0
+    },
+    "Lung_L": {
+     "mean_hu": -656.9,
+     "mL": 1568.5
+    },
+    "Lung_R": {
+     "mean_hu": -640.2,
+     "mL": 1519.8
+    },
+    "Lungs": {
+     "mean_hu": -648.7,
+     "mL": 3088.2
+    },
+    "SpinalCord": {
+     "mean_hu": 43.5,
+     "mL": 82.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-387": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -46.7,
+     "mL": 30.4
+    },
+    "GTV": {
+     "mean_hu": -12.5,
+     "mL": 211.8
+    },
+    "Heart": {
+     "mean_hu": 4.3,
+     "mL": 689.8
+    },
+    "Lungs": {
+     "mean_hu": -687.9,
+     "mL": 2332.9
+    },
+    "SpinalCord": {
+     "mean_hu": 38.6,
+     "mL": 56.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-388": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -20.0,
+     "mL": 54.6
+    },
+    "GTV": {
+     "mean_hu": -230.1,
+     "mL": 3.9
+    },
+    "Heart": {
+     "mean_hu": 18.0,
+     "mL": 796.0
+    },
+    "Lungs": {
+     "mean_hu": -818.6,
+     "mL": 6014.3
+    },
+    "SpinalCord": {
+     "mean_hu": 23.0,
+     "mL": 58.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-389": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -19.1,
+     "mL": 30.2
+    },
+    "GTV": {
+     "mean_hu": -67.6,
+     "mL": 20.8
+    },
+    "Heart": {
+     "mean_hu": 17.1,
+     "mL": 787.9
+    },
+    "Lung_L": {
+     "mean_hu": -565.0,
+     "mL": 1491.5
+    },
+    "Lung_R": {
+     "mean_hu": -555.0,
+     "mL": 1494.8
+    },
+    "Lungs": {
+     "mean_hu": -560.0,
+     "mL": 2986.3
+    },
+    "SpinalCord": {
+     "mean_hu": 39.3,
+     "mL": 52.3
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-390": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -44.7,
+     "mL": 44.9
+    },
+    "GTV": {
+     "mean_hu": -86.1,
+     "mL": 49.8
+    },
+    "Heart": {
+     "mean_hu": 23.9,
+     "mL": 471.9
+    },
+    "Lungs": {
+     "mean_hu": -820.5,
+     "mL": 6864.8
+    },
+    "SpinalCord": {
+     "mean_hu": 31.4,
+     "mL": 73.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-391": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -107.4,
+     "mL": 33.9
+    },
+    "GTV": {
+     "mean_hu": -96.8,
+     "mL": 11.3
+    },
+    "Heart": {
+     "mean_hu": 7.6,
+     "mL": 660.9
+    },
+    "Lungs": {
+     "mean_hu": -774.6,
+     "mL": 4337.6
+    },
+    "SpinalCord": {
+     "mean_hu": 4.3,
+     "mL": 75.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-392": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 9.7,
+     "mL": 50.8
+    },
+    "GTV": {
+     "mean_hu": -105.2,
+     "mL": 36.2
+    },
+    "Heart": {
+     "mean_hu": 17.1,
+     "mL": 970.6
+    },
+    "Lungs": {
+     "mean_hu": -661.4,
+     "mL": 3493.2
+    },
+    "SpinalCord": {
+     "mean_hu": 16.1,
+     "mL": 100.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-393": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -6.6,
+     "mL": 50.4
+    },
+    "GTV": {
+     "mean_hu": 3.7,
+     "mL": 167.7
+    },
+    "Heart": {
+     "mean_hu": 15.5,
+     "mL": 590.3
+    },
+    "Lungs": {
+     "mean_hu": -796.3,
+     "mL": 7135.5
+    },
+    "SpinalCord": {
+     "mean_hu": 47.1,
+     "mL": 96.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-394": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 0.2,
+     "mL": 40.5
+    },
+    "GTV": {
+     "mean_hu": -29.9,
+     "mL": 41.9
+    },
+    "Heart": {
+     "mean_hu": 25.5,
+     "mL": 646.9
+    },
+    "Lungs": {
+     "mean_hu": -723.8,
+     "mL": 3195.2
+    },
+    "SpinalCord": {
+     "mean_hu": 12.6,
+     "mL": 49.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-395": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -29.6,
+     "mL": 55.4
+    },
+    "GTV": {
+     "mean_hu": -80.0,
+     "mL": 4.0
+    },
+    "Heart": {
+     "mean_hu": 24.5,
+     "mL": 1050.5
+    },
+    "Lungs": {
+     "mean_hu": -663.4,
+     "mL": 3605.1
+    },
+    "SpinalCord": {
+     "mean_hu": 21.3,
+     "mL": 80.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-396": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 22.8,
+     "mL": 31.4
+    },
+    "GTV": {
+     "mean_hu": 28.0,
+     "mL": 454.2
+    },
+    "Heart": {
+     "mean_hu": 11.2,
+     "mL": 445.7
+    },
+    "Lungs": {
+     "mean_hu": -742.9,
+     "mL": 3205.4
+    },
+    "SpinalCord": {
+     "mean_hu": 40.8,
+     "mL": 62.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-397": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -19.0,
+     "mL": 25.5
+    },
+    "GTV": {
+     "mean_hu": -86.8,
+     "mL": 71.4
+    },
+    "Heart": {
+     "mean_hu": 15.0,
+     "mL": 770.4
+    },
+    "Lungs": {
+     "mean_hu": -722.7,
+     "mL": 3058.5
+    },
+    "SpinalCord": {
+     "mean_hu": 46.9,
+     "mL": 56.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-398": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 5.6,
+     "mL": 46.4
+    },
+    "GTV": {
+     "mean_hu": -47.2,
+     "mL": 22.1
+    },
+    "Heart": {
+     "mean_hu": 5.4,
+     "mL": 829.0
+    },
+    "Lungs": {
+     "mean_hu": -779.5,
+     "mL": 5164.7
+    },
+    "SpinalCord": {
+     "mean_hu": 27.2,
+     "mL": 64.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-399": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 21.1,
+     "mL": 36.9
+    },
+    "GTV": {
+     "mean_hu": -254.2,
+     "mL": 2.5
+    },
+    "Heart": {
+     "mean_hu": 14.9,
+     "mL": 634.3
+    },
+    "Lungs": {
+     "mean_hu": -727.5,
+     "mL": 3220.5
+    },
+    "SpinalCord": {
+     "mean_hu": 31.2,
+     "mL": 44.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-400": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -413.3,
+     "mL": 59.9
+    },
+    "GTV": {
+     "mean_hu": -5.9,
+     "mL": 241.3
+    },
+    "Heart": {
+     "mean_hu": 24.8,
+     "mL": 392.5
+    },
+    "Lungs": {
+     "mean_hu": -614.7,
+     "mL": 2803.0
+    },
+    "SpinalCord": {
+     "mean_hu": 29.0,
+     "mL": 79.9
+    }
+   },
+   "flags": [
+    "Esophagus: mean HU -413 outside [-200,150]"
+   ],
+   "slice_uniformity": 1.0
+  },
+  "LUNG1-401": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -10.3,
+     "mL": 45.6
+    },
+    "GTV": {
+     "mean_hu": -12.1,
+     "mL": 111.3
+    },
+    "Heart": {
+     "mean_hu": 15.4,
+     "mL": 859.1
+    },
+    "Lungs": {
+     "mean_hu": -800.1,
+     "mL": 7470.3
+    },
+    "SpinalCord": {
+     "mean_hu": 31.9,
+     "mL": 75.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-402": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 25.6,
+     "mL": 33.7
+    },
+    "GTV": {
+     "mean_hu": -31.2,
+     "mL": 82.6
+    },
+    "Heart": {
+     "mean_hu": 28.2,
+     "mL": 912.6
+    },
+    "Lungs": {
+     "mean_hu": -824.4,
+     "mL": 7338.5
+    },
+    "SpinalCord": {
+     "mean_hu": 31.2,
+     "mL": 104.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-403": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -0.3,
+     "mL": 23.3
+    },
+    "GTV": {
+     "mean_hu": 33.4,
+     "mL": 16.1
+    },
+    "Heart": {
+     "mean_hu": 9.1,
+     "mL": 485.9
+    },
+    "Lung_L": {
+     "mean_hu": -689.8,
+     "mL": 1215.9
+    },
+    "Lung_R": {
+     "mean_hu": -697.8,
+     "mL": 1462.8
+    },
+    "Lungs": {
+     "mean_hu": -694.2,
+     "mL": 2678.6
+    },
+    "SpinalCord": {
+     "mean_hu": 35.1,
+     "mL": 44.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-404": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -134.0,
+     "mL": 57.7
+    },
+    "GTV": {
+     "mean_hu": -143.7,
+     "mL": 5.3
+    },
+    "Heart": {
+     "mean_hu": 19.8,
+     "mL": 882.4
+    },
+    "Lung_L": {
+     "mean_hu": -754.1,
+     "mL": 2171.7
+    },
+    "Lung_R": {
+     "mean_hu": -755.4,
+     "mL": 3186.4
+    },
+    "Lungs": {
+     "mean_hu": -754.9,
+     "mL": 5358.0
+    },
+    "SpinalCord": {
+     "mean_hu": 26.6,
+     "mL": 57.0
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-405": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -34.7,
+     "mL": 27.4
+    },
+    "GTV": {
+     "mean_hu": -63.2,
+     "mL": 36.5
+    },
+    "Heart": {
+     "mean_hu": 20.2,
+     "mL": 546.7
+    },
+    "Lung_L": {
+     "mean_hu": -774.8,
+     "mL": 2129.9
+    },
+    "Lung_R": {
+     "mean_hu": -781.1,
+     "mL": 2346.4
+    },
+    "Lungs": {
+     "mean_hu": -778.1,
+     "mL": 4476.3
+    },
+    "SpinalCord": {
+     "mean_hu": 24.0,
+     "mL": 57.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-406": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 18.1,
+     "mL": 33.7
+    },
+    "GTV": {
+     "mean_hu": -34.2,
+     "mL": 25.9
+    },
+    "Heart": {
+     "mean_hu": 37.9,
+     "mL": 728.6
+    },
+    "Lung_L": {
+     "mean_hu": -782.3,
+     "mL": 2307.2
+    },
+    "Lung_R": {
+     "mean_hu": -775.6,
+     "mL": 2504.9
+    },
+    "Lungs": {
+     "mean_hu": -778.8,
+     "mL": 4812.0
+    },
+    "SpinalCord": {
+     "mean_hu": 23.8,
+     "mL": 51.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-407": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -5.9,
+     "mL": 38.9
+    },
+    "GTV": {
+     "mean_hu": -88.0,
+     "mL": 64.4
+    },
+    "Heart": {
+     "mean_hu": 17.1,
+     "mL": 668.5
+    },
+    "Lung_L": {
+     "mean_hu": -738.7,
+     "mL": 2105.7
+    },
+    "Lung_R": {
+     "mean_hu": -752.7,
+     "mL": 2346.3
+    },
+    "Lungs": {
+     "mean_hu": -746.1,
+     "mL": 4452.0
+    },
+    "SpinalCord": {
+     "mean_hu": 25.3,
+     "mL": 82.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-408": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -17.2,
+     "mL": 23.5
+    },
+    "GTV": {
+     "mean_hu": -35.2,
+     "mL": 29.2
+    },
+    "Heart": {
+     "mean_hu": 12.6,
+     "mL": 409.4
+    },
+    "Lung_L": {
+     "mean_hu": -729.1,
+     "mL": 1212.1
+    },
+    "Lung_R": {
+     "mean_hu": -725.2,
+     "mL": 1391.3
+    },
+    "Lungs": {
+     "mean_hu": -727.0,
+     "mL": 2603.4
+    },
+    "SpinalCord": {
+     "mean_hu": 27.8,
+     "mL": 48.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-409": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -41.6,
+     "mL": 38.4
+    },
+    "GTV": {
+     "mean_hu": 18.9,
+     "mL": 63.6
+    },
+    "Heart": {
+     "mean_hu": 30.6,
+     "mL": 1081.2
+    },
+    "Lung_L": {
+     "mean_hu": -745.9,
+     "mL": 2442.1
+    },
+    "Lung_R": {
+     "mean_hu": -802.7,
+     "mL": 3545.6
+    },
+    "Lungs": {
+     "mean_hu": -779.5,
+     "mL": 5987.8
+    },
+    "SpinalCord": {
+     "mean_hu": 20.6,
+     "mL": 77.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-410": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 18.7,
+     "mL": 103.5
+    },
+    "GTV": {
+     "mean_hu": 0.7,
+     "mL": 122.0
+    },
+    "Heart": {
+     "mean_hu": 27.0,
+     "mL": 892.0
+    },
+    "Lung_L": {
+     "mean_hu": -699.6,
+     "mL": 2109.3
+    },
+    "Lung_R": {
+     "mean_hu": -686.6,
+     "mL": 2320.5
+    },
+    "Lungs": {
+     "mean_hu": -692.8,
+     "mL": 4429.7
+    },
+    "SpinalCord": {
+     "mean_hu": 42.0,
+     "mL": 77.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-411": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -98.8,
+     "mL": 11.1
+    },
+    "Heart": {
+     "mean_hu": 117.2,
+     "mL": 560.9
+    },
+    "Lung_L": {
+     "mean_hu": -728.5,
+     "mL": 2279.4
+    },
+    "Lung_R": {
+     "mean_hu": -746.0,
+     "mL": 2405.6
+    },
+    "Lungs": {
+     "mean_hu": -737.5,
+     "mL": 4685.0
+    },
+    "SpinalCord": {
+     "mean_hu": 34.3,
+     "mL": 50.8
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-412": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 10.5,
+     "mL": 37.2
+    },
+    "GTV": {
+     "mean_hu": 7.4,
+     "mL": 47.7
+    },
+    "Heart": {
+     "mean_hu": 16.4,
+     "mL": 736.7
+    },
+    "Lung_L": {
+     "mean_hu": -847.4,
+     "mL": 2628.0
+    },
+    "Lung_R": {
+     "mean_hu": -831.7,
+     "mL": 3200.9
+    },
+    "Lungs": {
+     "mean_hu": -838.8,
+     "mL": 5828.9
+    },
+    "SpinalCord": {
+     "mean_hu": 23.9,
+     "mL": 71.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-413": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 12.1,
+     "mL": 26.3
+    },
+    "GTV": {
+     "mean_hu": -156.3,
+     "mL": 4.9
+    },
+    "Heart": {
+     "mean_hu": 8.4,
+     "mL": 448.7
+    },
+    "Lung_L": {
+     "mean_hu": -726.5,
+     "mL": 1332.1
+    },
+    "Lung_R": {
+     "mean_hu": -733.7,
+     "mL": 1533.3
+    },
+    "Lungs": {
+     "mean_hu": -730.4,
+     "mL": 2865.4
+    },
+    "SpinalCord": {
+     "mean_hu": 40.8,
+     "mL": 58.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-414": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 20.5,
+     "mL": 33.9
+    },
+    "GTV": {
+     "mean_hu": -95.4,
+     "mL": 11.8
+    },
+    "Heart": {
+     "mean_hu": 15.3,
+     "mL": 560.6
+    },
+    "Lung_L": {
+     "mean_hu": -743.6,
+     "mL": 1735.2
+    },
+    "Lung_R": {
+     "mean_hu": -743.6,
+     "mL": 2236.4
+    },
+    "Lungs": {
+     "mean_hu": -743.6,
+     "mL": 3971.6
+    },
+    "SpinalCord": {
+     "mean_hu": 47.0,
+     "mL": 43.6
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-415": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -4.4,
+     "mL": 34.6
+    },
+    "GTV": {
+     "mean_hu": -250.5,
+     "mL": 1.2
+    },
+    "Heart": {
+     "mean_hu": 16.4,
+     "mL": 619.1
+    },
+    "Lung_L": {
+     "mean_hu": -721.1,
+     "mL": 1852.3
+    },
+    "Lung_R": {
+     "mean_hu": -738.1,
+     "mL": 2226.4
+    },
+    "Lungs": {
+     "mean_hu": -730.3,
+     "mL": 4078.6
+    },
+    "SpinalCord": {
+     "mean_hu": 22.2,
+     "mL": 48.9
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-416": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -57.3,
+     "mL": 40.3
+    },
+    "GTV": {
+     "mean_hu": -17.9,
+     "mL": 58.2
+    },
+    "Heart": {
+     "mean_hu": 22.6,
+     "mL": 681.5
+    },
+    "Lung_L": {
+     "mean_hu": -773.7,
+     "mL": 2272.7
+    },
+    "Lung_R": {
+     "mean_hu": -764.7,
+     "mL": 2113.6
+    },
+    "Lungs": {
+     "mean_hu": -769.4,
+     "mL": 4386.2
+    },
+    "SpinalCord": {
+     "mean_hu": 22.8,
+     "mL": 59.1
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-417": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -127.9,
+     "mL": 55.6
+    },
+    "GTV": {
+     "mean_hu": 14.2,
+     "mL": 156.7
+    },
+    "Heart": {
+     "mean_hu": 14.7,
+     "mL": 701.5
+    },
+    "Lung_L": {
+     "mean_hu": -734.8,
+     "mL": 1314.1
+    },
+    "Lung_R": {
+     "mean_hu": -793.2,
+     "mL": 2911.6
+    },
+    "Lungs": {
+     "mean_hu": -775.0,
+     "mL": 4225.7
+    },
+    "SpinalCord": {
+     "mean_hu": 25.8,
+     "mL": 76.4
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-418": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -67.5,
+     "mL": 41.7
+    },
+    "GTV": {
+     "mean_hu": -22.8,
+     "mL": 94.8
+    },
+    "Heart": {
+     "mean_hu": 13.9,
+     "mL": 603.5
+    },
+    "Lung_L": {
+     "mean_hu": -723.9,
+     "mL": 1380.0
+    },
+    "Lung_R": {
+     "mean_hu": -643.4,
+     "mL": 1496.7
+    },
+    "Lungs": {
+     "mean_hu": -682.0,
+     "mL": 2876.7
+    },
+    "SpinalCord": {
+     "mean_hu": 39.2,
+     "mL": 82.2
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-419": {
+   "structures": {
+    "GTV": {
+     "mean_hu": -27.9,
+     "mL": 132.5
+    },
+    "Heart": {
+     "mean_hu": 20.6,
+     "mL": 846.4
+    },
+    "Lung_L": {
+     "mean_hu": -771.4,
+     "mL": 3039.4
+    },
+    "Lung_R": {
+     "mean_hu": -717.5,
+     "mL": 2613.0
+    },
+    "Lungs": {
+     "mean_hu": -746.5,
+     "mL": 5652.4
+    },
+    "SpinalCord": {
+     "mean_hu": 47.9,
+     "mL": 72.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-420": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -9.1,
+     "mL": 31.0
+    },
+    "GTV": {
+     "mean_hu": -75.0,
+     "mL": 19.0
+    },
+    "Heart": {
+     "mean_hu": 7.7,
+     "mL": 547.7
+    },
+    "Lung_L": {
+     "mean_hu": -766.0,
+     "mL": 1833.6
+    },
+    "Lung_R": {
+     "mean_hu": -811.1,
+     "mL": 3450.0
+    },
+    "Lungs": {
+     "mean_hu": -795.5,
+     "mL": 5283.6
+    },
+    "SpinalCord": {
+     "mean_hu": 32.2,
+     "mL": 54.5
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-421": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": 7.0,
+     "mL": 23.2
+    },
+    "GTV": {
+     "mean_hu": -88.4,
+     "mL": 42.2
+    },
+    "Heart": {
+     "mean_hu": 18.1,
+     "mL": 478.7
+    },
+    "Lung_L": {
+     "mean_hu": -745.4,
+     "mL": 1568.2
+    },
+    "Lung_R": {
+     "mean_hu": -769.0,
+     "mL": 2202.7
+    },
+    "Lungs": {
+     "mean_hu": -759.2,
+     "mL": 3770.9
+    },
+    "SpinalCord": {
+     "mean_hu": 27.1,
+     "mL": 67.7
+    }
+   },
+   "flags": []
+  },
+  "LUNG1-422": {
+   "structures": {
+    "Esophagus": {
+     "mean_hu": -11.8,
+     "mL": 31.6
+    },
+    "GTV": {
+     "mean_hu": -46.0,
+     "mL": 30.3
+    },
+    "Heart": {
+     "mean_hu": 15.2,
+     "mL": 754.0
+    },
+    "Lung_L": {
+     "mean_hu": -630.0,
+     "mL": 1024.5
+    },
+    "Lung_R": {
+     "mean_hu": -639.0,
+     "mL": 1199.7
+    },
+    "Lungs": {
+     "mean_hu": -634.9,
+     "mL": 2224.2
+    },
+    "SpinalCord": {
+     "mean_hu": 31.8,
+     "mL": 73.3
+    }
+   },
+   "flags": []
+  }
+ }
+}
