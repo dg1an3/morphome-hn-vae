@@ -16,6 +16,13 @@ Two halves:
   embedded, which is why this is served locally instead of shipped as a single
   file.
 
+The 3D layout can also show each structure as a marching-cubes surface, but
+those are contoured from per-structure masks this script does not write: the
+`_seg.bin` below is winner-take-all and loses whatever overlaps, which on thorax
+is most of GTV and all of Lungs. Run `export_masks.py` afterwards to add them;
+without it the viewer still works and the surface toggles simply report a
+missing file.
+
 Axis convention: cached arrays are (z, y, x) in C order, so a flat copy lands in
 VTK's x-fastest layout unchanged and K/J/I slices are axial/coronal/sagittal
 respectively.

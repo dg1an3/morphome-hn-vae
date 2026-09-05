@@ -11,9 +11,19 @@
   * { box-sizing: border-box; }
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
     font: 13px/1.45 ui-sans-serif, -apple-system, "Segoe UI", sans-serif; }
-  #app { display: grid; grid-template-columns: 380px 1fr; height: 100%; }
+  /* The latent map is now a working surface, not a legend: it carries 400
+     rendered thumbnails and is zoomed and panned, so it gets real width. */
+  #app { display: grid; grid-template-columns: 520px 1fr; height: 100%; }
+  /* The column scrolls as a whole rather than pinning the map and starving
+     whatever is below it, so a short window hides nothing permanently. */
   #left { border-right: 1px solid var(--line); display: flex; flex-direction: column;
-    min-height: 0; }
+    min-height: 0; overflow-y: auto; }
+  #controls .dot { margin-right: 0; }
+  #structList { display: inline-flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  #structList .ck { display: inline-flex; align-items: center; gap: 3px; cursor: pointer; }
+  #structList .ck.off { color: var(--dim); cursor: default; }
+  #structList .ck.off .dot { opacity: .3; }
+  #structList input { margin: 0; }
   #right { display: flex; flex-direction: column; min-height: 0; }
   h1 { font-size: 14px; margin: 0; padding: 12px 14px; border-bottom: 1px solid var(--line);
     font-weight: 600; letter-spacing: .2px; }
@@ -21,6 +31,14 @@
   .sect { padding: 10px 14px; border-bottom: 1px solid var(--line); }
   .sect h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .08em;
     color: var(--dim); margin: 0 0 8px; font-weight: 600; }
+  .sect h2 .sub { font-weight: 400; text-transform: none; letter-spacing: 0;
+    opacity: .8; }
+  .row .ck { display: flex; align-items: center; gap: 4px; color: var(--fg);
+    min-width: 0; cursor: pointer; }
+  .row button { background: #0b0e13; color: var(--fg); border: 1px solid var(--line);
+    border-radius: 3px; padding: 3px 8px; font: inherit; cursor: pointer;
+    flex: 0 0 auto; }
+  .row button:hover { border-color: var(--accent); }
   canvas.scatter { width: 100%; display: block; background: #0b0e13;
     border: 1px solid var(--line); border-radius: 4px; cursor: crosshair; }
   .row { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
@@ -35,6 +53,15 @@
   #meta table { width: 100%; border-collapse: collapse; }
   #meta td { padding: 2px 0; }
   #meta td:last-child { text-align: right; color: var(--dim); font-variant-numeric: tabular-nums; }
+  #meta h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--dim); margin: 0 0 8px; font-weight: 600; }
+  #meta h2 + table + h2 { margin-top: 14px; }
+  #meta h2 .sub { font-weight: 400; text-transform: none; letter-spacing: 0; }
+  #meta .ck { display: flex; align-items: center; gap: 5px; cursor: pointer; }
+  #meta .ck input { margin: 0; }
+  #meta .ck.off { color: var(--dim); cursor: default; }
+  #meta .ck .dot { margin-right: 0; flex: 0 0 auto; }
+  #meta .ck.off .dot { opacity: .3; }
   #views { flex: 1; display: grid; min-height: 0; }
   #views.mode3d { grid-template-columns: 1fr; }
   #views.mode3d .pane2d { display: none; }
@@ -78,9 +105,22 @@
   <div id="left">
     <h1>morphome <span>— synthetic corpus explorer</span></h1>
 
+    <!-- The 2D scatter is deliberately absent; app.js treats #sc2 as optional
+         markup and no-ops without it, so pasting the canvas back restores it.
+         The colour control and legend served both maps and live here now. -->
     <div class="sect">
-      <h2>Latent map · UMAP 32 → 5 → 2</h2>
-      <canvas id="sc2" class="scatter" height="320"></canvas>
+      <h2>Latent map · UMAP 32 → 5 → 3
+        <span class="sub">· drag rotate · shift/right drag pan · wheel zoom</span></h2>
+      <canvas id="sc3" class="scatter" height="440"></canvas>
+      <div class="row">
+        <label class="ck" title="draw synthetic cases as rendered anatomy where they fit">
+          <input type="checkbox" id="thumbOn" checked>anatomy</label>
+        <label class="ck" title="show the real corpus as well">
+          <input type="checkbox" id="showReal">real</label>
+        <input type="range" id="thumbSz" min="20" max="140" value="52"
+               title="thumbnail size">
+        <button id="fit3" type="button">fit</button>
+      </div>
       <div class="row">
         <label for="colorBy">colour</label>
         <select id="colorBy">
@@ -94,11 +134,6 @@
         <span><i class="dot" style="background:var(--accent)"></i>synthetic</span>
         <span><i class="dot" style="background:var(--real)"></i>real</span>
       </div>
-    </div>
-
-    <div class="sect">
-      <h2>UMAP 32 → 5 → 3 · drag to rotate</h2>
-      <canvas id="sc3" class="scatter" height="260"></canvas>
     </div>
 
     <div id="meta"></div>
@@ -138,8 +173,17 @@
         <input type="range" id="win" min="10" max="255" value="255"></div>
       <div class="grp"><label for="lev">level</label>
         <input type="range" id="lev" min="0" max="255" value="128"></div>
-      <div class="grp"><label for="seg">organs</label>
-        <input type="checkbox" id="seg" checked></div>
+      <div class="grp"><label for="seg">2D organs</label>
+        <input type="checkbox" id="seg"></div>
+      <!-- Structure toggles live in the control bar, not the side panel: the
+           panel is the first thing a short window squeezes, and these are the
+           control the 3D view is steered with. Filled by app.js from the
+           active profile's structure list. -->
+      <div class="grp" id="structGrp"><label>3D</label><span id="structList"></span></div>
+      <div class="grp" id="surfGrp"><label for="surfOp">surfaces</label>
+        <input type="range" id="surfOp" min="5" max="100" value="100"
+               title="Surface opacity. Below 100% a surface stops writing depth, so the slice planes stop being occluded by it and appear to float in front — use the per-structure toggles to see past a surface instead.">
+        <button id="surfNone" type="button">none</button></div>
     </div>
     <div id="status">loading…</div>
   </div>
